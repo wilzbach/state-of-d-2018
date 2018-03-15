@@ -1,0 +1,122 @@
+It's often difficult to figure out if the issue is with D itself or one of the libraries I am using (ex. vibe.d). Thus it's usually easier to file with the library owner as they are often more plugged into current Dlang/DMD issues than I am.
+I had none to report
+Haven't had one
+Nothing special
+Not needed to
+Did not feel like it.
+time, level of detail required, not having read through existing issues for a match.
+the fact that I am using D1.
+Haven’t had any that we repeatable. 
+Account. Formal structure
+Time
+I don't like buzilla.
+no entiendo la pregunta, perdonen
+I have not used advanced D features yet.  I am still a beginner who wanted to replace C with D.
+bugzilla complexity
+'cos my notices are cleared by other people
+Never sure if there's bandwidth for it
+ 
+My job is not testing and doing QA for D, I work for a living.
+Not enough experience to tell if it was me or D, which was broken.
+nothing
+Nothing in particular, have not encountered issues of such severity that they required reporting.
+Have not gotten to that point as yet.
+n/a
+Not having enough expertise (e.g. mutating immutable on an old windows version years ago, but when I was still a new programmer and unsure whether it was Windows or DMD that was erroneous)
+Never run into problems
+I prefer GitHub or GitLab. I've never used Bugzilla before.
+Laziness and most issues I find have already been filed
+No code of conduct and I don't want white men to shout at me for existing
+Absence of necessity.
+Nothing
+My code is quite basic, rarely  (if ever) encounter any issues that aren't faults in my own code
+mostly finding a bug and registering, bugzilla search isn't that great as well
+Fed up creating accounts for languages and all the other projects that can not embrace a standard. Bugs need to be report them on Github. End of story
+--
+Never ran into anything requiring it.
+  
+Don't feel like I know how compilers are supposed to work well enough to ask
+I'm usually never sure if the problem is mine or the compiler or library.
+I havent found issues
+Haven't encountered a bug in dmd or dub
+never gets done, probably retire before that
+Part of it is the 80 bugzilla UI, it feels Like If I click submit that an 80 mainframe will process my issued into the void
+never been the first to find an issue to open
+to complex to do it
+no issue found/ already reported
+never had a real issue which could not be solved by my code ;-)
+Didn't run into any.
+not a compiler proffesional
+- bugzilla :) - lack of time to properly write the issue
+Compiler issues were not a big problem and the bugs that do bother me were already reported in bugzilla by others.
+no
+Th eissues I encounter are already reported.
+Registration and bugzilla itself. Github and its issues is a standard, bugzilla is old thing that I don't want to use
+Did not use in a critical enough task maybe and it is just for hobby as of now, mainly.
+Dunno
+haven't hit major bugs
+Haven't find yet one that was not already filled by someone else.
+unsure if it's a bug
+No new issues encountered
+N/A
+Still struggling with learning process, haven't identified any bugs.
+go to github, bugzilla is compliacated
+I'm not knowledgeable enough to identify it as an issue nor to bring it down to a small reproducable case.
+Was allready reported
+Not knowing enough
+the way previous issues were handled seems keeping your fingers crossed and hoping for the best is the optimal strategy at the moment
+I never ran over an issue that was worth filing.
+I always get the feeling that my 'issue' is fully intended behaviour (when it comes to library/language issues)  For some other issues/improvements I feel the older members will just shoot down the idea, or that the issue's probably already been reported but I can't find it.
+not found
+na
+No real issue other than LDC installation confusion.
+My still much in development understanding of D. When I become sufficiently competent I may start opening issues myself.
+github is better
+I haven’t found issues
+Obviously never have used D, so no issues to file :-)
+Never found an issue that wasn't already reported
+no
+I have yet to find something that hasn't been previously reported.
+Disparate account management
+The few times I've thought I discovered a bug, and asked about it in the forum or IRC, it turns out it was just unintuitive language behavior. 
+Not expert enough in D
+Nothing
+Haven't found one! I have opened a couple of issues in the LDC github bug tracker
+Lack of time to see if my issue is something I did or if it's actually something on D's end
+Not having a project complex enough for me to find one.
+I need an account and bugzilla  it's not that easy to find
+I didn't know if it was a bug or not, or it wasn't a big enough problem
+None
+Unsure if it's a bug or me being stupid. Generally, I ask a question on D.Learn, saying "is this a bug" and then someone else says "yes" and they log it.
+Feels intimidating
+Not knowing if an issue was already known, or was a legitimate issue.
+The problem has already been voiced
+I have not yet encountered a bug, or if I have I did not recognize it.
+No concrete problem.
+I don't like email notifications. Would prefer to be informed of comments to my issue via other notifications (or GitHub issues in general)
+Haven't *discovered* anything wrong. 
+Not being sure if the issue is known. Trawling through all the existing trying to find out is way too much work.
+I've not needed to open any issues
+Haven't had the need yet
+The issues (compiler bugs) already existed for years but haven't been fixed.
+bugzilla user account.
+Concerned about filing duplicate bugs
+Never found one.
+Haven't run into an issue for long enough to warrant filing an issue.
+Didn't find a new bug :-)
+no problem
+lack of time 
+Haven't ever found an issue.
+Laziness/assuming already known
+I don't feel qualified.
+The few issues I personally experienced had already been reported.  They had been ignored or closed.  Example optlink windows path parsing bug.
+The issue is already documented
+Would you ever do UFCS for class/struct methods? Yeah...
+I was not sure of myself.
+No
+Lack knowlage. And also not many bugs in my usecases.
+"Am I doing it wrong?" Feelings
+Lack of time...
+Only case where I suspected an issue with the compiler, it was an issue with GDC, so I switched to DMD.
+haven't found any
+Laziness

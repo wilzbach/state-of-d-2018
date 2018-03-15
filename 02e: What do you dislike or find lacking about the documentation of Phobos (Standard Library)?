@@ -1,0 +1,371 @@
+The function-level documentation is usually very good, it's just hard to search for the best way to accomplish common tasks and algorithms and such. Often when things get deprecated there's not particularly great documentation on why, and how to move code to the new recommended solutions.
+poorly structured and lack of description and examples
+The different types of standard exceptions lack any real documentation (How many exist? I don't know.)
+A few parts (such as the condition variable primitive class) are thinly documented.
+The format. I find the layout of the documentation confusing. The documentation for one class seems to run right into the next, and it's easy to think that an operation belong to one class when it really belongs to another. I would also like to see the library documentation be made available in formats like epub or mobi, like the language specification. 
+It's daunting for newcomers. The organization is unclear and newcomers don't know what to search for.
+Quality is inconsistent; everything needs examples, sometimes even non-trivial ones - especially for corner cases, specialized versions of templates/algorithms/etc.
+It is just visually hard to navigate.
+confusing, few examples, no "best practices" 
+no consistency, lots of old stuff gets dragged along, no base (internet) protocol implementations
+Missing examples in documentation. Templates hard to read in documentation 
+Spatial organisation of contents.
+Some functions are missing examples.
+Strange naming of some methods like levenshtein distance, instead of more widespread known names.
+Don't always understand the terms
+Nothing.
+No idea.
+Example usage is not always clear. 
+Missing examples, missing description of return types in case the return type is "auto"
+Big long module pages instead of single function pages
+The layout of the methods declarations make it sometimes unclear of the parameters, and the examples are normally unit tests which don’t actually show real world usage.  
+Needs more examples
+I try to avoid using the standard library because it adds too much time to the compilation of the program.
+examples
+Anti-OOP pattern
+Difficult for beginners: too much detail. Emphasize easy examples early.
+I actually found it quite pleasant, but searching through it was a bit of a pain.
+Better examples. Better links to dmd implementation.
+I have not thought about it yet.
+Functions that return `auto` type.
+Good examples of common real-world usage (examples are sometimes a bit contrived)
+Sometimes hard to know which module to find range/algorithm/string functions
+Eplicación
+Examples.  It is important to give concrete examples on how to use the functions.  Simple illustrations given at present are not very useful when I am trying to learn and develop with D.
+varying degree of detail, some documentation is rather vague, lack of variety of examples in some functions
+sometimes, new functions added without update the doc.
+Minor rant: some of the examples require looking up the documentation of other symbols.
+I really like it
+Constraints and overloads are too verbose.
+Patchy, not full-some Not enough examples to clarify uses and use-cases Not enough explanations
+Some minor modules and functions have no theirs sample codes.
+No good examples, the organization of functions is arbitrary and messy.
+design of web-page. it is difficult for me two read of find interesting parts (comared for example with qt documentation)
+could use more examples
+The documentation of many things is just a simple description with no specific details, or good examples. 
+The library should be very explicit about the types that are given and returned. Too often, a function has type "auto" and it's difficult to determine what exactly it will return.
+Examples are important. Especially for non trivial cases. There are still lacks.
+More Examples
+Examples
+deprecated items not always clear, to few examples of use. 
+Library reference sometimes unclear (needed to ask friendly people in IRC who helped me out) plus some catchy examples rather an assertion statement would be very, very helpful.
+2 years obsolete: but the layout was hard to grok, and there weren't always great examples.
+Documentation Layout. Being lost in cross references.
+ugly formatting
+Some parts are outdated, some miss  the bigger picture although they otherwise describe the single piece, some give too few/too trivial examples.
+Inconsistent API's, can't avoid GC when needed, lack of completeness (ref Golang for what I consider an excellent standard library).
+writing it is a pain; should use markdown and be smarter about inferring Params/Returns automatically from markdown + function signature; documentation should hyperlink to code on github
+Has improved a lot since the past, much more readable now. Still somewhat crude in that the examples can be somewhat artificial. Method signatures very verbose in documentation, especially if contracts and attributes such as @nogc are included, but it is a bit the nature of D - perhaps move these to a dropdown to the right of the signature that isn't visible by default or somehow highlight actual signature even more?
+Examples that are relevant.
+The documentation is incredibly dense and assumes the reader has a degree in theoretical computer science
+In general it's important for me to quickly get a grip on "something" and referring doc: I would like to see an example of usage everywhere; it's often similar to "a picture tells more/faster than 1000 words (of formal function signature and parameter/return etc. doc)" though not replacing that of course.
+Templated function declarations are hard to parse mentally, I always look at examples first and try to understand entirely the function, then make sense of the declaration. Unclear, e.g., when I feed a @nogc nothrow function into a Phobos higher-order-function, whether the HOF will end up @nogc nothrow as well or not.
+I think design rationale is needed for good docs
+It can be hard to find a function to fulfil a need without being familiar with most of the library already (e.g. 'how do I do xyz to a range?' and it already exists but has a non-obvious name or import)
+Phobos doc seems to lack simple and straightforward examples for complex language constructs and features
+It's not clear or easy to dig in. One page for all symbols is wrong IMO. Please look at .NET docs, each symbol has its own page and explanation.
+more/better examples required
+Cross references. Examples.
+I hope more C++ stl containers are ported to Dlang.
+Perhaps better high level documentation of packages
+Many examples are too simple to cover the inner things
+Hard to navigate and sometimes a bit terse
+Templates and Voldemort types make it really difficult to understand what the function's compile time/runtime arguments are. The documentation somehow needs to be presented in a different way, I don't know how either.
+could do with a few more examples
+Certain functions are documented with words that takes time to understand
+It lacked code examples when I last used D.
+The formatting is overly complex and offers so much detail it can be hard to decifer the actual call signature. Lack of examples, especially for d centric idioms
+Nothing really, more examples is always good especially with edge cases but it's really good as is
+Lack of documentation for return types. 
+"documentation"
+A quick way of knowing what is in, and what is not in the standard library.  Perhaps a brief table of contents.
+Everything.
+Consistency, and it's not up to date with modern language
+No examples, or edge cases are sometimes not explained.
+It's often hard to figure out the right way to do simple things. For example, string manipulation is split between string-specific functions and ranges - if you use ranges it gets very difficult to end up with a string again.
+Needs more examples for beginners.
+Readability
+Its incompleteness
+Poor consistency
+More examples please
+Some documentation was sparse, although this was several years ago.
+What I missed the most from the Phobos documentation was how to connect pieces together. From the forums I got the impression that general attitude was something like "people shouldn't mess around with D if they don't already know how to use a Red-Black tree", but a few use-case examples in the documentation, and some hints on how to connect the stuff in std.algorithm with std.range, etc. would be nice for newcomers not used to these abstractions.
+The ability to type an identifier and get direct links to where it's documented (not just google search directing to entire pages).  Being able to jump straight to the definition of a function/template/etc instead of having to look it up manually in an entire file.
+If you're new to ranges, it's sometimes hard to navigate from a function that deals with ranges to the definition of the type of range it requires / yields.
+it's alright
+Inconsistent library ( example: std.array for string array manipulation vs std.array for string manipulation vs no lib for other string usage ). Library overview is messy (Ddox beta is better now but not on by default ). Lacking in standard library support for o.a. database access ( requiring 3th party plugins ).
+More examples of libraries like std.net and tutorial for simple things
+nothing
+Its fine
+Some examples are either missing, too "high-level" (you need to fully understand the language in order to understand few examples), or they are too "academic" (like in every documentation, some examples are fine but they don't help out of the box for real world problems)
+It's pretty okay.
+Templated and overloaded functions are often fairly hard to figure out. It'd probably be better to stick all the declarations of a function together in the documentation, instead of going "declaration, help text, declaration, help text, declaration, help text". Often the help text is so long that the following declarations are easy to miss.
+Most useful functions can't be found directly, e.g. when working with 'duration'
+Better introduction to modules and overall layout for those not familiar with Phobos yet. 
+Some areas lack examples of usage which means you have to dig into the source code to fully understand
+I have not found best practices and tips.
+Modules tree on the left hand-side should be fixed, so it scrolls with page. Search for ddox documentation shouldn't list Voldemort types.
+Lack of examples. The Qt documentation and even moreso clojuredocs would positive examples.
+make the difference between the stdio.File and c-like fopen more clear
+layout, navigation, samples
+Bigger examples for less commonly used functions. Functions are used in a context. std.algorithm has great docs but others need more love.
+Import statements are not always provided with code examples, and examples seem to focus on showing language power rather than most common use cases
+About both the Phobos api and its documentation: the naming and style of things aren't consistent or predictable enough; and the consequences of things (whether things mutate, reference the original, make copies, etc) aren't expressed well enough.
+Too many template details not enough examples of use.
+What is lacking is some guidance on how Phobos should be used in a Software Project. How do all these Sublibs fit together? It would be awesome if there was a d sample project in which this could be showcased. Maybe a Text editor written in D.
+(same answer as c. above) All the 'auto' return types in the function definitions in the standard phobos library reference.  Often just stating the minimal 'range' type would have been more useful.
+needs lots of examples 
+Few examples (maybe not in the documentation itself)
+More examples.
+Some pages have very limited (if any) examples.
+Discoverability could be better
+about std.range(complex referrence)
+Go to implementation/source(s) link. The design could be improved for readability.
+It is unclear that what module are not recommended.
+not typical reference documentation standard
+professionalism
+Minimal examples are provided. One should explain more with examples than writing description.
+The documentation is sparse compared to Qt. Too few examples. The module overview doesn't have full function signatures.
+don't know
+Template constraints for same function  (e.g. several definitions of "to" with different constraints that together would be simply no constraint at all and would make the whole signature _much_ more readable and understandable.)
+Return types of template functions
+need more examples 
+The blocks of bare names look messy. I would prefer to see a table of items grouped by their purpose with argument lists, return types and item kinds (class/struct/function/template...).
+The C based libraries are hard to read through
+took me quite some time to understand (lesser-used?) modules like std.signals (or w/e)
+Simple, every day tasks (like date parsing and formatting) lack good, real-world examples.  Also, lack of intermediate examples, only providing either completely trivial examples or advanced ones, which both were not helping me solving my immediate problem at hand.
+Interface of Phobos site requires a habit
+The documentation is very inconsistent regarding the English grammar as well as some functions in the same module are not equally detailed. Many functions should be more specific about what happens to arguments and possible gotchas. Lacking code examples.
+all well
+Too much info in one page. 
+sometimes not up-to-date with the implementation (not critical though), missing examples
+Honestly nothing
+Not enough documented what kind of objects returned by algorithms (what extra methods/properties do they have)
+I did not used it so much
+Sometimes the info is just very superficial, you hardly know what the parameters are supposed to do. I don't have specific examples, it's just how I recall things as being. This is certainly not a "beginner's language" as it stands. 
+It would be great to see usage examples in the context of larger code samples.
+lack of various sample constructs to put logic together
+DDoc is super ugly with all its $(blah ......) everywhere.  I haven't looked at phobos doc since 2008 or so, though.
+Description for template arguments.
+The placement of examples is often not apparent for a given context.  This has gotten better.
+It is structured by modules, not topics. Usualy I want everything about some area, e.g. strings, so I want to see std.algorithm and ranges use cases for string. Now it is just mentioned
+Nothing major comes to mind
+I honestly do not have enough experience to make full assesment. I hardly used a bit of ranges, std.json and std.io. When I do async/await in Python I say... this is great. I know there are fibers. Did not look too deep into them or vibe.d so I cannot make a full assesment except to say that they look less familiar to me.
+examples
+Seems pretty incomplete at times
+Few examples
+perhaps examples for each use? or a visual diagram like http://llvm.org/doxygen/classllvm_1_1IntegerType.html
+Sometimes lacks usage examples: how to do things.
+Direct access to source code
+I lack more complex examples. Though I understand that this gap is filled by a number of D books. 
+i need something like cross-ref popup of function symbol
+no documentation about using in @safe, @nogc or betterC 
+Readability is bad for one who comes from an other programming language. Idioms and usage-pattern are not well descripted. Examples missing.
+Sometimes there's too few examples
+Not enough examples
+More examples, but it's quite good.
+Sometimes missing simple examples,  or the example is to simple not using more than one the optinal parameters. When you want to give a hint for improvement you need logins to Bugzilla or Github.
+Nothing
+I find it terse. More example or possible gotchas would be welcome. 
+Every function/method should be accompanied with short working example
+No idea actually, I am new to D as a whole. So haven't done any rigorous check about Phobos.  
+Sometimes there are no good examples
+Need more examples
+No idea. I generally find the documentation very good.
+It's quite "jargon" filled and assumes specialist knowledge.
+Function descriptions can be overly technical (especially in std.algorithm) Some functions have no examples
+It should be available in different formats.
+Navigation Documentation sometimes looks like specification
+Clear examples.  The language is terse and geared more towards a non beginner. 
+no real issues; examples on every function would be good, even if it means repeating some example code.
+General search still isn't great.  Certain functions are sort of hidden, e.g. split from std.string
+Missing design-decisions, context when to use, idioms, implementation background from which I could learn for my own code.
+Empty pages (eg std.digest.digest)
+idioms. examples to contrieved. 
+Simple examples
+not enough examples formatting is not the greatest still pretty decent documentation
+I like the concise examples and explanations, as well as the completion and location of the documentation. By using self documenting code in Phobos, all the information I need is easily available, with out having to refer to a 3lb book (I'm looking at you, C++...)
+More examples!
+layout (enums taken too much space, important things not  on important places), to less written from a users view 
+it is so good
+More high-level module introduction information
+DDOX would be an improvement: Separate pages for each symbol/function. A summary page for each struct/class. Plus DDOX's in-page JS-based search feature.
+Examples
+Some modules are very well-documented and thorough, but other modules are lacking.  The quality varies a lot.  Some docs are quite useful, but for some modules, they are scanty, not sufficiently descriptive and/or missing important cases.  Some modules have thorough documentation, but in a long, rambling, hard-to-read form (e.g., std.format), which could use some refactoring so that important information is at the top or in a focused, dedicated page, instead of sprinkled piecemeal across multiple symbols that a newcomer would have trouble piecing together.  For symbols with exceptionally long docs, e.g., std.format.formattedWrite, some way of navigating / seeing an overview of the sections would help a lot in making it more accessible.
+The documentation text provided is usually very scarce. The formatting is not too pleasant to look at. It is not always obvious where you are, and things are sometimes hard to find. The search function does not work too well.
+I find the generic descriptions inscrutable, then I have to jump around to find examples of the particular items that I need.
+Some symbols completely lack any useful documentation. Unittests are also sometimes unhelpful
+1. Giant nested tree style navigation on left side is hard to navigate.  2. Search is not integrated into site. It just uses google.   3. Docs for containers, json, logging, curl, and templates need usability testing.  4. Docs are both API reference and minimal examples combined. They should be separated.  5. The style of the docs are visually noisy. Too many grey lines around sections/grey backgrounds/grey buttons/grey comments. Not enough white space. Everything is smashed into a thin column in the center of the screen. Syntax highlighting is visually displeasing, too faint, and small font. Look at MDN, and Go's docs for better styles.
+Some function's condition to compile are difficult to understand
+adrdox rox
+Template constraints are a big part of the API, but present poorly in the docs. Some functions are just poorly documents (ie, low quality text). Example quality is inconsistent, sometimes it's great, sometimes, not so much. Often doco fields like parameters/return value are not documented; just the summary/brief.
+nothing
+Sometimes I need explicit type instead of using 'auto'. Furthermore, there could be more code examples.
+It is very dense for those not up to speed.
+Hard to look things up by "purpose" rather than more specific search; necessary when coming in to D from the cold.
+Hard to say. I find myself consulting source code of standard library so often I hardly need the actual documentation.
+link to github code in each function, class name. ddoc spec
+Absolutely no experience with it, hence no ratings...sorry!
+The search engine (it just goes to a google page, which makes finding specific symbols in modules difficult)
+It’s just confusing at times. Just this morning I tried to find the module containing the Windows API headers and ended up just going to the DMD sources
+std.stdio.File should be documented without reference out of D (I'm not a C programmer, so I don't know about FILE* type and fopen function)
+Template constraint and return type not clear
+Some older modules have outdated or incomplete info. Some of the examples don't run, even on the site
+More "cookbook" examples
+More (relevant) examples
+Python spoiled me.  Many functions are "documented" solely by its definition, assuming that I already know how to use it. Documentation tends to be terse. It is much better than when I began though.
+Some modules, like std.variant are comparatively underdocumented, while others have pages of documentation.
+It's very thorough but feels like it was written for a computer to parse. Some more real-world snippets would help out, as would reorganization. 
+Not being able to go to source code from documentation. For each symbol. Having a goto module source code link is kind of meaningless when you have modules that are thousands of lines of code. 
+I want the tree of modules to be kept open. I want a list of modules and summaries. I want a reverse index for modules specific to usage such as getopt and curl.
+Quite abstract and not a lot of docs (getting better though...)
+Lack of examples, use of auto makes it hard to understand return types.
+lack of examples lack of human touch - seems to be autogenerated at some places
+Not enough examples and holistic concept conveyance
+Navigation (on each page, and cross-links) is difficult
+Hard to understand how to exactly use the functionality. Usage of 'auto' return type in the docs. The doc generator should expand it. For example, make a type 'placeholder' for templates, auto foo(Key, Value)() in code ---> Value[Key] foo(Key, Value)() in the docs. Sometimes visually noisy presentation (D full func/template signature is pretty bloaty). 
+needs more examples
+Some functions/classes still have little documentation or no examples.
+Sometimes the examples are unrealistic or very obviously just unit tests and really don't help to explain how or when to use something
+More code examples would help I guess.
+- massive footprint of signatures and overloaded functions make it difficult to identify the very (templated) function I'd need/want and how to use it. - many more usage examples are needed.
+UX
+sometime incomplete 
+To be honest, I avoid using the standard library as much as I possibly can.
+it would be good to have more ehamples and a better structure. The indexes are not easy to follow
+Xref  (comp. adrdox), sometimes expected prior knowledge is too high. 
+Most glaringly the structure and typography could be improved a lot, and this would make a big difference.  More generally, I keep having to read the Phobos source code in place of a spec (e.g. most recently on exact copying behaviour when sending messages between threads), and while this works fine, it means I have to know some of D's more advanced features and idioms to use Phobos, which may not be what you want.
+Not enough examples
+More examples could support faster understanding.
+incomplete and if you want to contribute to and improve it (in GitHub), "reviewer" raise the bar/requirements for every little ship like blanks here and there unnecessary high
+some links between pages don't work some samples have errors some functions, ... have nearly no documentation  not documentation  BUT the std lib should be more nogc compatible
+See above on learning D.
+Sometimes more practical examples are needed in addition to what's already there.
+I found it to be a bit of a learning curve, although now that I'm used to it, I think it's good.
+- Hard to know where to find things, esp. algorithms (std.algorithm, std.range, std.string) - Hard to get an overview of a related set of methods without reading the details of each (eg. range searches) - In many cases the examples don't start out illustrating the basic concept, instead jumping to advanced use cases. - Overloads are often differentiated in terms of low-level qualifiers
+Not enough code examples. Hard for beginners to understand function definitions from the Dlang lib docs. Example: I want to iterate over keys and values in a JSON. I had to go in std.json github source before I found you need foreach(string key, value; myjson) for it to work and no compiler error or other doc helped me there (since the pythonic foreach(k, v; myjson) does not give helpful error messages)
+It's always hard to find what I'm looking for.
+Some functions could use more examples. Warnings about issues with char[] and string[] functioning as ranges and auto-decoding issues should be made more prominent, I have spent a lot of time trying to figure out what is and isn't an acceptable range when using standard library functions because of a combination of auto-decoding issues, documentation issues, and ambiguous error messages, though some of this is probably my own fault for not spending more time with the documentation.
+Nothing really. It is all well described, unittests serve as good enough examples. I can easily find what i am looking for.
+That is all right
+Examples need involve more than foos, bars, a's, b's, and c's. Use names in example codes that reflect real-world metaphors, so the functionality is clear. That being said, D code is so clean it can be self-documenting. Phobos is the only standard library I've ever used where I can read the source to easily and clearly understand what is occurring -- sometimes more easily than the docs. But the docs are very good, again, aside from the examples.
+Navigation isn't always easy
+Usefull examples of methods usage
+Containers like C# (list, concurrentbag, concurrentdictionary, hashset, etc)
+Functions that return voldemort types are hard to understand. Regex module is an example.
+Not clear and rigorous enough in documenting expected behaviour, especially when it comes to constraints (with or without overloads).
+more examples.
+Often missing/bad examples. 
+more examples
+Lack of examples.
+Too verbose, information is not summarized
+The docs could use more examples
+The most simple things which you need most are very hard to find. I think it is because to show how good the language the complex and "cool" things are being presented good but beginners need basic things. For example append operator "~="  please check std.array documentation you will see it is not very easy to find how to append in to vector. I pass this phase but I am still a learner I am having the same problem with different classes. 
+needs more examples
+Occasional lack of practical examples.
+Signal to noise ratio is poor, but more generally incoherency of styles
+Individual documentation page per function that Google helps lend me, because usually I'm not sure about the name of the function. I want to see all std.algorithm functions to browse the list. Individual page is not helpful at all. (I'm an experienced D user.) 
+Doesn't provide enough examples. Doesn't talk about thread safety of the libraries and functions whatsoever.
+An accesible search bar anywhere in the page
+The biggest issue is that it just seems too clustered when everything from a module is thrown onto a single page.  There should be a way to look at individual members on a single page.
+The lack of basic examples used to describe functionality.
+Many of the example are assert() style, which is not typically how you might use the functions. E.g. Sometimes after I sort an array, I want to use the result as an array too. Things like this: assert(isSorted!("a > b")(map!(entropy)(arr)));" Are not particularly helpful to a beginner
+Need examples everywhere
+Not enough examples
+The doc doesn't have a good overview of functions and parameter/return type of them. sometimes I know a class should have a function, but not sure what is the function name, it's pretty hard to find it in the doc
+Unittests are fine but it could benefit from more high-level usages demonstrating common use of concepts or idioms.
+needs more quality examples. details are missing in a few places.
+Hard to search
+Lacking: High-level introduction per (sub)package, examples, links to alternative ways to do something
+The notion that unittests make good documentation is very much flawed.
+Examples beyond the trivial ones. Complex examples demonstrating more features than one.
+It describes what, but not why. (Why does 'walkLength' exist alongside 'length'? Why use 'chain' instead of 'joiner'?) Examples are very artificial instead of displaying real world use.
+no examples on how to use stuff. descriptions  of intent lacking.
+Occasionally the documentation is overly technical and the examples aren't well-documented 
+Often simple examples are (back in 2016) missing
+Nothing in particular. Did not get far enough into the language to start noticing what is lacking in the docs.
+For XML for example it was hard to understand, i think it needs to be simpler like the C# 
+It has improved greatly in the past two years so it's really just a matter of someone doing the work on the less popular modules to fix them up.
+Examples, templates constraints  noise
+Nothing, it's very good!
+Wanted more examples ( has gotten better), Template/Range heavy doc can be hard to read
+It's hard to say. It's generally pretty good.
+There could be a few more advanced examples.
+Functions that return GC-allocated memory should mention this (many already do though).
+Not enough examples.
+Some parts are great, while other could be more verbose or provide examples.
+Hard to say.  The signature of the API don't obviously show how one would use them.  As a consumer, I care less about the templated type, and more about the interface.
+Lots of unnecessary info (@pure @nothrow @safe @ @ @@), keyword soup instead of proper organization in functions. Sometimes I wish D was a fully OOP language, because it easily shows you what kind of data you have and what operations it provides.
+Documentation's fine. The way is presented, not so much. Can sometimes be confusing.
+I found the documentation hard to understand.  Maybe because of all the templates.  My rating may be out of date.  It was several years ago when I tried to switch to D.
+I like the examples. I hate the templated function definitions—for me it's almost always impossible to understand how to use the function without examples (it's hard to even find the function's name!).
+Maybe more code snippets demonstrating usage?
+Sometimes cryptic
+The various efforts to improve the documentation are all improvements and should get integrated  I would like a good offline alternative (airplane mode), static html, pdf, or maybe dman takes care of this, but I've not looked at it yet as it's not installed by default on my Mac.
+Details of behavior are sometimes missing, and there's occasional misleading parts.
+none
+Too few real-life examples
+no
+Not everything is covered with the documented unittest, and the ranges constraints aren't quite readable.
+would love more accessible examples 
+The format of putting functions in a box was confusing at first (I thought they were examples at first glance) but after looking at it for a sec it made sense. Being able to run and tweak examples in the browser is an AWESOME feature
+not much, especially the interactive examples on the website are very good.
+ 
+No complaints although I think beginners can find the function signatures (full of attributes, constraints, etc.) daunting when they first encounter them
+Template constraints make function signatures look messy
+Return types are often auto
+to few example of how to combine features
+Some parts have excellent examples, and other parts don't. There are also cases where examples don't actually work, and can cause frustration and confusion.
+Not much! I can't think of anything that bothers me about it.
+Nothing.
+There is large variation in quantity and quality of documentation throwout the many modules. Sometimes theres paragraph after paragraph explaining design decisions and idioms and such (which is awesome), sometimes there's just a very thin layer of documentation on top of the raw API, and some other times there's just the raw API with some fancy CSS on top.  Also, unittest blocks don't always make for great examples. Unit tests are great at exploring the implementation edge cases, but not always that great at conveying what is a typical use case for a particular set of functions. 
+Layout hard to read
+More examples.
+Templated APIs (e.g. most of them) don't have it clearly specified what types (arrays / strings / ranges, what sort of ranges) they expect or work with. Also what are efficiency consequences in using other types (especially what would imply some sort of implicit conversion)
+The online documentation is still diffiziler to search and navigate
+It is not always obvious which feature should be used for what case
+Heavy template usage makes generated definitions almost useless for newcomer - most of the time only looking at examples help (and all other stuff is just noise)
+It's often not accurate, precise, or clear enough
+The old version of the template was better than the actual; core. is poorly documented.
+Incomplete or poor examples
+Lack of examples for some parts; Hard to find related things. Advanced features like templates, ranges and so on can make the documentation confusing
+Too few simple examples to illustrate the function as concisely as possible so you can use it right away.
+It's a lot better now than it used to be. Being able to easily pull up implementation code is a huge improvement.
+some modules lack documentation, and there could be more examples. but overall i'm kind of happy with it. and it has improved a lot over the bast 6 years
+Information about how to use functions and the organizationam structure of the standard library 
+Phobos docs have gotten a lot better. I like the look of Adam Ruppe's version though.
+Need more structure, more examples.
+ I have no particular problems with Phobos' documentation. When I was originally learning D, the fact that functions with auto return types didn't show up in the docs tended to make std.algorithm downright scary, but that's long since been fixed.
+Completely illegible mess. I cringe at the thought of reading std docs. Just a looong page of words and hyperlinks
+Examples are sometimes very obscure, long and way more complex than necessary.
+Nothing 
+I dont use phobos that much.
+There are some incorrect/incomplete pieces in there.
+Needs more examples.
+Some modules are underdocumented, with only basic descriptions
+I would prefer more examples for some parts
+Explanation about the use of tuples (i.e. std.algorithm.group)
+intricacy and inconvenience with multithreading implementation strategies
+there is almost no cross reference. sample code covers isolated use, but not how it relates to other parts of the API
+None
+It is difficult to find a clean list of methods for a given module. For methods with several overloads or template constraints, it is difficult to find what a function does. Also a lot of descriptions for functions are missing a synthetic short version.
+Not easy to find things. Most likely the layout doesn't help, especially for structs and classes where you need to always go to the header to see the member list.
+A few things are outdated, examples, basic algorithms
+Very suboptimal performance. No GC-less concurrency. Lack of async I/O. Lack of shared pointer. 
+more examples
+Needs more examples rooted in common usage
+today it's perfect, that wasn't the case a few years ago.
+In certain cases, a broader "example program" or rundown of a library would be nice, rather than one-by-one explanations of functions and data types. 
+Difficult to get into and hard to understand
+jumping between function overloads is a little tedious
+The separation between the range and algorithm documentation given how related they are. 
+Too few examples, especially on SIMD instructions
+It lacks examples
+Inconsistency
+Need more examples in some corners
+more examples
+test
+Phobos's documentation is elaborate, no question. However, the formatting is hard to read. For example, in types with a lot of methods and other nested types it's hard to understand where attributes belong due to the boxed formatting which requires scrolling up/down to figure out location.
+Overviews of how to use related sets of features
+It's nearly impossible to read the function names—the only way to understand how to use the function is to see the examples.
+Nothing

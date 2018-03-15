@@ -1,0 +1,244 @@
+Fewer breaking changes. For me to justify more serious use of it at work and otherwise, it needs to start to stabilize more than it has been in the past couple years.
+Allow to use some non-allocating language features without the runtime
+more speed and less system resources utilization
+better stack traces and error messages
+Better error reporting for templates
+Faster CTFE
+For the momento, stop adding new things, correct as many bugs as possible with several and frequent micro versions (2.79.1, 2.79.2...) and finish the implementation of language (i.e. multiple alias this)
+DMD's optimizer to stop producing bad code.
+To actually be the same frontend across all implementations.
+The same program compiled under dmd for Windows is noticably slowed than gdc for Linux on the same machine
+Greater optimization of binary sizes.
+Easier to understand error messages, like the rustc errors. 
+Full GCC compatibility / compatible flags
+Clearer error messages/less random segfaults
+error messages should point more directly at the problem root
+Better error messages in corner cases
+Syntactic sugar for common idioms
+More explanatory error messages. I have *some* type theory background so I understand majority of error messages, but many of my colleagues and friends often ponder what the hell the error even means.
+To have a builtin build system (similar to Jai and Zig) so that there's no need for an external build system with its own separate language
+Stuff like https://issues.dlang.org/show_bug.cgi?id=13868 to get fixed
+Good compile error message.
+more informative messages for some errors
+Better error messages, especially with mixins.
+Warnings for bug prone implicit conversions.
+Please make the associative array to be faster.
+Less cryptic error messages.
+Error messages are hard to interpret.
+Proper parallel compilation, "fast" they say, takes about 30s to build some projects, while my 8 cores sit largely unused.
+More helpful type error messages in std.concurrency
+Error messages on templates. They are a lot better than in C++, but still not very helpful at times.
+VisualStudio integration out of the box (via vs marketplace)
+Print proper and human-understandable output to identify what went wrong during compilation/linking.
+Been too long
+Bit cumbersome to use, too many options. Needs to be more make friendly.
+AST macros, which would enable many more features (eg string interpolation)
+Blazing fast compile times
+No idea at this point.
+improved error messages
+Lambda syntax for functions and methods
+-dip1000 complete
+Implement all forms of is-expressions (or document its limitations)
+Easy NoGC interface polymorphism without requiring deep magic (e.g. casting manual __vtbl structs to void* to interface)
+Easy cross-platform (ARM, x86, x64), enough for todays mobile and desktop development
+better error message
+Compatible with the mostly welcomed development tools(linker, debugger etc.)
+Language as a library for better editors
+Clang level human understandable error messages
+Output files with mixin code filled in
+For it to compile a better language
+In Linux, failing unittests often only report line numbers as "??".  A good workaround, however, is to use the "fluent-asserts" package.
+Better error messages and less memory usage.
+bugs fixed
+Compiler has become very slow as D encourages more and more meta.
+Distributed compilation
+Incremental builds
+Clearer error messages for complicated situations that help find the spot where the problems come from instead of where the compiler notices them.
+no idea
+Better stability. Tried using my code again after 2 years. It’s a pretty hopeless endeavour that cost me at least 8 hours before I had enough.
+Single installer for all compiler. Single front end for all compiler instead of Dmd, rdmd, ldc, gdc, dub, ... Jesus Christ in a hand basket.
+elm and rust like error messages
+rdmd, dmd, dub's command line interface, linking process, module finding and ERROR MESSAGES!  should be more user-friendly
+Better unit test ouput. E.g. if tests are annotated with @("some string) treat that as the test name and print success/failure
+Easier to understand parser.d, easier to use as a library.
+Move to LLVM completely for better future compatability
+meaningful error messages
+Maybe this exists already, but I can't see how to compile project A to a static library and include it as a dependency in project B without explicitly including all source files for A
+Better DLL support, better vector support.
+Better insight into compile-time behavior. (#2 Documentation on its implementation.)
+Better error messages.
+understanding of more object file formats
+(minor) Specifying output target path a single option instead of directory and filename separately
+assembler output
+LDC to be up-to-date with DMD
+To release the backend as an open source project.
+Verbose error messages.
+String interpolation a la C#, PHP, etc.
+An inliner that works.
+more like d1, no template hell, more windows support
+- a document that is Part of the repo which explains which package and module are responsible for doing what. 
+Fix the extreme memory usage. The frontend is unusable in an IDE at this time because of it.
+cent / ucent, fp arithmetic at compiletime
+Consistent speed of compilation
+better error messaging
+First class optionals/non-nullables
+An option to show error line numbers in Emacs-compatible format
+Compile-time execution of ANY code.
+Better error messages.
+volatile
+better documentation for crosscompilation.
+Recent 512mb limit issue was blocking for me. Looks like its wixed/contained for now.
+a good and easy to use gui library
+Common ABI
+better error messages
+Consistent error messages and stack traces
+Fix bugs quickly
+The biggest problem I was having was that compilations got really really slow once you had significant amounts of fancy template and CTFE stuff.
+Advisor for more beautiful, robust, efficient coding.
+More iDiomatic implementation :). It could use those parts of Phobos that are not used as a runtime library.
+Shared libraries
+N/A
+ 
+better compiler error message
+Better memory management for DMD.
+less memory usage or no memory limits on compiling
+compiler as a library for better language support in tools as dscanner, DCD etc 
+Faster CTFE
+Makefile-style dependency generation for various build systems
+more accurate error message
+Better error traces and help similar to what the Rust compiler has
+be part of the debian / ubuntu distribution without any additional d-apt...
+Cilk+ extension (cilk_spawn/cilk_sync)
+Clearer Error messages
+Give exact line of code that is failing, and suggestion to fix
+Native x86-64 Windows support
+Better portability (OpenBSD for DMD) and more recent ports/packages in the repos
+Error message fixes up the wazoo!
+Clear rich cross-platform SIMD instrinsics story
+Options for outputting documentation adhering to my project structure but in a different location
+Better error messages
+stability, speed. Switch to and support LDC as the main D compiler. 
+better error messages for template code
+Better error reporting.  Make the template/function/class more succinct and the actual error more descriptive.  If you can point out exactly where in a line the error occurred, as rustc does.
+CTFE/template debugger
+Better error messages WRT template problems.
+More focus on stability, less focus on implementing new poorly-thought out features (shared, scope,  const)
+Faster templates, less memory use
+better error msg, suggest attributes and const / immutable
+Simpler integration with Visual Studio
+Less syntax and gramar exception; implementation of high level language concepts through well defined low level concepts
+perfection? :P
+Better error messages.
+Nicer error messages
+More sane memory usage for large projects
+Pattern matching definitely!
+At the very least an option for turning on sane memory management. Currently it's completely unusable on my low-memory system.
+Better error messages.
+Better Error messages. *Better template error messages*
+A LTS version that stays the same for 5 years. And a bleeding edge version.
+I want an error message that is easy to understand like rustc.
+Improve CTFE/template compile performance.; compile times are bad/slow despite advertising the opposite.
+dmd support for ios, android and windows store
+WebAssembly backend.
+No garbage collection!
+Better error messages
+Runtime UDA
+Error messages are poor at best.
+Friendlier error messages.
+Lower memory usage.
+Stricter error checking
+Better error messages. 
+Implicit constructors for structures.
+Better error messages for thing that are only slightly wrong e.g. typos causing template error message
+reasonable memory and CPU use for templates and CTFE
+DLL support for Windows 
+better error messages
+Better error messages
+Caching (incremental compilation) on the template/symbol level
+Compile-time debugging/error features, e.g. output code to files with mixins expanded etc.
+Better performing CTFE
+Reduced memory consumption (dmd)
+Improve the basics further: faster code, compiler faster.
+better error messages
+dont use 2gb for compiling vibe lol
+No more forward-reference errors.
+Improvements on the -betterC.
+better inout support
+Faster templates
+I'd never say no to some more helpful error messages
+better clearer helpfuller error messages AND support for mixed and upfront unknown keys in AA's (see Perls hashes)
+faster on some template, compiletime stuff + better error messages
+More optimal code generation
+Better error messages
+More informative error messages when template instantiation fails
+BETTER ERROR MESSAGES. Especially template errors are somehow worse than in C++. 
+Better error messages.
+Better optimizations.
+Better error messages
+64bit Windows compiler, too high memory usage
+Better error messages.
+GDC/DMD/LDC at the same Version 
+Faster compiling (templates, CTFE)
+Better error messages
+Useful error messages
+Bug free
+DMD is a mess and low portable and LDC is not following DMD as good as I want
+cross compilation
+better error messages, better gc for runtime
+DMD specifically - fix inlining bugs that produce incorrect code. Considering both DMD and LDC - fast CTFE.
+Stop leaking memory
+Better error messages for wrong function arguments.
+Better error messages, especially when using template mixins
+Parse C header files
+Sane memory use (and less segfaults)
+Ios/android support
+Better / less cryptic error messages (providing tips on how to fix an error)
+Less "we know it best" approach.
+More simplified meta-programming. D has many features that seem to tackle one problem specifically, they are more rigid than the C preprocessor, but not as flexible.
+nicely formatted, understandable range/template error messages; performance of compiled code
+A short bullet inbuilt tutorial on project compilation for people not familiar with CL deployment toolchains.
+Clear error messages
+Optimized CTFE and templates
+Better organization and documentation of source to help newcomers understand and contribute to the compiler
+Keep a focus on compile times and exe size.
+Better error messages.
+Better debug info on macos.  Stack traces don't have line numbers, lldb is essentially useless last time I looked
+For such a heavy template based language, it needs better error messages for templates
+better C/C++ interop
+Always be (correct and) blazingly fast, no matter how many templates or other constructs are used
+better more structered and ide parseable error messages
+Less memory usage, please.
+64-bit Windows support without using Visual Studio
+Being able to very easily use D as a Better C, last I tried I needed to strip symbols out of the generated binary, etc. Here is a repository showing a simple program from scratch that prints out each string from argv, you can see the compiler flags and stripping I needed to do in build.d https://github.com/miotatsu/BareD/tree/master/src 
+replace DCD
+To not break valid correct code in updates.
+Better error messajes. More warnings. Yeah I put two things. Sue me.
+Bug-free
+A full featured IDE sitting in front of it.
+Compiler as a library with an API suitable for external tools
+better metaprogramming debugging
+Decouple from the runtime
+Please turn on memory management!
+Line info in backtraces on macOS
+Last time I tried trying to get 64 bit Windows applications to work was a pain.
+I would like to compile C ++ and D by one compiler.
+error messages can always be improved. I'd also like to see optimizations to the resulting binary sizes. 
+better compile error messages that are more descriptive of the cause and reason of the problem 
+Improved templates/ctfe.
+Success, more widespread usage.
+Not sure what exactly.
+It would be cool to leverage the compiler for code completition. And I dont mind how slow it woul be.
+Better error messages, specially for template errors.
+Take less memory, be faster
+ARM64 LDC builds.  I can't figure out building them myself.
+Less regressions (blocker bugs), more focus on quality.
+Not the compiler, but please provide good debug capablities on macOS!
+compiler as library
+Not so many bugs
+including C headers directly 
+Keep improving error messages to provide more clarity
+Better errors when it cannot infer template type arguments 
+bug fixes
+Attribute Inference
+More informative template mismatch errors
+rdmd built in.

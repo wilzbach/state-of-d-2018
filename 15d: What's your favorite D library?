@@ -1,0 +1,320 @@
+vibe.d! It is honestly the primary reason I use D.
+parallel
+vibe-core
+I use d-yaml a lot, and I've written my own utility library.
+Mir
+ndslice
+std.allocator?
+Derelict libraries
+asdf
+Nothing special
+Vibe is a lot of code I didn't have to write.
+None
+I've only used phobos and derelict.sdl2
+Phobos.
+I don’t have one. 
+ddbc / Hibernated, D-YAML
+Derelict
+vibe.d
+I don't know.
+phobos
+Tango :)
+Mir (but not its name!)
+Don't have any.
+std.algorithm
+Perhaps derelict.
+Tanya, I think.
+vibe.d
+nose, lo estoy aprendiendo
+std.stdio
+std.algorithm
+phobos
+std.range, std.algorithm
+std.algorithm
+std.algorithm
+vibe.d
+PEGGED
+Vibe-D
+A homemade suite called trajan, used for biomolecular trajectory analysis. I'll publish it one of these days, promise!
+No preference. A library which works is good enough.
+Vibe.d
+std.mathspecial (would be happy to see more functions :)
+None.
+Phobos
+?
+Mir
+Derelict
+vibe
+gtkd
+Mysql.
+mir
+Vibe.d
+phobos
+enumap (a @nogc struct that's like an associative array where the keys are exactly the values from a given enum.)
+my own, unpublished
+Vibe.d
+phobos arsd dparse
+std.algorithm
+vibe.d
+Derelict SDL and erupteD
+standard library
+The entire std lib is exceptional in my opinion. This survey actually surprised me as it seems like the D core team is worried about the quality of it.
+none
+derelict
+Vibe
+phobos
+The compile time packrat parser generator.
+The lua template one!
+std.algorithm
+none
+Phobos, dlib
+Derelict
+vibe.d
+Maybe the biggest ecosystem problem?!
+Don't hav eone
+The one I will write... maybe. The second is std.alocators because it allows other amazing things to happen
+I don't have one.... The standard library? :) 
+Phobos
+gl3n
+phobos, only one i really use
+None ... 
+std.range
+Fobos
+ 
+mir, dcompute, vectorflow
+vibe.d
+Vibe.d
+STD. Algorithm. VibeD
+vibe.d
+gtk-d
+std.algolithm
+Phobos, vibe-d
+vibe.d
+std.algorithm
+core.stdc gives me a @nogc library when I need it. On community side, I think the Derelict project is pretty interesting and useful.
+gtk-d
+Phobos.
+Unittest.
+Phobos (not really using much else yet)
+std.bitmanip
+stdio
+std.algorithm
+std.algorithm
+std.numeric
+Ocean and derelict bindings
+Vibe.d
+GtkD — used to use GTK+ back in the old days
+Phobos
+Mir
+don't know (probably std.mathspecial)
+even though i don’t really use it that much: dplug.  
+I'll go with Phobos, since it is the only one I have used a lot.
+vibe.d
+mir
+phobos
+unit_threaded
+vibe.d
+stdlib , dlangui
+Phobos (and my own utilities library)
+std.algorithm
+arsd
+msgpack-d
+do I have to pick one?!
+std.regex
+Phobos. After that, perhaps DLangUI.
+I just worked with phobos for now. I cannot make a full assesment.
+N/A
+std.stdio! that would be too easy, but I use std.process-std.path,std.string, std.file, std.algorithm and std.netl often as well
+vibe.d
+std
+vibe.d
+mir
+dsfml
+dlib
+Phobos
+std.algorithm
+vibe.d
+QtE5
+vibe. d
+None
+vibe.d
+dlangui
+range
+Pegged
+std.algorithm
+dlangui
+std.algorithm
+std.range
+Phobos, Pegged and GtkD (I cannot count!)
+vibe.d
+std.algorithm
+dlib
+DlangUI
+phobos
+std.algorithm dlang-requests asdf
+vibe.d
+Nothing really
+phobos
+Dlib
+requests
+vibe.d
+Vibe-d
+GtkD
+vibe.d
+Vibe.d, unit-threaded, arsd-official:dom, and Phobos
+None in particular stands out. But Adam Ruppe's arsd.terminal, arsd.sqlite, and std.range / std.algorithm are among my most frequent go-to libraries for everyday use.
+Phobos.
+Phobos, followed by MPI bindings.
+derelict-sfml2 (plus some other derelict stuff), as well as fluent-asserts.  (Side note: anytime I find a library that looks interesting, it either is abandoned, doesn't work properly on Windows, or both)
+DerelictSDL2
+derelict
+phobos?
+Perhaps D's biggest weakness...?
+erupted
+Hard to say.  I have liked what I have used so far.
+An internal library
+vibe.d
+When C ++ was not that good, the specification of D seems to me good.
+deimos.ncurses
+Mir
+I don’t really have one
+vibe.d
+functional
+Tango
+Phobos
+phobos
+Unfortunately I'm yet to find a real good library in D that I can make use of.
+That would depend on whatever project I'm working on...
+Derelict
+Std.datetime
+n/a
+Phobos
+mir gtk-d gfm derelict-X rx
+std.concurrency
+GtkD
+Derelict
+Derelict
+dopt
+jsonizer
+derelict-util
+Botan
+DerelictXX
+Phobos
+No opinion here.
+fluent-asserts
+Pegged
+Modules from arsd; and Dlangui is great.
+mir
+Phobos
+std.experimental.logger, regex, datetime, opt, stdio (reverse order)
+derelict libs
+What D libraries?
+Dlangui
+d2sqlite for 3rd party, and std.algorithm for std lib
+std.conv
+libmir
+derelict-SDL2
+Phobos
+In Phobos, probably std.algorithm for its ability to let me chain simple transformations on data easily.  Third-party, I'd say Mir, primarily because I do scientific computing. But it needs works, and official support from the D Foundation. D could make an EXCELLENT scientific language and leapfrog NumPy with the right mindset. Mir needs a simpler import process, fewer dependencies (e.g. get away from needing BLAS library files for compilation), and cleaner, simpler handling between the different slice types. It should run on CPU by default for max simplicity, but should also probably partner with DCompute to find an easy way for researchers to flip a switch and have it run on GPUs.
+vibe-d
+Vibe-d
+Derelict
+gfm
+mir-algorithm
+Phobos.
+Vibe
+Mir
+pegged
+None
+None
+vibe-d, libmir 
+phobos
+vibe.d
+Favorite module is std.traits.
+Derelict-SDL2
+std.regex ;)
+std.algorithm, std.range, std.parallelism, and std.concurrency
+Mir
+Phobos and Derelict ones
+Besides Phobos, GFM
+meta traits, basicly reflective programming.
+dlang-requests
+Vibe.d
+Phobos. Otherwise: sqdf for json.
+vibe-d
+Dlib
+vibe.d
+Derelict
+mir
+std.algorithm std.range
+dplug
+one's I've written
+Gfm
+derelic (all gamedev libraries)
+unit-threaded by Atila Neves
+None
+Not sure
+std.algorithm
+Probably vibe.d.
+cregex
+vibe.d
+pegged
+std.algorithm and std.range
+Phobos
+vibe.d
+Derelict is my favorite project, as it provides stable and working bindings to some vital C libraries. Apart from that Dlib/Gl3n, which provide much needed 3D math libraries for gamedev and GtkD, which provides nice GUI capabilities for D applications.
+D-unit
+The Mir-X libraries.
+Phobos.
+taggedalgebraic
+derelict, vibe.d
+ocean ;-)
+Derelict-SDL2
+std.random
+Phobos is pretty great, especially std.experimental.allocator, std.algorithm, std.getopt, std.path, std.format, std.string, std.stdio, std.datetime, and std.random.  I also really like scriptlike, the derelict bindings to various non-D libraries, and vibe.d is pretty cool though I haven't really done anything with it
+vibe.d
+std.algorithm
+functional?
+Probably std.algorithm, and outside the standard library, vibe.d.
+unit-threaded.
+NDSlice
+phobos
+Vibe-D
+Requests/poodinis/vibe.d
+derelict-sdl2
+Phobos
+Phobos, of course
+std.algorithm
+std.regex
+mir
+derelict. or vibe.d, though it can be improved ALOT
+mir
+std.traits
+Phobos? I don't do a lot with 3rd party libraries at this point.
+Probably vibe.d
+vibe.d
+adamdruppe/arsd simpledisplay
+stdio
+vibe-d
+DSFML
+phobos
+Vibe
+Not many tested so there's no point .
+vibe.d
+phobos 
+mir
+derelict libraries
+core.stdc.*
+std.algorithm
+Pegged
+std.algorithm
+Vibe
+Phobos algorithms/ranges
+Derelict SDL2
+libmir
+std.stdio, std.algorithm, std.range
+Vibe d
+vibe.d
+vibe.d
+std.algorithm
+vibe.d

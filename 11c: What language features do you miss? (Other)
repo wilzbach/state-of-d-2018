@@ -1,0 +1,66 @@
+pattern matching, tuple unpacking
+Passing rvalues to ref parameters, UFCS for overloaded operators
+Non-null types statically enforced. Opt-in implicit construction for structs. Errors for mixing signed/unsigned, char/int types.
+Unrestricted compile time file i/o
+Pattern match and destructuring
+Nothing.
+AST macros
+AST macros
+Non-nullable class references
+a, b = 0, 1; a, b = foo();  a = 0 if foo() == false else bar()
+async/await
+algebraic data types, pattern 
+DIP1000, language-supported ARC, C++ style expression tuple expansion (expr(x, y, Tuple)...)
+Kotlin's handling of null is nice: every type can be nullable, but it becomes a different type (eg. Int? is the nullable int type).
+sometimes struct default constructor, some template/metaprogramming features/enhancements
+Auto properties like in C#
+This list above just shows what is wrong with D. What language feature that are missing is easy of use.
+If as expression
+Syntax for Set, similar to dictionary syntax. Maybe somenthing like Type{} setOfTypes = {}
+Pattern matching
+It already has so many. Please don't add anymore.
+care no more - let andralex order it
+Swift-like enums
+builtin (or good implementation in Phobos) set
+Inout
+Introspection for contracts!
+optional binding syntax
+Pattern matching, C#-style expression bodied members, nullable syntax, null conditional/coalescing operators, async/await
+Inherited templates.  For example, apply a serialization mixin at the base level of a hierarchy.
+Async/await. Decorators to enable compile time changing/wrapping existing code. Macros.
+convinient DSL support - where I don't have to use strings but a just a block of code that's handled by a parser.
+The exact opposite. The problem is too many features, not too few.
+Remove ad hoc solution and syntax like `inout`
+Scala-like pattern matching
+D is awesome either way :)
+More control of memory management
+pattern matching, algebraic type
+Signatures
+Implicit casting when calling functions or constructors!!!!!!
+pattern match
+Safe by default with no little or no runtime.
+UDAs for function parameters (is that what H is supposed to be?)
+Typedef
+Sum types, parametric polymorphism
+Simplicity in the core language.  Maybe think less about adding things and more about removing language features and moving things into libraries. For example, the string operator comparison syntax ("a < b") feels ugly.  Could just support lambdas and pass in a comparison function. Compiler can then inline, etc.  Better to find general features that can be reused rather than catering to 20 special cases.
+Built-in smart pointers, match, built-in algebraic/sum types, `safe` as default
+Threading support
+template and mixin debugging
+Structs can't implement interfaces
+Please no, I'm not a language lawyer. Just keep the language simple and performant to the core and attract a meritocratic community instead of just an objective one!
+A better way of creating named stuff at ct that doesn't require string manipulation (a way to avoid string mixins)
+Pattern matching, null-coalescing operator
+non x86 ASM, builtin 128-bit number type, async/await
+Pattern matching
+Explicit interface implementation, async/await, yield,
+DIP1000
+Implicit constructors like in C++ (and Calypso LDC)
+Factory constructors (see Dart), auto assignment of constructor args to fields (also see Dart)
+Being able to append to constant structures would go a long way.  I really like transitive const and immutable, but the datatypes need to fully work with them in a "do the right thing" sort of way.
+Pattern matching
+yield return
+pattern matching, static interfaces / template concepts, attribute inference
+The biggest missing feature is COMPLETE what you have started: shared, every quirk in alias this, extern(C++) mangling, etc... no more feature please
+sets in the form used by java. Dictionaries could possibly be useful 
+Pattern matching
+AST Macros?

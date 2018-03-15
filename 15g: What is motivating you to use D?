@@ -1,0 +1,345 @@
+vibe.d's coroutines and easy integration with web services (REST or even just doing a web UI).
+Just beats the hell out of other languages in its niche.
+I love being able to write an application without having to worry about garbage collection (mostly) and using syntax that is far less overwhelming than C++.
+It's an enjoyable language to use. I like the syntax in general, simpler constraint on templates, opDispatch for a more dynamic style of programming than is available in C++ 
+small community, new language to try out
+I need something faster than Python, more readable than C++, and more familiar than Fortran.
+I don't give in to hype
+It is just a joy to use with multi-paradigm it provides.
+very interesting alternative to C/C++ 
+Fast Compiler, clean syntax
+Similar to C/C++
+The only language that comes close to looking as useful as D is Rust, and it didn't exist back when I picked D. Nothing else gives the speed and metaprogramming that D does.
+Nothing, as the other languages more relevant to my job are getting the features I liked about D.
+It feels like C++ without the horrible syntax, it was a fun change for a project
+If I use it, it is because it is a good alternative to certain other languages. It was also for learning.
+hobby, wanting to help move the world along from C++
+I like to use newer languages.
+Easier to understand than Rust, with similar goals. 
+Work
+it is fun to use it
+Good principles of the base design
+There is no other system programming language that I know of, that compiles fast and is as powerful and easy to use as D. (maybe Jai, but it's not out yet).
+Fun
+Nothing right now. I have dropped using D because of the issues I specified earlier.
+C and C++ can't become any better, while C# and Java evolve gradually into monstrous creations. I hope that D would take the best parts of all languages and provide a far better and efficient option than the existing ones.
+Lack of other high performance languages
+Python is slow :-)
+extensive metaprogramming
+Su control de bajo nivel y posible implementacion de librerias de juegos
+Powerful syntax comparable to C++ but a cleaner syntax
+the best language that realize my ideas
+D is fast and allowed to use in some competitive programming site.(Atcoder, Codeforces)
+Best existing (imperative) language overall.
+Productivity.
+There are some things that are most conveniently written in D at the moment More modern language than C++ with native C compatibility
+For competitive programming
+It's powerful, but still fun.
+I hade header files, i love readable code, i love pefromance 
+interest
+I keep hoping eventually the issues I have with it will get solved. Otherwise, I'll eventually go back to only C++.
+It's faster than Python and easier to write than C. 
+It is the whole pack. It is not a simple language, but it has something that it is unique for it, which makes it crazy easy to develop stuff  in it.
+A lot of nice people in the community.
+Familiar concepts and readable syntax, productive
+I wish I could use it, but see all my points above.
+The hope that someday its interoperability story with C++ will make it practical
+Replacing C++ on some part of our code base
+ideology of language
+Nothing, betterC is promising for certain domains, but is a long way from being really useful.
+The pleasant syntax and metaprogramming features
+productivity + efficient code
+See also "c" :-).
+An opportunity for a linux based backend server application development.
+speed and syntax
+Allows me to create elegant, zero cost abstractions
+It's fun und productive working with
+Adam D. Ruppe! What is the worst that could happen from trying, most things that you can imagine will work. (In a pinch, D is super easy to refactor, too.)
+Good language design
+How productive I am with it - it is excellent for prototyping, yet is also really good for production-level code
+The fact that its development is not driven by corporate agendas
+Performance and clear syntax language (if IDEs were rock solid), modules, and every nice D feature
+growing coverage of fields in phobos hopefully broader attantence of the language in future active community
+It's an overall good language covering many areas
+it's a bit an under-estimated outsider
+Rising popularity, by being compared with Rust, Go and others, yet fitting a niche between them.
+It's fun to use
+interesting, work
+Looking for a flexible and powerful language that won't make developing harder 
+performance and ease of use, especially interop with perl6 and Ada
+multi paradigm, doesn't force me, allows to abstract, good ratio quality / noise for code and libraries
+High performance, cross-compiled native code, and generics!
+It's fun and I like comparing it to my rust programs 
+Concise compiled and efficient language. 
+nothing
+Its beauty and clarity.
+I want to see a better future for software development.  I think overcomplexity has prevented systems level languages from being secure and able to deliver software in reasonable time-frames.  But the need for efficient and powerful software is greater than ever. 
+Nothing.
+comfortable to write but low-level at the same time
+I hate C++
+It's performance and nice languages features. Object oriented + functional as a mixture works really nicely in D.
+Community
+Nothing
+C++
+Personal interest.
+I think it is much more expressive to write in than C or other compiled languages I have experience with, and the syntax generally reads well with my way of thinking
+I want a modern, fast, native language to replace c++
+It's a very practical option for when I want to tinker with something that should be fairly fast. I very much like the combination of GC and no associated worries about memory (or satisfying a computer program to prevent memory bugs) and sufficient low level code emission that I can reason about code on an architectural level (will this fit in a cache line?).
+Productivity, from a combination of metaprogramming and simple syntax
+haven't found a better language yet
+Wanted for web development. Too many issues. Will stick to PHP thank you very much. It may not be fashion to use PHP but it beats dealing with D the last year and half.
+It's simple and feels like native python
+power
+The hope it will be the next big thing.
+Creativity and the love of the efficiency and expressiveness.
+It's a reasonable language. unlike C which is too low level, and C++ which is too complex
+Personal interest in the language potential
+The badness of C/C++/Java.
+readable and write able solid code and native performance.
+It's features and great community
+A lot less 'gotchas' than other languages, it is sane but still uses newer concepts like functional programming (it doesn't go overboard with it).
+nothing yet, i moved on to rust.
+It's very easy to write working code, and that  code is both extremely high performance and  almost production ready.
+It has the power of C/C++ with the ease of use of more modern languages like C#.
+Expressive leverage via metaprogramming; performance; mostly familiar syntax; extension functions (UFCS) 
+The readability and meta-programming features.
+I like to learn new languages. This one looks as promising as Python.
+I want to reduce template bloat in my existing C++ projects by converting some/all files to D
+Python is slow
+It's a Swiss Army knife. Lots of power per line.
+I like it
+speed/flexibility primary language for my job
+Its syntax, template system and powerfulness.
+The community
+Can create xompile-time guarantees that code will stay in sync (e.g this enum has this corresponding array that has the same length)
+The promise of a replacement for C++.
+it's just a damn nice language, that's woefully under-utilised
+Can express my ideas short and readable
+Shorter code means that I can maintain more features on my own in my hobby project
+productivity without sacrifice, not being locked to a platform
+Readable syntax
+The syntax
+Doing mostly webdev for my day-to-day job, using D makes me feel like a proper programmer. ;-)
+The rest is even worse :-)
+It's quite mature and close to C/C++ with less crap and more useful features that programmers actually need.
+Very elegant syntax and freedom.
+safety
+It is really nice language
+the code looks as good as code could look like
+Only decent native lang with GC. Other contender is Go.
+D's a multi-purpose swiss knife
+have more power with less hassel
+I don't need motivation for it
+The language is fun to work in and I can work comfortably at different levels (calling C functions, scripting a helper program)
+it sucks less than all other programming languages
+It's good as a slightly higher level replacement for C++. Gc and some aforementioned issues fixed, and it's there. Rust is not what I'm looking for.
+Accustomed
+The flexibility I get while using D lets my mind truly explore a problem space rather than forcing it down a common path.
+I can write code fast and can optimize it if I need 
+Hobby, utility uses and possibly coding part of commerical project in future.
+Higher productivity than C++ with close performance.
+i was search for alternative to c++
+N/A
+just need one language to do everything generally well, plus its fun 
+I just like it and I think I can make it better
+It is less of a struggle than other options.
+less codes make more features
+it's my favorite language
+it's fun to use
+My love for the language
+I really like it
+interests
+Performance and compilation\
+Looking for an alternative to C++
+Writing small programs compiled to native code.   
+Development speed is 3-5 times higher than in C++
+High performance but easy to use.  vibe.d
+To develop rich applications fast, safe, while having performance of C.
+Great language
+It seems to be the perfect language that does not get in my way. It is sad that it isn't used more, which is (vicious circle-like) part of the reason I can't use it more.
+It's compile time features and javascript like expressivity
+Templates, static introspection, native code, ease of expression of thought.
+Fast compilation, nice syntax, expressiveness
+It is the best of all C-family languages so far.
+Easily writing readable, correct and safe code
+It hits the sweet spot like Python but with native C/C++ performance.
+Low level, rational, fast
+Community, progress on nogc/betterC, powerfull meta programming support
+Promoting the language with my projects
+nice reading syntax
+The natural evolution from C into modern times.
+It's less terrible than the alternatives.
+Safe defaults, best  string impl, expresiveness.
+competition
+I really like its syntax, performance and general library
+Multi-paradigm and  OTOH very  practical approach what makes D universal tool
+modern c/c++ replacement
+Compiled, high performance, object orientated code that isn't as horrible broken as C++.
+D allows me to create a good code. With the functional programming it is also fun and challenging to use. (challenging in a good way - you need to think your way out with range algorithms. It is often a good riddle and I'm satisfied seing the nicely cooked code that does big thins with just a few LoC).
+get rid of c++
+very simple
+Get things done faster, easer & safer
+It's the only language I like.
+Its compile-time features
+It's the only language I know so far that is this close to my ideal of what a programming language should be.  It's comfortable to write, almost like a scripting language, yet with the power of static typing and verifiability features like const, pure, etc. It lets you drop down to low-level code when performance matters, yet most of the time you can stay at the comfort of high-level constructs with minimal performance impact. It promises much better long-term maintainability for my personal projects than C/C++ have proven to be. It makes me more productive, and also more confident my code is actually correct (via built-in unittests).  It has also ruined my taste for every other language, and now I can't stand writing code in anything other than D!
+Its ease of use.
+It is so much nicer than C++.
+I haven't found any other language that can be compared to it's productivity and power.  I just have to think "this is how I want my code to look and work" and poof, D let's me achieve my vision.  The language is beautiful. The features are amazing. The metaprogramming capability let's me do some really fun stuff and allows some cool designs. It's a volunteer language (for better or for worse) allowing anyone to contribute (unless you're on Windows... I've had nothing but headaches and have given up completely with anything other than documentation changes, since those don't require me to build anything)
+Less fundamental design problems than other langs.
+Easy to writing
+It's more fun to write D than C++, and I can read my code after it's done!
+there is no good alternative
+I love most aspects of it, and have adopted it as my primary choice for my programming.
+Its universality, especially using functional programming in tandem with the usual stuff.
+Its fast development.
+It is fun.
+Powerful templates
+Trying out new things
+I like the language as it allows me to write code that is similar to C# but it is native compiled and doesn't require .net (or mono) framework.
+It just makes more sense than any other language, and dosen't force you into a particular way of thinking.
+easy to do powerful hacking
+D can win C++ one day
+Better C++
+D is like my ex. I know it's broken, but I still keep coming back to it, cus it has the potential to be the best out there. But unfortunately it doesn't have the right direction and the right people at the moment. Very talented people have already left the community. If only D could get people from C++'s Boost community (like Ion Gaztanaga, Chris Kohlhoff) interested in D, it could be in much much better shape.
+Every time I work in another language, 20-30 lines in I miss D.
+Safer than C++, prettier than Rust
+Still better than anything else out there! 
+it's expressive, fast, and easier to use than similar alternatives
+Experience, Productivity
+It is C++ done right. And I have to work in C++,  so my nights on D is won.der.full!
+Native compilation with GC
+This is the only compiled language worth learning, no viable alternative (for me)
+I want a fast and flexible language, something useful from embedded/kernel up to arbitrary heights of abstraction.
+D is definitely more fun to code than C++, so I use it for all my home/hobby projects instead of C++.
+I'm still sick of using C++
+Ease of use and constant improvement
+There is no alternative
+I know it
+Walter and Andrei 
+Lack of better options.
+It being familiar with C and having a great module system is what drives me to use it more.
+it's easy to be productive
+Good power/complexity ratio. The feeling that nothing is impossible. Satisfaction about results. 
+Every time I try and write the same code in C++ I start banging my head against the wall. More than that, though, D is remarkably internally consistent - everything seems to fit together astonishingly well. The only language I use that does it better is Haxe, but it's a lot less ambitious in scope. Generally I find with D that I can just write a pile of code and everything makes sense, which is quite a feat. The ability to advance through successive changes rather than major rewrites is much greater than I have in my C and C++ projects.
+Better productivity, ability to attack more complex problems efficiently.
+I want to make art via programming, and D is both powerful and enjoyable enough for that purpose
+the great community and the "you can do it easy and maintainable"
+c++ is missing a lot of nice features and is kind of ugly, the language "leaders" are ignore the wished features of the users  rust have some nie features and it is progressing but it is very ugly  D have so good features and looks so nice
+GC'd but still has static typing and better performance than Python
+Fast development, good looking syntax
+Helps me with my day-to-day work (data processing automation, etc). Also, I like to think it's helping me become a better programmer.
+Most approachable high level, performant language. 
+pragmatic language.
+It's faster to implement a small tool in D than in C++.
+I find D much more pleasant to use than other languages. It's easier for me to write and there's no need for header files. I hate header files.
+It is a rapidly evolving project with potential for a great future. I look up to the time when i can use a single programming language (D of course ;) ) to develop my High-Level applications along with a Low-Level Embedded System (possibly having an ARM processor).
+High-speed development, performance.
+Amazing tools (dub), simple syntax, ridiculous speed. It could be so much more with a few more features, some solid third-party libraries for common uses currently held by inferior competitors, and some vocal publicity of these developments.
+Ability to model my ideas efficiently and easily
+Performance of the implementation. Flexibility and productivity of the language.
+Nothing else is remotely competitive for getting ideas out of my head and in to good code.
+Its not C++
+Want to write numeric code
+It is expressive and concise. Does not get in my way. Great modeling power.
+Fun
+Right now just to learn
+dissatisfaction with native language landscape
+it works on windows and linux and is compiled
+Replacement for C/C++.
+Ease of use combined with general purpose usefulness; results in high speed of development and less time spent debugging.
+Greatest power to mass ratio without Ph.D wield it. Language is great, time to build platform
+Programming is still fun
+Honestly, nothing. Having used MKL, Mir keeps me coming back to D.
+It's native Has CTFE Metaprogramming
+I want to become an expert on DLang and watch it grow in popularity within the industry.
+I like it
+Habbit
+It just feels right.
+Nothing better has appeared
+Do more while writing less, let the resulting binary run fast
+Generic programming, fun to contribute to a language.
+It's safer than C++ and not VM based like C#/Java
+lost my motivation because required features never get implemented, but still watch the releases because unfortunately there is not much better out there
+It feels like the only space where fresh things are happening without Javascript-level crazy. 
+Nothing in particular at the moment.
+i want fast / easy / simple / compile to native / sexy syntax 
+Since I learned D, I can't use any other language. I always miss some feature from D that the language doesn't have.
+Hobby
+I want a better language than C++ which has gone the wrong way, but which fills the same niche
+Like the language features
+D compiles very quickly, is easy to read and understand if you aren't writing the most complex template stuff, and executes very quickly. D's ranges are the best way to write code.
+The template / mixin system allows me to do much of the metaprogamming that I want to explore in my private time.
+Lack of better alternatives
+Ease of use without sacrificing power or performance
+Ranges good string handling
+That I have a better alternative to C++
+Dub is an easy to use build and library management tool. Built in unittesting and other code quality features. 
+Cleaner/simpler code compared to C++
+I can't stand the verbosity of Java, yet I can't stand the header files and the mess that is current C/C++ ecosystem
+It's a great language.
+It's a nice language to use.
+Syntax
+Best experience writing and reading code of any language
+productivity
+It's a pleasure to whip up small programs to test an idea, and then shape it into a real program that works for the problems for which I might need it.
+hobby projects
+the language itself
+Code I love and maintain is written in D.
+It's what C++ should have been
+The ease-of-use to power ratio is better than anything else out there.
+Familiarity, convenience, other languages sucking
+Fast, easier to code than C++
+good and productive language
+I get shit done
+At the moment, pleasure of writing programs in D, but the lack of third-party library support is pushing me to consider Go.
+The ability to just get things done in the most comfy language/standard library possible.
+No other language hits the sweet spot of trade-offs. No other current language is better.
+Its community!
+faster, easier development. mix of python and c++
+Still one of the best options in a very shitty landscape of programming languages...
+A hope to have D usurp C++ entirely!!!
+I can quickly Write fast and yet easily maintainable code
+There is currently no better alternative for what D does, in my opinion
+Want use gtk and gst to create windows desktop video tools.
+I have a lot of expertise in it and get paid for that
+It's smooth ride, I really liked CTFE/Mixin/DTemplates/DUB/Phobos - it's an fresh air after C++, especially being able to "seamlessly" glue it with C/C++ (mainly point is with C++) is an pure win
+It can be used for any domain from small embedded systems to enormous distributed cloud services, supports Windows, Linux, Intel, and ARM, and is as convenient as high-level languages such as C#, yet more powerful and efficient.
+It's one inch from being THE language to use!
+D feels natural to me
+It feels generally well engineered. Doing things that should be easy is easy.
+It feels great to write code in D.
+Less bugs coding, hard stuff. Less time debuging more time optimizing.
+It can be as fast as C++, or as high-level as Java depending on the need.
+having to work with c++ at work. D is just pure productivity.
+Faster than scripting languages
+So rewarding to use.
+It's powerful and pleasant to use. The only language that even comes close is C++, and C++ is very unwieldy to use in comparison to D, not to mention far less safe. I know both D and C++ quite well, but I can program in D way faster than C++, and the code is much more pleasant to write and maintain.
+It’s so much better after c++. 
+That every other language does what D does bad, worse.
+For research to build fast simulators
+I want the language to be bigger so I'm 'forced' to use the language, and the constant improvement of the language.
+Pleasure to code. Enough for support programs that i can push inside our company. For hobby projects (gamedev).
+It's the best language for the job. I can edit it with a text editor and build simple projects with a Makefile.
+Simple bu static
+I do not know
+It allows me to try different programming styles either to learn them or to pick the best tool for the job
+there's a better option that c++
+I want to build software that is delightfully quick
+I feel comfortable
+It is the closest to the perfect system level programming I dream about. Hopefully it will get even closer to the perfection over time.
+To get better with/at it
+I like it.
+productivity and elegance
+D is the only language I know which offers this high productivity and high performance at the same time. 
+I like the language and everything is very easy.
+I like the language
+fast, quick to write, cross platform
+High-performance requirements without a desire for crap languages
+It's better than its competitors, in my mind
+Fast development cycles
+Seb
+introspection+templates, CTFE+mixin
+The type system!
+Ranges
+metaprogramming capabilities
+mixin

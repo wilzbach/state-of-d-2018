@@ -1,0 +1,404 @@
+Looked like a language with some interesting ideas and much cleaner syntax in areas than C++.
+I hate C++
+It interested me because I always thought about making a powerful (native) language that didn't have all of C++'s design flaws. While D doesn't have everything I've wanted, I do like it a lot more than C++.
+Easier than C++, less limiting than Java
+I'm interested in languages in general, and was looking for a statically-typed language that was higher-level and more convenient than C++ (I have over 30 years of C++ experience), yet faster than scripting languages like Python.
+mixture of c++, c#, java
+I want something statically typed, C-like, and with vectorized operations and without the awful syntax of C++.
+Needed a good language for game development
+C++ sucked
+It seemed like the best choice for developing cross platform game engine.
+it has many features and is fast, c interop.
+Had enough of C++
+Similar to C++
+I learned enough C++ to know that it was insane.
+Seemed a good candidate for native programming, with two big names behind it.
+Personal curiousity
+Seemed interesting. 
+curiosity, also disgust with C++ compromises
+Because I entered Sociomantic Labs.
+As an alternative to C++, Java, and C#
+Got a job using it
+C++ but nice
+Seems like the future, while still embracing the past, years of existing c code don’t have to be thrown out, you can just switch gears and keep coding.  
+The syntax was really clean and expressive
+Fast to compile, statically typed, native, with good compile-time introspection/execution capabilities language.
+Fast, direct, lowlevel without C++ bloat
+better than C, C++, Java with like syntax; native compiled, strong typed; it was young evolving language
+Seemed like C# on steroids
+Python too slow for big data
+Wanted to check for myself if it's worth writing my personal projects in it.
+Because I wanted the ease of use of C# but with the efficiency of C++.
+I thought it was better than both C++ and Java.
+Because it sounded awesome.
+Level of abstraction & control sits where I like to be.
+Me interesa el control de bajo nivel que proporciona(encajaria perfecto con sdl)
+Speed and as good as Python
+more productive than C++, needed to get performance and write fast prototypes for experiments. Lost too much time in C++ for getting anything working,  and other scripting languages too slow.
+I was interested in many languages, try their
+for competitive programming
+D looked like an awesome language.
+I love c++ but it has a lot of clumsy corners. D seemed to offer much the same with fewer rough edges
+Productivity, advance as a programmer.
+Wanted a more sane and powerful version of C++ Much easier syntax than C++
+Ditto.
+I was fed up with C++, Java, and Python, and wanted something which was like all three.
+for fun
+it seems to be cool after cpp background
+I like that it's like modern, and decent C++, and mostly gets out of your way to let you solve your problem.
+I wanted C-like performance with Python-like code. I got 90% of both, so I'm just peachy. 
+Why not? I started with the tour, and the more I read, the more hooked I got. It hits a sweet point that no other languages can. Even now with broader perspective and more languages in my pocket, D still has something for me that makes it unique. Can't really describe what it is. It probably has to do with the static introspection, I just love that. There are many other things, which also other languages have... but only D has the full combination of the right things.
+I wanted to implement a SQL database and was looking for a compiled language better than C/C++.
+I wanted to move from Web development into systems engineering
+template syntax
+for work
+It seemed promising in the beginning.
+Andrei's notoriety/star power + sounded fun 
+Seems like C++ done right.
+interested in language
+for fun
+First I was just curious about D, and then it immediately started being useful for the tasks I had, so I gradually learned more and more, and found it applicable for more and more stuff.
+C++ was too complex and lacked many useful features (at the time - pre C++11).
+I wanted an alternative to C++ at the time.
+It's like C++, but actually sane and with almost all of the problems fixed.
+was searching for a C++ replacement
+Very interesting syntactic sugar and mix of features that very few other languages offer (built-in annotations, contract programming, immutability built-in, parallel programming bulit-in), authors that think major decisions through extensively
+I enjoy exploring programming languages.
+Need faster than python; Go is ugly
+The homepage gave me the impression that the language cares about the same things I do
+D is way better than C++
+I had a project in C++. D looked like it would pick the right default everytime I'd have to write boilerplate in C++.
+I liked it on first sight
+It was a cleaner C++, and I was hooked on Scala type-level programming at the time, so clean templates were fantastic
+Because it is a better C++ and because I hate long compile times
+It was language I was searching for (after working with QBasic, Pascal, Delphi, C#, C/C++ and PHP)
+for the job
+To make high performance Python extension modules in something other than C or C++.
+Seemed like a nice language
+Wabted to lean a C-syntax style PL for a long time but others (C++, Java, C) were not appealing
+Curiosity
+Nice syntax, compiles fast
+I  was terrified by C++.
+It has a great reputation
+Safer memory management than c/c++.
+Spec and self taught 
+better than c++
+Andrei's book
+Seemed like (and is) an obvious compared to C++
+I've never felt comfortable with C++ and C for manual memory management. I wanted a language which would let me experiment with it high performance code and learn manual memory management strategies as I worked.
+Looked interesting
+I wanted a better C++
+Bored
+It's easy to do complicated things on it.
+I wanted a way to produce highly efficient and performant software in a clear fashion.  It may seem trivial, but little things like built-in unittest support, pre-conditions, post-conditions, and class-invariants help a lot for writing software you can trust.
+The tour mostly.
+wanted a languages that compiles to binaries and is not cumbersome at the same time
+C++ must die.
+The syntax and languages features looked nice.
+I was looking for a C++ with better syntax and meta programming features.
+Syntax
+To see if it's worth using
+Because I can
+Interest, desire for a language that addresses C++'s warts.
+I was focusing a lot on high-throughput analysis applications in Bioinformatics/statistics and was hungry for learning more about the low-level stuff after mostly working in scripting languages such as Python, R
+It replaced c++ in a wonderful way
+I like learning programming languages.
+I was learning to program and wanted to use the best tools available. I heard of D, and it seemed to be the best.
+looked nice, great metaprogramming
+Great alternative to C++
+Looked interesting at first, ... after year and half fed up with constant issues that prevented going beyond "playing around with the language"
+Just to get an experience
+I need powerfull, modern, free language with optional functional paradigm 
+Because it has the potential to become one of the strongest language around. And easier to learn than C++.
+Because of its cleverness and clarity over C++ (wich I studied at uni) and my good initial experiences with it.
+It seemed like something better than C, but simultaneously also not as complex as C++. (which turned out to be correct)
+As an escape from C++. Found it full of promise. 
+At the time it offered interesting features that C++ lacked (e.g .ranges)
+Wanted a new language for personal projects
+better C++
+Out of curiosity 
+Interest in c++ without the warts.
+it looked really interesting
+Moving from scripting to lower level languages. I tried rust as well. But something about rust syntax seems horribly ugly to me. D on the other hand has an aesthetic beauty and the features seem to connect well.
+(1) I wanted to use high performance math and  linear algebra libraries from C, and D can use directly (2) C,C++ are terrible languages and Java is  laborious, so wanted something different
+The existence of a GC helped me a lot to transition from a Java/C# background to lower-level programming languages like C and C++, even if D's GC isn't very good (at least it needs to run on its own thread instead of suspending stuff) and it feels like a chore to deal with other languages' quirks.
+Intended for a web service backend
+I was looking for an alternative to C++.
+Cleaner alternative to C++.
+D templates, mixins and CTFE are an excellent feature set unmatched by any other language without sacrificing low-level control
+Close to C++. But better Metaprogramming capabilities.
+Because python is too slow, Java is verbose and restrictive, and I turned away from C++ years ago after reading too many 8-page compiler errors. I needed something faster than python and looked at Go, and D.  D didn't require an interface layer so it would make it easier to reuse my legacy C and Fortran code and since it supported many different programming styles I felt it wasn't telling me how I was supposed to do my job.  To boot, Andrei's book was a joy to read.  So I translated a couple of my python scripts in to D and noticed that the line count was roughly similar.  So between the fact that D seemed to be efficient in terms of programmer time and very approachable introductory book, I started writing in D.
+The DPL had an attractive cover / spine.
+it seems interesting
+for my job
+I liked its syntax a its powerful template system.
+Employer
+Performance without being C++
+safe,productive,fast
+Seemed nicer than C++
+Because D is similar to C.
+interest - seemed promising
+Sociomantic
+As a C++ programmer, D seemed less horrible.
+there HAD to be something better than C++, and Microsoft has a kitchen franken-sink problem.
+For fun. Best update from C ever. Much, much better design than C++.
+More powerful than C. Less messy than C++. Faster than C# and Java. Familiar C-like syntax.
+I was looking for a good programming language
+¯\_(ツ)_/¯ 
+Because it looked like C/C++ on steroids - in a good way.
+As replacement of C++
+I was sick of the inconcistencies and lack of features and ESPECIALLY the compile times of C/C++.
+To see if it's good for me to switch from C++. From the start, I found it very elegant and liked the syntax of templates.
+thought c++ killer
+seems sexy
+looked really good in the book
+I was looking for an efficient and powerful alternative language
+I found it promessing and far easier than C/C++
+It was new and looked good. Has better templates than C++
+I didn't want to learn C++
+Why not?
+cuz it rox.
+I wanted a sane C++
+compile time introspect
+Job requirement
+Interest for language of early period
+Writing systems level code can be a chore and I wanted to try newer concepts
+I thought that C++ is bad. D looked better
+Seemed like (and is) a modern well-balanced language capable of systems programming if need be.
+The C++ -> D transition is easier than to other languages yet has many features valuable to me: static reflection and static if come to mind. Also opDispatch is nice to have. Slicing is also powerful. And importing file + CTFE is a great idea. All of them save my time in some way.
+it's better than C and not so ugly as C++
+Looking for an alternative high-level language
+was looking for a replacement for python
+needed a general purpose language to automate tasks on my computer, replace my python programming, and compiles into a binary, wanted something 'next-gen' and not encumbered by ancient programming paradigms
+fun
+D-man
+Because it is an awesome language
+After a short while, I realized that I could shrink my codebase a lot, remove much boilerplate and make it much safer by default.
+I wanted to switch from poor lightweight languages to cool and powerful one, but that is not c++, c# or java
+interest and C++ is a stone across the throat for me
+it seemed the perfect language
+Seemed like a nicer language than C++ and I had a lot of spare time
+Because D is almost perfect for me (syntax, design, etc), I really like it.
+out of personal interests
+Work
+Interest in computer languages
+The first description contained the words: C/C++ and ruby.  Doing high abstraction coding resulting in machinecode.  Compiled language with benefits of traditional scripting languages. 
+c++ is very difficult
+Because it has performance + elegance
+Because looked like C++ as easy as Java.
+It has metaprogramming and contracts
+See it as a good alternative to C/C++
+I like D's syntax
+It is more high-level and elegant than C++
+It seems to be a perfect mix from most paradigms.
+For fun
+curiosity, excellent Andrei's book
+To write Windows apps
+Few things made me learn it - contracts, modules and packages, unittest blocks, immutable strings, unicode strings, neat syntax
+It didn't give me any reason to stop learning
+Thought it would be a better alternative to C or Python/Ruby
+Wanted a C++ replacement and was sick of binding Python & Java to C++ because C++ was too slow to develop in for business logic and Python/Java were too slow for compute.
+I hadn't learned a new language in a while, and the templating features looked really interesting without being as heavy as C++
+Read a feature short doc for D on the digital mars site. And using C++ in my day job it there was some very attractive things in D compared. So basically to work with an as powerfull language and become better - then just hope/work-for that D would become popular enough that it could replace C++.
+It seemed a modern C++ replacement for me
+Need something like pascal without circular reference
+It's the logical step for a C/C++ user.
+There were appealing features in the spec. 
+obviously better than c++
+Deep gratitude and respect for Walter due to c/c++ compilers and support. And the sheer jump of joy when another deeply rescpected creative original one in person of Andrei joined! The cooperation of those two is alway going to give something fresh, thrilling, fast, mind boggling, stunning beauty.
+to replace C++
+It seemed like a way better alternative to C/C++
+It was implemented many of my desire how to change C++
+performance hope for modern c/c++ replacement
+Because C++ is horrible. 
+Andrei's book
+Actually not sure. Probably out of curiosity of the "new C/C++", as I thought of D when I heard of it.
+Wanted to write some code that was similar to Java but would compile to native binary
+i like it
+Concise syntax, great abstractions
+I was frustrated with existing languages and searched for one that combined the best aspects of C++ and Java. D fit the bill better than anything I expected to be able to find.
+It was really exciting to do something at compile time
+Because I was sick of fighting with C++ and want to find something closer to my ideal of what a programming language ought to be.  TDPL made that sale.
+I took a lecture on D.
+I had a large C++ code base and it was an opportunity to rework it.
+because I like it.
+I wanted to try out a native language, rather then code in C# for the rest of my hobby life, and C++ was too confusing to me at the time (I was still new to programming), this prompted me to look for a new language.  After I had found D, it didn't take me very long to see it's beauty (UFCS, it's ridiculously powerful yet simple metaprogramming, an all around beautiful syntax, etc.) and I can't bring myself to leave it.
+Was looking for C++ alternative in 2003
+D is a compile language as well as C/C++, so I thought D is fast. And D's syntax is good for me.
+write some tools
+I'm sooo done with C++
+c++ was killing me
+I think it is brilliant and suits me well.
+I didn't want to write C++.
+Because it enabled me to do hard and fast things relatively easily.
+I set out to learn most powerful language I could find for my next hobby project.
+Andrei 's authority.
+Writing code in github
+I wanted a language just as fast as c or c++ but without header files
+As a personal quest to learn a native language, at my day job I have worked in a Windows shop since 1995 where I have programmed in C for 6 months, then switched to VB (the original one) and then switched to C# because I prefer the C style syntax. 
+Because of its beautiful syntax
+It made more sense than most other native languages
+for competitive programming first, and then do my research work
+I like it
+Better C++
+I wanted "Compiled Python"
+As a better C++ and as a compiled Java/Scala
+I was looking for a replacement to Python
+I wanted something other than C++
+I was and am frustrated by other languages, D offered a cleaner more sane syntax and safer code. It's gotten safer since then but maybe the syntax is a little less sane. Still better than the alternatives.
+self-taught
+saner than C++
+I'm tired of C ++
+Seemed the best middle ground between Java and C
+Walter's rationale for D compared to C++ (on the early D website) matched my own experiences with C/C++.
+Good fit for app I wanted to write. 
+out of curiosity
+C++ is too baroque, Java too restrictive
+Just for fun.
+I was sick of using C++
+It seemed like the perfect middle ground between C++ and C# I had always wanted. Its compile time functionality is out of this world.
+First contact with C++, looking for a pascal replacement
+1. because it is not C++ (great module system, no header files, sane templates, compile time reflection and code generation) 2. some task can be accomplished as easy as with python, but with better/faster code
+Looking for a better C++
+Really liked the syntax, its like C# but compile natively 
+It seemed like a place where people who like solving practical problems meet.
+Because it has nice features that C (or C++ as a "better C") lacks.
+i wanted to have better performance than php
+The ideas behind the language sounded promising. C++ done right. 
+I wanted a more productive C++
+Widen my knowledge
+Loved the clean concepts, the elegant syntax and the speed (both of compilation and runtime).
+C++ was too nonsensical and frustrating. People love saying C++ "doesn't get in your way", but it got in my way more than any other language.  D does what C++ does but is logical and fun.
+I was and still are mainly a "scripter" on UNIX-like systems but needed some tools on Windows some years ago. I'm knew some C and didn't want to care about GC's anymore, so.... D1 was my life saver Use D2 now/still in my company for the previous/old tools "just because I can" ;)
+unhappy with assember, pascal, c, c++, java and looking for a better language this languages are getting old, not powerful or too complex and ugly D look really nice and has power would like to use it for game development
+Job at AdRoll
+Seemed to have the best balance of features, it's a better in between option between C and Java then others.
+No admin rights required for me to install D at work. Python no, Java no, C# no, I tried them all, but D got through, so yeah, stuck with it ever since.
+Looking for alternatives to C++ for data scientists needing to program in high performance production environments.
+It seems like a good idea
+To use it for my bachelor thesis.
+I wanted something with comparable performance to C++ and comparable ease of use and compatibility to Python, D has delivered for me in these areas.
+I find the compile-time capabilities, UFCS, good module system enough to make me interested.
+Liked its performance/ease of learning
+Seemed it was far superior to other imperative C-like languages. This assessment was correct. Much more clean and readable, better build and package tools than the other languages.
+Efficient native language
+Powerfull templates and c like syntax
+Pure curiosity and I needed a fast native language. D outperforms C# in my complex voxel engine by 10x.
+I come from C# background, yet I found C++ very annoying. D allows me to quickly write native, efficient applications and it feels so friendly.
+C++ seemed like a nightmare
+Pleasure to learn. More time to focus on the problem
+Want to use it instead of C++
+Evaluate its template and metaprogramming, in search of a tradeoff between C++, Java and Python.
+For fun
+Work, its neat
+I'm curious about PLs
+Ranges  was so cool when I first heard. I liked to come up with one liners .
+frustration with c++
+i wanted to do C but without pain
+CTFE.
+Curiosity, self-challenge
+Reinvesting a lot of time spent on C++
+C++ had been stagnant for a while in 2009 and I had matured and my views on what really mattered changed.
+To see what it offers in comparison to C++ and Java
+It provided good performance and allocation flexibility but less ugly than C++
+It's powerful and expressive. Better/easier metaprogramming and functional programming than any other systems language. Ranges are awesome. Easy to learn multithreading. DUB is decent.
+to seek a valid alternative to c++
+It seemed interesting
+Seemed a good compromise in comparison to c++
+I was looking for an efficient, native alternative to Python, C was C, and none of C++, or Rust really hooked me.
+anything seemed better than PHP at the time
+Liked the concise syntax while allowing to write low-level and complex stuff easily
+Improved templates/metaprogramming over C++
+I liked it.
+I wanted to learn C++ to make a game, but then found D to be better
+it promised to be fast and low level (had ASM blocks) and still had nice arrays and I thought it had good string support
+I wanted to learn a language that executed at the metal
+Need to be able to write low level apps without being burdened by C.
+i wanted same high level language as c#/java but that compile to native, i found D! but lack of IDE support is annoying..
+I was looking for an alternative to C++ and various features of D looked like they would make writing code much easier.
+Fun
+Because I want to like C++ but it's grown into a monster and D is much closer to the language it should have been.
+Lets me write less code than C++ but can be as fast
+It's like C++, but you don't want to shoot yourself after you've written something.
+I was at the time highly displeased with Java, C# and C++
+Promising alternative to C++
+I wanted a lower-level alternative to C# without losing the clean syntax.
+Natural continuation of C
+Because C++ sucks and C doesn't have templates and classes and Ruby is not compiled.
+Discovered the Programming in D book online and was intrigued. It just became a book I decided to read, with an interesting interactive element.
+C++ talks by Andrei
+Because it's a language that is filling a gap in the market. Now with languages like Rust, Go and Crystal that gap feels tighter, but before D, there was a need for a language that lies between the low-level dirty C/C++ and high-level managed heavy-weight JVM/CLR runtimes.
+I liked the language.
+I liked the look of the language
+I had Java and C experience and it seemed like the best of both worlds
+Fast language and liked the technical approach Walter showed in newsgroup
+Because I was tired of iterator hell in C++ and ranges/slices are so much better to work with (most of the time). 
+I was a C++ fanboy at the time, and thought it looked familiar, but with some very interesting features.
+out of curiosity
+Because it looked amazing on first sight
+a similar language was needed
+For the job.
+I hate the needless complexity of C++ but need performance, some OOP features, and cross-platform support.
+Initially: Obsessed with the newest and greatest. Eventually: Saw advantages of D over existing languages, including C/++/#, Java, PHP
+C++ is too bloated, slow compiles, too complex due to back compact. Need a native, non-GC language, and Rust (the only other contender I see) is too radical and too hard to quickly prototype in
+I already knew C++ and it looked like a compelling language + I knew of Andrei and thought he was a pretty cool dude from talks by him that I had seen
+wanted to get rid of C++ and its linker errors (header/source separation)
+because everything else is even more fucked up
+I really dislike the bloat of C++, it has such a huge barrier to entry and having to maintain header files was just crushing to my productivity. Having come from Java/C++, I felt that D was positioned perfectly to let me just get on with programming. I was also fortunate enough to become a postgraduate student and could develop models in any language I wished, without dependencies.
+Because it looked really neat! I saw some really great code examples that showed off some of its coolest features.
+DConf 2013 videos made me interested. Reading TDPL got me hooked.
+Because C# was not getting me high enough anymore.
+frustration of C++
+I wanted a C without the warts.
+In hope of a better C
+I thought it was an interesting and productive language (and rightfully so)
+Needed a compiled language with memory safety and convenience
+Seemed a good midpoint between c and java
+it looked like exactly what i love
+I'm get enough of thinking about C++ instead of thinking about architecture
+Other current language offerings are lacking.  D has a lot of potential
+Coming from Python and C++, it was refreshing
+Replace use of C/C++
+It had lost of nice features, was clean but powerful
+Annoyance with C++.
+Because I used C++ and D is way better than C++
+Because it seemed as time saver for GameDev
+It had cool features and generated fast code.
+learning new languages is fun
+Not R, faster than python, better templates than C++
+Wanted to learn C++ for a personal project but found out D was way better and enjoyable.
+I wanted a language that had the power of C++ and the safety of Java.
+Work
+It looked interesting.
+Wanted a fast language and alternative to c++
+I was sick of how C++ treated me and it looked cool
+No more C for me. No C++ ever again.No header files. JVM/.NET is sometimes not fast enought.
+I wanted something better than C and D works well with C libraries while producing fast code.
+Trying something new
+I was sick of C++
+At works we were looking  replacment  for PHP on one of our projects, we want something fast as C++, but without headers issues, with better memory managment, with fast compilation times and nice syntax.
+To learn programming in general
+tired of C++ self-endulging evangelists 
+I want my C to be safe and not as complex as C++
+Only language that got C and knew how to extend it in the right way (C++ is completely bonkers and they never understood C, even if pretending to extend it).
+It was the real c++ :)
+Interested on a better C and Java alternative.
+Because I like(d) it...
+I always wanted modules and painless  dependency management in C. Hated autoconf and CMake.
+For fun.
+It looked clean and I was frustrated with C++'s overly-bloated syntax.
+Fast native code, but nice abstraction
+C++ was frustrating
+Because I don’t want to fall into the C++ trap/nightmare of metaprogramming hell
+It has everything I need, and it lets me do what I want without telling me how to do it. I can do OOP, I can do functional, and I can do imperical, and all feels nice
+I was searching for an efficient and elegant language
+Looks easier than c++
+I hated C++ and needed more than C
+Seemed like a saner C.
+Seb
+C++ seemed like a dead-end
+I have to work in D
+Looking for: a) Native compiled language for data scientists; b) A better language than C++ for large, performance sensitive applications.
+It struck me as approaching the perfect language.
+I liked what I saw when I looked into it
+Got nothing better to do

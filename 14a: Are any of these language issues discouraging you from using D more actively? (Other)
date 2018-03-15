@@ -1,0 +1,92 @@
+No Fortran interoperability
+compiler regressions and brown-paper-bag bugs
+I don't know.
+Lack of widespread adoption, especially in science area.
+Less reliance on C or C++ practices, better to switch to the direction of GoLang, enforce strong code API design guidelines to encourage simple and useful implementations.
+Not enough abstractive
+utf-8 auto decoding, bad compiler error messages
+Python's numpy is awesome and matplotlib is ... well, matplotlib is a thing I use. 
+Community too small. Will D stay for longer time?
+reluctance to make breaking changes in the language to fix major problems. nogc, noexcept and pure should all be assumed unless otherwise annotated (tooling could do annotation by default 'ala goimports)
+Missing IDE support, a community-driven proper D language server (following language server protocol) could do wonders for D
+lack of library ecosystem
+phobos always linking statically
+I would use it a lot more if there were more packages however there is not much that can be done about this I think
+Lack of a good version manager, DVM is not really maintained anymore so I have to use docker 
+Incomplete/incorrect Microsoft debuginfo (CV8/PDB)
+The whole package doesn't feel complete. A bunch of 50%-85% solutions
+DIP1000 and betterC are unnecessary things that take away development time from other, more useful things but still make druntime/moduleinfo etc. modular so it's not required
+Code breakage 
+I not found my best IDE for D
+smaller community / popularity
+Interfacing with C and C++ requires manually re-writing of headers in D. This is a no-go when depending on several existing libraries. Also the lack of some features when interfacing with C++ (like constructors). I'm looking forward to the third-party tool Capylso.
+Lack of libraries to get me started on quick Project. Also I'm unsere about the correctness about some implementations
+Missing mac shared library support
+GUI
+Sometimes lack of clear understanding: when value are copied and when sent by reference
+Lack of time :(
+popularity, no one knows D, business does not want to take risks
+Being a systems language, it can't be integrated to virtual enviroments without complications
+lack of quality libraries and toolchain
+infrastructure of language: compiler integration to tools (DCD), no needs libraries, difficult using on windows (need visual studio), no cross-compilation (linux->win, linux->osx)
+Intel releasing a D compiler would be nice.
+To use it for web development the edit complie cycle time  increase by using of CTFE regex (vibe.d) makes using things like .php or rails still more convenient to me
+Missing libraries in the eco system. I wanted to use D recently for a cli tool, but could not find a module for password prompting (without echo).
+Code is becoming hard to read/understand due to abuse of UFCS, mixins, etc
+Lack of C# interop
+Phobos not moving fast enough.
+Lack of adoption
+Non-consitency; lack of holistic language vision
+Language evolves faster than developers can keep up. 3rd party libraries are regularly broken
+Windows as a platformer, and users of Windows, just seem to be completely neglected (I'd love win32.mak to *actually be useful* like posix.mak is)
+Support for WebAssembly
+Difficulty making adoption case to business/colleagues; perceived riskiness
+Number of users
+Dependence on microsoft linker or optlink on windows.
+GC in phobos 
+More than anything, libraries. I work in a world that relies on SQL databases, REST/SOAP calls, emails, document generation, LDAP/SAML connections, etc., so D would need libraries for all of these things for me to be able to use it at work.
+Lack of advertisement
+Effort being wasted on half-baked "solutions" like DIP1000/-betterC instead of pushing the language forward in a principled fashion
+I checked language complexity because I find "inout" confusing, and generating mixin code is like a whole different language (like the C preprocessor).
+the "D package registry" has too many dead or "not compiling" stuff and it's a try-and-error process to find something usable, if ever
+not language but i think it is deeply connected: the suboptimal tools
+Development of android support is slow
+My usage of D won't increase if the above issues are solved, since it's already my preferred language. I guess it'll just make my life easier, and hey, who doesn't want an easy life eh?
+Need better control of GC in some cases (eg. Avoid blocking all threads)
+I work in data science. Completely seamless python integration should be key -- I would rather work my backend in D than C or C++ in the long run. 
+bad IDE support. Visual D is relatively good, but still bad compared to C++ or C#
+Library development speed. Big third-party libraries such as vibe.d and Mir need support to elevate D to supreme usefulness with professionals.
+Poor IDE/debugging support.
+The GC is truly terrible. This issue is probably non-solvable.
+Lack of high quality libraries, eg, HTTP server, client (etc.curl is just crap)
+Lack of better AST manipulations
+Compiler memory use
+Small library ecosystem && willingness to align myself with what my colleagues already know to facilitate contribution.
+Spec quality
+IDE
+concurrency, shared libraries, DLLs need to just work and be easy
+lack of IDE support
+Compiler/linker bugs on big code bases
+Working with other people that don't already use D.  Issues with debug info on macos
+D doesn't have a strong identity, it's trying to do everything, spreading itself thin.
+Dub issues
+unfinished features like shared
+I'd like to use D at work, but we're missing bindings for OpenLDAP and oracle and an ORM that supports oracle
+Too many programmers are afraid of garbage collectors.
+Phobos and @nogc would be more usable together if we could capture a lambda's context by value
+3rd party libraries
+Bugs
+See the linked article. Also please add DIP1000 to the list of language misfeatures.
+Poor attention to essential ecosystem: alas, on macOS I'm still unable to have a decent debugging experience!
+Stability of compiler & Lack of long-term-support versions that don't break your code
+In the past it was libraries, but as mir improves I'm getting fewer excuses not to use D
+Using D for some projects would certainly be easier if the ecosystem of 3rd party projects were larger and better maintained, but it's not generally a showstopper. The biggest thing that has limited my use of D historically has been the fact that my job has been using C++, not D, and I was not in a position to change that, though my current job is finally one that allows me to use D.
+Would like to see D working in R like RCpp
+Lacking small and to the point DUB packages (e.g. D's Newtonsoft.Json equivalent) Many dub packages are monolithic
+"nobody's using D, too risky, too untested"
+setup of environment can be challenging
+Not a lot of D programmers, so I can't use it at work unless someone else can maintain it
+having to write C bindings for everything
+GC, C/C++ single-header libraries
+Quality, too small ecosystem
+Lack of surrounding frameworks, like DB integrations.

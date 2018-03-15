@@ -1,0 +1,29 @@
+lack of C interop tools (e.g. possiblity of directly including C headers), lack of cmake integration. (ideally you would be able to gradually replace .c with -betterC .d files in a cmake project)
+Debugging isn't poor but D function calls from GDB would be awesome
+Too much reliance on package managers.
+shared libraries on OSX still not supported
+Difficult to build using external libraries
+Better Android support 
+Build infrastructure for bigger projects
+I want to create high quality IDE support but the frontend is unusable due to memory usage
+Poor mac tooling 
+Depend popular C libraries should be able to build by D building tools, otherwice it is lead to rewriting C code into D.
+dfmt plugin not compiles for VS Code recently
+no support Qt == Lazarus
+dmd memory use
+Unreliable dependencies in dub repo.
+Compiler too big of a memory hog, basically unusable on low-memory systems.
+I don't touch debuggers for D now, I just do old fashioned writelns and carefully going over the code, with different made up inputs
+Dependence on microsoft linker or optlink on windows.
+I really would like DCD's amazing functionality in VisualD
+not only "non-enterprise" ide support, i would better say: no great, really stable working, feature rich ide support
+Mix of C/C++ development with D via make/cmake/dub
+No "clang-format"-quality formatter. On a scale from 0 to 10, clang-format is at 9, dfmt is at 3. 
+IDE autocomplete
+lack of code formatters, code completion plugins
+refactoring tools even the simplest
+dub's situation does not discourage me from using D, but it certainly can make it harder than it would be with a more flexible build system.
+DCD just don't work reliably for me.
+Unconventional platform installations are problematic (no admin rights, proxies, offline etc.)
+Lack of editor support. No, only syntax highlighting is not enough. I want linting, suggestion and formatting in common editors like gedit, geany or IDE like GNOME builder. Rust is miles ahead as it has a language server. It even supports GNOME builder. 
+More direct use of C headers and libraries without obscure tool use

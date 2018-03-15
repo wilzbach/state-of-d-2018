@@ -1,0 +1,61 @@
+I don't know.
+std.crypto, datetime format
+std.net.http std.net.sctp stdx.net.http.oauth
+std.immutable
+binary pack/unpack http://code.dlang.org/packages/pack-d and xattrs support
+std.decimal should include decimal128, this type is used in mongo and is very helpful
+would add more but inclusion in phobos + lack of versioning means API freeze and lack of progress
+numeric and matrix
+Repository interfaces
+std.plot
+XML
+please keep it small and generic instead of putting everything that's doable as library in it
+And so many more!
+Common widget set useful for Desktop and Mobile
+std.container.queue, std.container.stack, better std.signals
+Better compression modules
+Put some http & GUI lib already
+Good building blocks: DB, Serialization for implementations to share
+non-experimental logging
+All these are good but they would be fine as DUB modules as well.
+https://docs.oracle.com/javase/7/docs/api/java/util/Scanner.html
+a proper test library
+std.net (http + smtp + URI parsing)
+std.crypto
+std.build (dub as a library)
+std.stream, std.peg (i.e. Pegged in phobos)
+std.net.httpserver - std.d.compiler - std.reactive/rx/observable
+std.logger out of experimental
+I don't care what's stdlib vs third-party lib, as long as there's a good package manager that, unlike dub, is fully separated from project building.
+Windowing, event loop is druntime not Phobos
+std.plot
+Parsing and lexing modulw
+Networking
+std.http
+STD.logging
+Improvements to parallelism
+std.stream. how long has it been now???
+std.actual_containers
+better protable dynamic link library support;   runtime code loading/changing (maybe compiler, tool stuff?)
+As you can see, I like a "batteries included" philosophy. However, it's not a big issue, since there are several good 3rd party packages available, and dub makes it pretty easy to fetch and build.
+Ssh
+simple http server
+std.simd
+std.debug
+Mocking
+Better HTTP support
+cryptography (a standard way to bind to another library that just works is fine)
+std.yaml, std.logging
+encryption library
+asio - async io like https://en.wikipedia.org/wiki/Asio_C%2B%2B_library
+Http
+More range and metaprogramming utilities
+std.io 
+Better, more complete containers (not necessarily @nogc), a better socket solution, and an @safe replacement for std.mmfile.
+Concurrent containers such as ConcurrentDictionary<TKey,TValue> from C#
+std.database should interop with a CTFE predicate DSL
+std.dom
+multithreading utilities
+stb.build, to use rdmd or even a compiled binary for building. I want to write my build script in D, not JSON or similar
+std.io, leave the rest to dub
+Memory friendly associative arrays

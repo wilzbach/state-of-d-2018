@@ -1,0 +1,20 @@
+not suitable for http/grpc microservices
+Need D Beginner forum because D Learn is advanced/intimidating 
+Tried dub a few times, every time was painful and confusing and left me wanting nothing to do with it. The community's reliance on dub made it harder to figure out what to do for non-dub cases (like work would have to be) too.
+maybe too much trying to accomodate every single developer, no matter the interests of said developer instead of focusing on a few strong aspects (see betterC, DIP1000, @nogc, all of these aren't really necessary, but were started in response to reddit comments)
+Annoying community when people mention issues.
+Missing machine learning libraries. This could be a huge marketing opportunity (like Python with Keras, etc)
+libraries suck.
+Using a dub dependency is risky. Most of them are maintained by a single person, who could walk away at any moment
+dub is an all-or-nothing walled garden. Either you subscribe wholeheartedly to its philosophy, or you're left out in the cold. It's slow, difficult to configure, doesn't fit into the way I work, and requires constant network access.  It's a great package manager, but a rather poor build tool.
+extremely poor quality of documentation of 3rd party libs: rather roll my own for small use cases, high threshold to use big libs like gtkd, anything mir; also: not all libs support all plattforms/windows
+Sometimes you would wish packages on code.dlang to become more mainstream, like phobosx to replace std.signal or reggae to get out of alpha
+No good tutorials for creating graphics (using OpenGL or the Windows API)
+to H: d-tour is great, but some more stuff will be nice
+Hard to justify using D in enterprise projects, except microservices. Go and Rust took off simply because it's easy to convince people when there's a ton of evangelism around (even though they're not more pragmatic choices)
+ Also, package curation is a problem, most Dub packages end up being version 0.1, never to be updated, or 0.1 is the updated version, it's often hard to tell.
+Stubbornness of peers who fear new things.
+None of my classes give me the opportunity to use it! >:(
+Many of the libraries on code.dlang.org do not give the impression that they are either particularly complete or well-maintained.
+Few tutorials on best practices. The scope of D is so vast that it's difficult to learn how to structure a project.
+Integration with existing C headers and libraries without conversions

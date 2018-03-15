@@ -1,0 +1,261 @@
+GC halting threads, it would save us from avoiding the GC in some code.
+That slices of dynamic arrays don't return copies.
+Expensive template compilation
+Probably DDoc's inconsistency WRT markdown (as in, part works, part does not. Macros are horrible to read and should not have to be used 99% of the time.)
+That allocator package that seems like such a great idea is still experimental and not quite working.
+Slowness of some math functions (atan example)
+Adding "-O -release -inline" to your build is dangerous.
+Abuse of mixins/templates.
+Lack of dub documentation
+Nothing.
+mixins, because IMO they are creating a easy escape when you couldn't find on yourself a good OO design. Templates also because of the same reason.
+Having to put an empty default section in every switch statement (not the worst thing but it annoys me every time :-) 
+I don't know.
+concurrency approach
+Default gc.
+Too much reliance on the weird abstractions around "Ranges".
+Unfinishedness of shared
+foreach enumerate sometimes does not work as expected
+nothing
+Implicit conversions between signed/unsigned, char/int types.
+Template constraints/specialization
+ 
+What's the difference?
+some simple things are ugly. Iterating over the characters of a string as a range?
+CTFE+mixin
+All the attributes
+I often don't know the type of something. Like, say "auto x = lazyMap(f,ar)" Now if I want to write a function that takes in x, it would be something like "void foo(LazyMapResult!ContainerType!<50 characters omitted> x)" and the documentation often won't say what type lazyMap returns. 
+slow gc
+cannot have an AA literal
+See above.
+Range autodecoding
+GC, complexity.
+I wish there were a way to make DLLs that forwarded runtime calls back to the executable's runtime. I use DLLs for code hot reloading, and want to be able to use D's features without having to restrict myself to betterC (or making runtime hacks which has been my current strategy).
+auto-decoding strings; can't unittest a single file; attributes sometimes getting in the way of getting things done; 
+Nullable types by default, module system that does not allow for one class per file in OOP settings (class "Foo" in module "Foo" requires defining class "SomethingElseThanFoo" in module "Foo" and then aliasing it back to "Foo" everywhere) - not a fan of dropping everything related in one module, certainly not when tooling is nonexistent, since it prevents simple fuzzy file name searching as a workaround
+Complex GUI development
+not sure
+Compiler memory usage
+A tool issue: Maybe I'm not up-to-date about htod/swig/dstep possibilities (I still do C-bindings manually for D), but I recently used Rust's bindgen tool for an automatic C library binding on-the-fly: Though not yet extensively tested, the result looks promising and it worked smoothly: I was really impressed and would love having the same (timesaver) for D.
+-
+Pervasive use of unsigned integers, they shouldn't be used for numbers in business logic
+Symbol length explosion in heavy templates
+Obligatory GC
+many regressions/bugs in compiler/standard library
+Metaprogramming, it's spread across too many features
+protection attribute of __traits() should be bypassed
+-
+Immutability implementations mostly sucks
+inout/ref confusion, more emphasis on param qualifiers
+integration with C/C++, is nothing new and could be great if I can embed C/C++ blocks directly
+GC requirements in the runtime.
+Probably I don't care much for better C mainly because I don't use it
+ integer overflows
+enum
+Automatic conversion of byte expressions, like "a * b" into integer expressions.
+The lack of algebraic data types and pattern matching.
+auto-decoding strings
+No implicit conversion == noisy code (lots of casts), can't rvalue -> ref, virtual-by-default.
+Mutable by default and automatic promotion of numeric types (eg. int -> long done implicitly)
+Naming in Phobos
+Lack of manpower
+Difficult to interpret compilation error messages (but I haven't encountered that many in the past year or so to be honest, so maybe it has improved)
+no idea
+Stability, const
+Regressions!!! 
+Nothing
+Embedded documentation. Sure it helps a lot about documenting the code, but people tend to not use it properly.
+GC
+Lack of control over the GC
+string mixins, they make static analysis really tricky.
+CTFE compile time memory usage.
+Poor error messages
+Use of 'long' for array lengths maybe ?  Causes lots of excessive casting
+Issues with DLLs under Windows.
+Virtual by default.
+slices sometimes need the runtime even if I know they won't allocate
+Universal function call syntax (explicit is usually better than implicit for long term readablity)
+Modules and namespaces can be tricky sometimes.
+Windows install!!
+Depends on GC and no easy way to add manual memory management and/or custom memory allocators integrated with D syntax.
+Initial learning curve.
+string based mixin
+I dislike them all equally.
+CTFE and ranges
+Problems with shared
+Issue 5710
+to!int not stripping newline at end
+I think the ~ operator to concat strings is the right answer here. :-)
+Templates
+Fast compile times / bad tooling
+Poor performance of GC.
+unittest
+speed of CTFE
+linking
+none
+It is long survey. I want to sleep
+Shared. I would say there hasn't been enough emphasis on explaining how to correctly work with shared and the compiler verification of  it.
+@nogc
+Overreliance on templates/meta programming in some std features.
+GC is not good quality - false memory leak
+crashes caused be issues with contracts like Issue 15984 - [REG2.071] Interface contracts retrieve garbage instead of parameters 
+Habituation
+Template Constraints. It is greate as idea, but makes a lot of noize in code. I feel lack of good algorithm of choosing of better implementation.
+Autodecoding
+I could not choose one. I will list a few: slices, static reflection, mixins + static reflection together, import("my.file") + CTFE.
+dynamic arrays & string functions, classes
+Can't make a default constructor for structs
+ 
+Ranges
+bugs as is
+You can't tell if Abc is a value/reference type without looking whether it's a class or a struct, I'd prefer explicit star/ref notation
+Sometime increase of compilation times (using regex)
+Rebindable and Shared
+None till now. 
+UFCS feature
+inout maybe?
+auto decoding
+Const (although I can mostly ignore it)
+I cannot easily run specific unittest (unittests are too simple, the testing system needs to be refactored)
+error messages from template code
+Shared.  It makes working with multiple threads painful or impossible.  I've abandoned multiple projects at inception for that alone.
+"shared" not being a fully baked thing yet.
+readability and fast compilations
+The zoo of type qualifiers
+15984. It's embarassing.
+ice, garbled debugging info, incomprehensible error msg
+shared
+N/A
+increasing inner non-consitency
+-betterC
+Some compiler releases have been broken
+simple module addition
+No line numbers in Linux stack traces, and the Error class.
+Huge memory consumption of CTFE
+The new int promotion rules.
+Wrong defaults.
+@property. It is completely useless outside of self-documentation. I feel it's fine to let any function be called without parameters, but @property should be the only way to let a function be called like so: `writeln = "Hello World";` serving also as a prime example of why any normal function *shouldn't* be allowed to be used like that.  shared... I feel it's just never gonna be finished.  While I understand *why* and agree with why structs can't have default constructors, I still find it gets in my way sometimes (I  have to opt with a MyStruct.default_ static function)  I have been bitten *many* times by code such as "a => {blah;}" acting as a "lambda that returns a lambda that does blah" rather than "lamba that does blah".
+attributes
+Sometimes, implicit type conversion of a class that has alias this fails and it points wrong address
+Can't pass lvalues to ref args. Storage class distinct from type-constructor. No implicit conversion when calling functions/construction leads to pointless and tedious explicit conversion.
+@nogc with Exceptions
+alias this teasing that it can give me what I want
+Reliance on microsoft linker and optlink on windows.
+dub
+Stack allocated class instance
+The GC
+I don’t like property syntax for function calls (eg: I don’t like foo.writeln, but I’m okay with foo.writeln()), but I don’t know if it’s necessarily my least favorite 
+the sign of the integer division remainder should be same (if not 0) as the divisor, not dividend.
+Version statement don't support && || !
+C integer promotion rules without compiler warnings/errors
+Feature: Use . operator for everything like reference, pointers, modules, members, etc. Bug: Lack of real RAII
+Dynamic array literals
+Template bloat/error messages
+auto-decoding
+Auto-decodeing strings
+meta-programming is three incomplete, buggy, overlapping system (templates, CTFE, and string mixins) instead of one polished, unified design
+static foreach
+Difficulty in debugging CT features.
+UCFS and auto because they feel ambiguous.
+GC needs a rewrite
+the const system. After trying to use it for a while I felt that it's more trouble than worth. I've completely stopped using const/immutable. Somehow the pieces don't quite seem to fit together properly.
+CTFE
+Regex compile times, Windows linker shenanigans, AA string keys needing .dup to avoid stomping (has that been fixed?)
+DMD backend regressions
+- C integer promotion - limitations of alias - C style switch statement (should have been replaced by something sane)
+259
+@pure @safe etc..., I use them but honestly it just make code harder to read
+Forward reference errors.
+GC :)
+code.dlang.org crashes
+Incidentally, when a skilled contributor leaves the community for what appears to be social rather than technical reasons. 
+GC-managed dynamic arrays and slices really shouldn't share a syntax, it's hard to teach and I *still* get bugs as a result of it when I'm writing code when tired
+writeln(foo[] + bar[]);
+the various needed convert's like from/to strings, ranges, ...
+not so great or missing tools  gdb support in linux but not on windows  in gamedev gc is some kind of handicap
+Complex language semantics -- language could be a lot simpler
+None
+Autodecoding
+ERROR MESSAGES AND DOCS
+"Floating point exception (core dumped)" when dividing by zero on Linux, that is not caught by try-catch.
+UFCS
+@safe should not exist
+Attribute hell
+all the limitations w.r.t. multiple contexts.
+Cannot get  <lib> to work out of the box and there is no help available.
+New integral promotions
+constantly not working/existent tooling
+Enabling inlining with DMD breaks code.
+Incredibly weird and unreadable error messages in relation to Templates.
+Leaking private symbols aka 314 and its ilk
+Single context pointer
+Tries to be similar to C
+using `static this ()` to initialize maps in the global scope will more-than-likely introduce circular dependencies
+Compiler memory use
+The gc 
+Frequent OOM when using CTFE with no switch to say "take your time, take an hour if you want, use my disk if you must, but please just compile".
+template errors can be pretty obnoxious
+Strings as plain arrays without wrapper struct etc.
+Unittests inside the code --> hard to find the actual implementation of functions --> people don't write enough unittests.
+wrong default attributes + not enough attribute inference + const/immutable are too difficult to work with (Pony got this one right) + attributes integrate poorly with templating
+Default of @system 
+lack of IDE support
+The import visibility bugs
+Inout, alias this, integer promotion rules
+Big run time library
+shared, not necessarily the concept but that it seems unfinished/unsupported or maybe just not well documented
+I'm not sure.
+The garbage collector
+Optlink
+Inflexible type system (specifically classes) compared to Rust or Haskell
+shared
+Some error messages are really hard to understand.
+Sometimes I don't get a stack trace on a crash.
+Spotty debug info on macos
+CTFE/templates. Oh the irony, D was supposed to fix C++ problems with long compilation, but thanks to CTFE/template expansion it brings it's problems back. Also, such mechanisms like CTFE break tooling, because you can't really parse the code without bundling a compiler with the IDE (which was what D authors criticised C++ for).
+Difficulty debugging.
+Not one in particular, many small bugs that sit unfixed
+I'm looking for more formalism (proof level) of written code and really bugs me when there is something that isn't correct.  Often times, this is the C-legacy getting in the way.  I would prefer to have limited different semantic options within C-blocks vs native D code.
+Issue 5710, without a doubt. It *needs* to be fixed.
+I do not know
+Shared not working.
+Guesswork on GC collections
+Multithreading behavior is highly tempermental and the error messages could be more informative.
+Not having const function parameters by default
+GC, exceptions, defaults I don't agree with I guess and the implications these things have had on Phobos for example
+control statements without curly braces (blockstatements)
+So many function attributes and the confusion that results. Pure @nothrow @safe alongside in out inout etc.
+The fact that I can't really get a proper full stack trace (at least on Windows?)
+The "attribute soup" of `@safe @nogc pure nothrow`, especially when @safe and pure should be the default.
+Inheriting nonsense from C.
+gc
+Community / management
+Yes, I like GC, but not as obligatory.
+Delegates can only have a Single context  Pointer which effectively prevents you from using e.g. parallel.map in an Operator chain
+Difficulty with gtkd documentation.  It sucks.
+shared, DIP1000
+Ubiquitous use of runtime TypeInfo for information known at compile-time.
+No macOS exception line info
+Auto-conversion to int for types like byte. You clearly want to work with bytes and accept the behaviour of bytes. It feels too far from the metal.
+Complexity is reaching high levels... C++ feelings (though I know C++ is much worse even)
+The tooling needs continued refinement, front to back. 
+OPTLINK
+Whatever Ilya says is his least...
+Auto-decoding would be the biggest pain point, but a lot of the implicit conversions come close (e.g. the fact that true can be converted to int without a cast or that integral types implicitly convert to character types, which causes fun problems when doing stuff like appending to strings).
+The large amount of runtime needed just to compile simple code.
+C auto casting of int / uint / bool / ... this should be a OptIn feature for extern(C)
+Big install on Windows
+slow CTFE
+too few people use it
+Not knowing how to do CTFE based development and blocking on it for two years.
+shared
+If this counts as a bug: no debugger on macOS
+GC.
+GC
+missing includeC 
+Convert C header file to D file
+GC
+GC is the best and the worst feature at the same time.
+dub
+Auto-decoding
+import leaks

@@ -1,0 +1,341 @@
+#
+Do you use D?
+How happy are you with D?
+Why did you stop using D?
+What has prevented you from using D?
+"The D Programming Language" by Andrei Alexandrescu
+tour.dlang.org
+Language specification
+#d IRC on freenode
+D Forum: Learn
+"Programming in D" by Ali Çehreli
+Professional training
+"Learning D" by Michael Parker
+"D Web Development" by Kai Nacke
+"D Cookbook" by Adam D. Ruppe
+d-idioms
+Other
+How would you rate your experience learning D?
+What were your biggest hurdles when learning D?
+How would you rate the quality of Phobos's (Standard Library) documentation?
+What do you dislike or find lacking about the documentation of Phobos (Standard Library)?
+How would you rate the importance of having documentation and error messages translated into your native language?
+How do you rate D's website (dlang.org)?
+Does dlang.org's frontpage provide an informative overview to you?
+What do you dislike or find lacking about dlang.org?
+Have you used the DTour?
+How would you rate the quality of tour.dlang.org?
+What, if anything, do you dislike the most about tour.dlang.org?
+Do you read the official DBlog?
+How would you judge the quality of the content of the DBlog?
+What do you dislike or find lacking about the DBlog?
+Do you feel welcome in the D community?
+D Forum
+#d on IRC
+#d on StackOverflow
+dlang.slack.com
+My colleagues
+I don't need help
+Other
+How helpful were the answers to your questions?
+Should we switch to StackOverflow instead of using D.Learn?
+Do you prefer a different option for asking questions? If so, what and why?
+Has upgrading the compiler in 2017 broken your project?
+What is your tolerance for stability vs. breaking changes that fix "warts", inconsistencies, and/or historical baggage in the language.
+How regularly do you use D?
+Web development
+Desktop applications
+IoT
+DevOps
+Security
+Game Development
+Big Data
+Embedded Systems
+Machine Learning
+Kernel Development
+Science/Research
+Other
+Official Windows .exe installer
+Official tarballs
+Official .rpm packages
+Official .deb packages
+Official OSX dmg installer
+Official dlang.org/install.sh script
+d-apt Debian/Ubuntu
+Arch Linux
+Homebrew
+Gentoo
+Choco
+Docker
+I didn't install D
+I compiled D from source
+Other
+2.079.0 (nightly)
+2.078.3 (latest)
+2.077.1 (latest LDC)
+2.076.1 (static foreach)
+2.075.1 (removed built-in .sort)
+2.074.1 (compile-time format checking)
+2.073.1 (new Ddoc theme)
+2.072.2 (native TLS on OSX 64-bit)
+2.071.2 (import access check fixes)
+2.070.2 (alias as a function literal)
+2.069.2 (initial Objective-C support)
+2.068.2 (last C++ release)
+D1
+Other
+What's your favorite D compiler?
+Linux
+macOS
+Windows
+BSD-variant
+Android
+iOS
+WebAssembly
+Embedded
+Other
+dmd
+rdmd
+dub
+make
+cmake
+meson
+scons
+Other
+Do you or your company use D at work?
+What's your main editor?
+Other
+How satisfied are you with your editor's D support?
+Have you ever reported an issue on D's Bugzilla?
+How satisfied are you with D's Bugzilla?
+What, if anything, do you dislike about D's issue process?
+What, if anything, has prevented you from opening an issue?
+ How happy are you with the D compiler?
+If you could wish for one thing for the D compiler, what would it be?
+How happy are you with the language syntax?
+What, if anything, is bothering you about the language syntax?
+tuples
+string interpolation
+in-place struct initialization
+named arguments
+assert diagnostics
+language binding to X
+multiple alias this
+UDAs for attributes
+@mutable in immutable
+static break
+writing files at compile-time
+UFCS for local symbols
+Static inheritance
+Nothing - D is already awesome
+Other
+Do you use -betterC?
+How would you rate the quality of D's specification?
+What do you dislike or find lacking about D's specification?
+Do you use Phobos (D's Standard Library)?
+How do you feel about the amount of legacy code in Phobos (D's Standard Library)?
+Is Phobos's API intuitive for you?
+Can you easily find what you need in Phobos (D's Standard Library)?
+Nothing - Phobos (Standard Library) is great
+Auto-decoding for strings
+Auto-decoding isn't nothrow
+Poor naming choices
+Old modules like std.outbuffer or std.socket
+Reliance on the GC
+Fear to do breaking changes
+Other
+@safe for all modules
+@nogc
+DIP1000
+Performance
+More -betterC support
+More/better container classes
+Other
+I'm happy as is.
+std.eventloop
+@nogc containers
+better json serialization
+better xml serialization
+std.graph
+std.database
+std.i18n
+std.benchmark
+std.decimal
+std.color
+std.image
+std.drawing (2D)
+Other
+Which parts of Phobos (D's Standard Library), if any, do you find difficult to work with?
+std.base64
+std.bigint
+std.bitmanip
+std.compiler
+std.complex
+std.concurrency
+std.container
+std.conv
+std.csv
+std.datetime
+std.demangle
+std.digest
+std.encoding
+std.exception
+stdx.allocator
+stdx.checkedint
+stdx.logger
+std.functional
+std.getopt
+std.json
+std.math
+std.mathspecial
+std.meta
+std.outbuffer
+std.parallelism
+std.path
+std.process
+std.random
+std.regex
+std.signals
+std.socket
+std.stdint
+std.string
+std.system
+std.traits
+std.typecons
+std.uni
+std.uri
+std.utf
+std.uuid
+std.variant
+std.windows
+std.xml
+std.zlib
+std.zip
+What else, if anything, is bothering you about Phobos (D's Standard Library)?
+Have you contributed to dlang on GitHub?
+How would you rate your experience?
+What went wrong?
+Finding good issues to get started
+Time is my only enemy
+Personal laziness
+No roadmap
+D community
+High barrier to entry
+I don't use D
+I am just starting to learn D
+Other
+Nothing
+Language complexity (e.g. inout, abuse of mixin)
+Missing language feature X / not moving fast enough
+Missing Phobos (Standard Library) module (e.g. std.database or std.eventloop)
+Non-perfect C++ integration
+Dependence of some language features + Phobos (Standard Library) on the GC
+Performance problems
+Issues with language feature X (e.g. shared, @property)
+@safe-ty problems / missing DIP1000
+Other
+Nothing
+Poor Phobos (Standard Library) documentation
+Compiler regressions
+Poor compiler error messages
+Poor GC implementation / performance
+Other
+Nothing
+Non-enterprise IDE support
+Poor debugging
+dub
+DLL support on Windows
+Missing support for platform X
+D's dependence on a large and bulky runtime
+Other
+Nothing
+Auto-decoding of strings
+Attribute bloat
+Virtual by default
+Wrong defaults (e.g. not @safe by default)
+C behavior without warning (e.g. signed to unsigned comparisons)
+Ugly bits of the standard library
+Other
+Nothing
+Fewer third-party libraries than other language
+Less corporate support (including jobs) than other languages
+Little marketing / no evangelists
+Few showcases / flagship projects
+Little info on StackOverflow
+Missing tutorials / documentation in spoken language X
+Lack of good examples / tutorials
+No good point for learning D
+Few transition guides from programming language Y
+Other
+Nothing.
+Too much low-level focus (C/C++)
+Frequent breaking changes
+Lack of progress on DIPs
+Lack of focus at the management level
+Wrong decisions at the management level
+Other
+Do you think D has other weak points?
+How would you describe D in three words?
+Where did you hear about D the first time?
+Why did you learn D?
+What's your favorite D library?
+Ranges & std.algorithm
+Mixin
+CTFE (static if, static foreach)
+std.meta
+std.traits
+Performance
+Native interoperability with C
+Readable syntax
+UFCS
+-betterC
+Closeness to C/C++
+Simple, but powerful module system
+Templates
+Built-in documentation (Ddoc)
+Built-in unittests
+In, out, ref parameters
+@safe strings + arrays
+Garbage collection
+Inline assembler
+Contracts
+Debug attribute
+import("myfile")
+std.concurrency & std.process
+Multi-paradigm
+Functional programming paradigm
+Other
+static foreach
+opt-in GC and runtime
+DMD as a DUB library
+Templated vector operations
+Compile-time format string checking
+-betterC
+stdx.checkedint
+New range functionality (substitute, slide)
+toString with output ranges
+Deprecation of the integral promotion for unary operators
+Back referencing of mangled symbols
+Reproducible builds
+Removed prelude assert for constructors & destructors
+DMD support for AVX2
+Automatic compilation of imports (dmd -i)
+Runnable examples on dlang.org
+docarchives.dlang.io
+Deprecation of the comma operator
+New third-party libraries (e.g. Vectorflow by Netflix or eBay's CLI tools)
+New third-party applications (e.g. Tilix)
+vibe.d 0.8
+Colorized error messages
+DCompute
+Cross-compilation with LDC
+newCTFE
+Other
+What is motivating you to use D?
+What's your least favorite D feature / bug?
+Would you or your company donate to the D Language Foundation (DLF)?
+Anything else you would like to share
+Tabs or spaces?
+Start Date (UTC)
+Submit Date (UTC)
+Network ID

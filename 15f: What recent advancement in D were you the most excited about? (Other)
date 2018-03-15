@@ -1,0 +1,16 @@
+None, I lost track with D's progress.
+Man, it looks like I need to upgrade my compiler!
+Don't make D more complex as it already is. So apart from the runnable examples, none of them.
+None of these are especially exciting to me
+calypso
+Deprecation of hex strings
+none really
+Again ... so many features focused only on higher level language designs. Nothing really for the poor guys doing to grunt work with web development. No wonder people use Go.
+-Dip1000 and possible continuations to it
+I think most of the language and runtime things on the list above are DISASTERS and should be rolled back
+Mir
+Memory safety features
+some kind of progress with mingw support, BUT it should only be some begin: real mingw-64 support is needed, so you can use the mingw-64 gcc and dmd to link together and use gdb to debug; so some ide's can also be used with D
+Toolcahin based on lld / MinGW - due to restrictive tech policy, I can't have MVSC, so hopefully this will finally enable me to have 64-bit windows executeables at work
+std.experimental.scripting
+WinSDK not required

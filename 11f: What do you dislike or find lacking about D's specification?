@@ -1,0 +1,112 @@
+I dislike the absence of a "final" variable where it's value can not be changed after the object is created.
+No formal grammar specs
+Nobody knows how "shared" works, and "inout" is nearly impossible to use correctly.
+Still not the same across specification and all compilers.
+Nothing.
+/
+Examples
+A bit too large maybe, but nothing particularly to complain about.
+It's adequate, but it doesn't enable someone not versed in advanced C/C++ to become a power user.
+I want to jump to codes in Github from the specification of functions.
+Too simplistic at times
+Parts of the compiler are still undocumented. E.g. __argTypes. It would be nice to clarify what is part of the language and which is just an implementation detail of dmd.
+./.
+Some restrictions are missing a rationale. The assembly syntax is specified for x86 only, is non-standard and ambiguous, and misses a few useful features.
+multi-threading
+The compiler does not correctly implement certain edge cases of CTFE and is-expressions OR the limitations are not in the specification.
+-
+Rationale again
+The grammar definition is quite heavy, with its operator precedence chains like OrOrExpression, AndAndExpression...
+Examples. It doesn't cover the whole language
+more detailed semantic for overloads
+it's kind of a meme?
+It feels poorly specified compared to C++, as if a lot of spec is defined by DMD's implementation.
+Not sure
+no idea, used it to learn D and still use it to look up features, fine over all, but never tried implementing it
+i unknown
+N/A
+Scope needs work
+A good, bug free bnf specification.
+More accurate search
+What specification? Is TDPL the specification?
+not sure
+tuple is not supported by compiler,want to write clearly
+no/weak better c
+Nothing
+It's not kept up to date and not everything is described in enough detail.
+I miss versioning of the D spec
+no comment
+Just some small things here and there. Nothing in general.
+N/A
+No, I can understand most of it.
+it is incomplete
+Not sure, I don't need to look in the specification usually.
+Sometimes does not match state of language implementation
+It should be available in the ePub format.
+Hard to read, get into it.
+It is far too vague.  Many of D's worst mistakes are because the spec wasn't precise enough, so that compiler bugs were treated as language features
+traits, symbols
+BN-grammar could be outdated
+I do not see much trouble
+Nothing.
+Much of the provided text is rather short, examples are minimal.
+N/A (It was 100% fine for me to learn the language from it, but I imagine there's nitty gritty techy flaws in it that I'm not able to point out)
+Nothing
+Start again, its not worth fixing.
+It feels less well specified than C++ for instance; I feel some amount of spec is implied by the DMD source, and I feel there are lots of language edges where features don't quite interact cleanly.
+nothing
+Has a very shallow hierarchy
+GC
+standardization
+(maximum guaranteed or reference implementation's own) (amortized or worst case, whichever will be ok) (without considering cache hit/miss, swaps) computational complexity of basic operations with arrays and associative arrays
+I find myself having to go to the specification for "how to do X" questions. 
+It is ok.
+The most important points (resolution of – possibly circular – forward references, etc.) are precisely the ones not covered.
+Info is often scattered around. Not all the details/info is in the spec, but in 'articles' or off-site.
+Not much, I just wish compile-time stuff was a little more like the everyday runtime D code. Aliases, enums--it all gets very confusing to generate code.
+It can be a bit informal.
+Nothing.
+Sometimes the specification and implementation are not in sync. 
+Sometimes it lags behind the implementation, e.g. for extern (C++) (or IIRC it did when I was working with it). It's also sometimes surprisingly difficult to navigate, though I can't quite put my finger on why.
+not sure
+It would be nice if it had more examples of language idioms in it.
+Lack of rigour. A lot is left to "you know, same as whatever you expect C to do"
+Parts are not complete ie SHARED NOGC SCOPE
+Not optimal for producing standalone libraries.
+Calling conventions
+It's bad thought
+docs get out of date, undocumented language grammar parts
+Not written with mathematical rigor but like someone explaining something.
+Needs formal memory model + fix many typesafety holes punch through by delegates
+Don't remember.
+None
+It lacks a complete grammar definition.
+seems ok
+It lacks rigour
+Some things are not clearly defined (or I can't find it). (should alias this work with templates? When can template types be inferred and when not?)
+hard to find on the website
+i don't know
+I feel like there are a lot of unintentional ambiguities in the specification.
+Inconsistency
+No real issues but sometimes it's difficult to know what to search for
+Better linking to the tour.
+Could be a bit more verbose.
+Seems like it needs a formal write up and tidy pass.  Right now, it seems more of a "working draft"
+Not really true (or outdated) in many cases.
+IIRC, there were some things that were meant to be guaranteed safe by the spec but were unimplemented in D. Cannot remember for the life of me what they were.
+Too focussed on the grammar.
+I don't know what parts are implemented or up to date.
+Incomplete
+Only real specification is DMD source code
+It's often inaccurate, imprecise, and/or unclear.
+It's pretty good
+Semantic lacks a bit of accurary
+it is incorrect at some places. or at least underspecified. 
+Nothing in particular.
+dont know
+Some specific topics are not well documented
+None
+Some parts are undocumented, some features is partially implemented. Some documentation is out-of-date and examples are missing (ex: extern(c++))
+It should be broken in smaller sections.
+ 
+holes in the specification, e.g. shared, @safe

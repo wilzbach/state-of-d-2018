@@ -1,0 +1,104 @@
+it should be more interactive
+The controls are too intuitive if that makes sense. I kept thinking, "is it really this simple?"
+Nothing.
+//
+Too long. Irrelevant.
+El desorden de ayuda
+nothing
+ 
+ 
+It's far too whirlwind - but I imagine that's what the spec's there for.
+Not informative enough for beginners 
+Like it a lot.
+nothing
+Nothing in particular
+should have an index so user can skip straight to a section
+Nothing in particular
+Sometimes it does not work
+-
+Minor things. Even though the next button makes you stick with English it should be in the list. It would make sense to make clear that 4/4 is a "chapter" and not the whole tour.
+its ok
+its okay
+Few examples. We need more applicable "in life"
+It's been like 5-6 months since I did it
+The code examples are a bit complex.
+ 
+It could use a menu to quickly navigate between different slides. Currently all I see is forward and backward without information about what's coming. When looking at a new language I tend to jump between interesting bits first and only then look at "boring" things.
+I love it. Nothing much.
+Web Server sample - not works for me
+It could be a little more verbose in some topics, maybe with more corner case examples.
+I want more trend term and cookbooks. ex) IoT, AI, statistics, VR, etc.
+Option to show disassembly like godbolt.org
+No complaints
+Only visited it after the learning from the spec, so I don't know. 
+Can no longer access the site due to an SSL problem.
+Missing side Panel to jump to a topic particularly (at least on phone). IMHO the tour is more focused in the beginning on the new big stuff that were added to D (especially that are Walter's currently Focus) rather than the classical D things that makes great already or that maybe aren't used a lot by the community but are very sexy to sell: - UFC - String mixins and mixin Imports - static foreach and compile-time evaluation - How simple function templates are, and the more sexy (T...)  - slices, foreach (they are there but just mentioning as they are nice to keep) - auto declarations and returns (already there also)
+It could use more content. I actually really like it.
+don't know — there are things to dislike?
+Need more advanced examples
+some things extremely simplified for an advanced D user
+nothing
+Do not remember
+more language constructs
+The name undersells it, as if its something for complete newbies to get a taste. Yet, its actually pretty large and in-depth.  Don't like that it is completely distinct from the rest of the documentation. Finally I find the tour somewhat unbalanced, for example there is no treatment of how to read a simple file yet a whole top level section is dedicated to multi-threading. As if the tour was made more to impress people new to D than to actually serve as a tutorial for beginners.
+few samples and code snippets
+lack of answers
+Some Examples can not be cut n. pasted to be used, because additional libs mus t be installed. 
+When I got to the first 4/4, I thought, "Is that all there is?" until it realised that there was more to the right.  Perhaps that needs to be highlighted more.
+Some examples doesn't work.
+Problems/exercises given there do not have solutions. And some more examples will be very helpful.
+The interactivity of it I like. The non-mentioning of D-warts I no like.
+Nothing, it is fine.
+It feels awkward to use.  I may need to revisit it since recent changes.
+nothing about how to make gui app
+more elaborated real-world examples besides simple (contrieved) examples
+needs more complex examples (advanced features are not promoted enough)
+I dislike the length & number of pages in the tour, considering their short length. I feel slightly overwhelm by the features discussed in the tour because of the tour's length. The number of features discussed in the tour is a credit to D, but perhaps they should be presented more concisely.
+There is a too steep increase in difficulty.
+It is not obvious that the navigation at the top is for the tour and not the regular dlang.org website. It is not obvious what location you are at in the tour, relative to the navigation at the top. Move the language selector to the top right of the UI, like in MDN.
+too poor
+Not much.  It is also pretty good.
+Too linear
+The order of topics seemed weird in several places. It was quite a while though and I do not remember what it was. Sorry about that.
+compiler version selection for explaining newer functionality like static foreach or std.experimental
+Nothing. It’s good
+I’ve only clicked on a handful of pages, mainly to try to help translate
+I can't find link to translated versions
+More ready to use examples.
+There is too much information. Click the "Basics" link, and my first thought upon seeing the list is "not reading that." The "overview" seems to have become a book; instead of documenting every feature, there should be a series of stops.  Start with the very first example, with the sorted chained array. That introduces modules, the type system, and ranges. There's no real need to have a full page to cover each one - the next step can show another type or two and teach functions (and use another range), and later on in the tour show creating range objects, etc.  Each step can build on the previous, focusing on simplicity rather than being an exhaustive data dump. But rather than throwing all of that out, there might be content in the tour that could be moved to the module documentation in Phobos.
+It is a very good starting point, some areas can be fleshed out a little more, but the included links to other sources like the wiki help out there. 
+I would like to create a library tutorial in the same format. More easily.
+Not complete enough
+No complaints here.
+unavailable from time to time
+not really dislike, but some stuff is not available in some of the other languages
+None
+Quality is good, I think quantity could be increased.
+Too long.
+Not a lot of information. But that's enough to arouse interest.
+Again, stick to real-world metaphors where possible. The text is thorough and the design is almost perfect. I'd change the first forward arrow on the front page from "Read in your language" to "Get started learning D" or "Try using D" or something similar. Make it clear what big button to click to start learning. And instead of asking them to install straight away, maybe have a clear link to the download and install instructions on every page, but use the web compiler for all examples.
+Doesn't go beyond basics
+Me gusta tour.dlang.org :) 
+it covers things inside the language itself, but doesn't cover tooling, etc.
+Lack of interactoin
+"D by examples" is a great idea - but needs many more examples.
+too short
+The explanations should make a decision on what _not_ to explain: first basics only, then later add some details. For example, the first page about imports and modules should just explain the basics; the last section "Imports match directories and files" is too much detail and fills the learner's mind too early with details. (also, the very first sentnce "One of D's core design ... turtles all the way down" is completely unnecessary text and distracts (in several ways). Similarly "The language doesn't expose arbitrary restrictions on you." is not true, of course it does, and is not informative; delete it!)
+Ugly.
+Good attempt to parcel out bite-size chunks, but tough to put it all together when all features are isolated.
+none 
+I think it's a great overview, enough to touch D's strengths without getting too deep. It's not great as a reference but I get that it's not the point.
+While it lists some components/plugins for example for vs code, there are not instructions for actually installing, quick guides to common commands, and how to actually use all functionality. I am never sure if my setup is broken due to something I did wrong, or if the plugin just doesn’t have the features I expect
+I haven't checked it out in a long time, no idea
+Error checking with the examples.
+ 
+It's been a while since I tried it. Hard to say.
+Needs more comprehensive examples.
+None
+Some sections are long. They try to cover to many things at once.
+Nothing in particular...
+N/A
+why does "synchronization & sharing" need safePrint
+I cannot say
+It's too jumpy. Similar tours just show syntax and you have to "go with the flow". The dlang tour has to much text and requires understanding too much to survive it. I gave up after a few minutes. Also it's not comfortable on a tablet, but that was a while ago so it may better now.
+That it isn't more prominent on dlang.org's front page.

@@ -1,0 +1,164 @@
+Slack seems like a good solution, but last I checked it wasn't public and required knowing someone to join/get an invite?
+I wish the subreddit were more active. I generally see that as a welcoming place.
+I prefer still having a forum. But StackOverflow is better for most uses and strategically important.
+I'm ok with forum and slack.
+comments within the phobos docs would be more helpful. ideally a curated collection of examples and snippets
+No
+No.
+/
+There should be a community driven how to/knowledge base , with working download project examples.    This way the standard library can be showcased, and then any other 3rd party libraries can have a how to 
+Not really.
+I haven't needed help, but stackoverflow has proven effective and questions answered years ago remain relevant today. The forum is alright, but it doesn't have the same infrastructure and conciseness of stackoverflow.
+Please don't ditch internal forum in favor of SO. When I say a project "outsource" its support to SO, I think to myself: these people are not serious and are just avoiding responsibility.
+No
+Si, un lugar o canal mas ordenado y ramificado (podrian abrir un canal de Discord) 
+cos' my talking skills in English
+No
+It's not super important to me, but D might get more exposure if it was on something like StackOverflow
+ 
+The questions and answers are more curated on stackoverflow. I don't want to browse through pages of comments to find out the answer of a quick question.
+I really like StackOverflow. But there are not that many D questions, therefore I am unsure if it is worth to abandon the D.learn forum. The forum is a "one stop" because you get the announcements, too.
+No.
+Nope
+no
+Stackoverflow is where a lot of people go, but is somewhat diluted compared to a forum. Both are useful for different types of questions.
+D forum lacks many of the features that stackoverflow has, eg: question voting, keyword tagging, syntax highlighting, better visibility, allowing (reasonable) edits, answer voting so it's easy to find best answer in noise; also D forum threads tend to degenerate into offtopic discussions
+Not in particular.
+N/A
+n/a
+- 
+-
+no
+not sure
+There really shouldn' t be ONE single place to ask questions. Both DLearn and StackOverflow seem really good. The coomunity should really participate in whichever platform D questions are asked
+no
+no
+Nope. I think StackOverflow works well enough and can be found by most developers.
+No. It's normal
+SO needs more D content, whether it is preferred or otherwise. It's a perception thing.
+IRC
+No
+I prefer interaction via the Forums. It makes it easy to go back and refer to old answers
+No
+no
+ 
+Above options are enough
+Slack would also probably be a great option as it implies a greater immediacy and, like IRC, would probably promote a greater feeling of freedom to ask whatever comes to mind. 
+I would like Adam on standby, but that's not going to happen.
+Nope.
+no
+no
+nope - I just go where Google points me
+ 
+No
+Slack, IRC and the Forum are good options. Not sure if any more are needed.
+no
+StackOverflow
+Dont understand the question - I'm from Russia
+actually discuss on D.learn, archive answers for future reference on stack overflow
+I think the forum is a good resource - it would be fantastic if it were easier to search and it was more clear whether answers were relevant despite language changes (sometimes old results show up). Having lots of options fragments knowledge, but I don't know how to go about consolidating it.
+no comment
+Nope email/forum is fine.
+Yes, because they can not question easily in my native language.
+I like both D forums and stack overflow.
+Stackoverflow should be best, many languages and questions converge there. I use it for Python and C++ as well.
+Nope
+have a list of the commonly asked questions and so forth,maybe a wiki?
+no
+themes, keywords for quickly and easy finding answers for resolved questions
+I mostly used D.Learn but SO also is fine for me. But some of questions that are OK in D.Learn are not possible to ask on SO (it will be closed/deleted if ask them because of SO rules)
+StackOverflow is also good d.learn is also fine.
+On Stack Exchange in general there are many Forums like for Ubuntu etc. Maybe what about doing an own D Exchange with the known system of Stackoverflow but a little more D centric. The UP and down voting mechanisms and the possibility to search and comment are way better. 
+No comment
+Even though StackOverflow is a right place to improve. But the forums.dlang.org aslo needs to improve, or be disabled altogether.  It is currently not a forum, and giving a failed expectation of what one can do with a forum.
+No.
+Stackoverflow is better. Easy search. Global and wider reach. Has a proper voting system. I dont want to scroll though threads to find the best solution to a programming question. It has a better commenting system. Better API that allows systematic mining of data and provide better insight of the community and the language. See the latest blogs from stackoverflow. 
+no 
+Opening up the slack channel to more people might also be a good route, though I understand it can be expensive.  StackOverflow is a good standard and recognized way for devs to discover answers.
+guru in shouting distance please
+no
+I actually believe that both options are good. However, more questions on StackOverflow bump the language stats and may help it to get more traction.  So it's not about the quality of the option, but more about what D can gain by that. In terms of quality, the forum's advantage is a chronological list of threads.
+Telepathy. It'd be more convenient. And cooler.  Well, as long as nobody uses it to hack my ghost.
+No. The forum has a nice mailing list interface that I can hook up to my local mail reader that handles threading nicely, which keeps the high volume manageable. Being forced to use a klunky inefficient web interface that requires constant network connectivity would be my definition of a nightmare.
+no
+The main problem I have with the forums is that people will reply to something I posted a while ago, and I will not know about it. Because the forums don't email me, or have a convenient way to see posts that have been commented on.
+I think stack-overflow content is a strong indicator of language ecosystem quality, maturity, and population. Regardless of whether I personally like it for Q/A, I think encouraging a strong SO presence will boost perception for new comers exploring D.
+no
+no
+D.learn is a psychologically harsh environment alleviated only by a few very positive people
+No strong preference here.
+No 
+Twitter: easy to ask, easy to answer (I use other resources after I don't receive helpful answer in Twitter)
+More active posting and answering questions on Reddit
+Easier way to search the learn forum
+Personally, Twitter is good. In Japan, # dlang is often attached to ask questions. It may be good to have a dedicated tag.
+No
+None
+I like to use IRC because it's fast and easy
+No.
+I don't see why there can not be both.
+I shouldn't feel this way as I'm far from a novice, but the D forums have always secretly terrified me, and I've never posted there despite reading them every day. It's the same kind of feeling I get reading the odd LKML post from Linus that reaches the outside world: if I were to wade in without being completely sure of my stuff and willing to stand up for myself, a bored regular might wander over and start tearing me apart for being incompetent, even if based on a misunderstanding. I actually don't think this happens much, but the atmosphere feels sufficiently close to that darker side of the software universe that I've instinctively kept away. Which is sad!
+maybe some AMA with the d lang team at some times
+StackOverflow is great!
+No, and a focus on stack overflow is not necessary.
+I can see from a management perspective, moving to StackOverflow would have benefits, but as an end-user, it doesn't really matter to me; I ask a question on D.Learn, it gets answered, I'm happy. I'm pretty sure that'll continue if we went to SO.
+The main thing I've missed is having experienced D programmers review my code. Real code reviews seems unrealistic, but I'd love a venue for asking about idioms and code level design approaches where feedback could be provided. The learn forum doesn't feel right.
+StackOverflow would be helpful since it's so ubiquitous and is usually the first result for code problems. Moreover the result presentation tends to be better (since the UX of the site is optimized for exactly that usecase). That said, Dlang.org is quite nice, but old forum posts don't lend themselves to good UX in stackoverflow usecases.
+No
+Visibility seems to come from SO (at least for now). SO results are easy to read for programmers coming from other languages; digging through forum posts in yet another forum layout is an instant turn-off. I myself often avoid forums and forum links in favor of SO posts with clear formatting and solid explanations. DuckDuckGo has a quick answer box that pulls SO answers from the first result. Accommodate this. Make D visible to potential learners.
+No, I like the D forums. The only change I want is code blocks with syntax highlighting (maybe integrated with run.dlang.io ?).
+No.
+Nope
+No 
+FAQ or guidelines document would nice
+Every discussion on D forum is side tracked and beaten to death with off-topic posts arguing about language features or the lack of the same. It is worth staying away and use stackoverflow which is moderated for high quality content.
+No
+Yes, an actual web fourm
+No
+No. We need both, but the forum is important as it is the heart of the community on which D is built, taking people away from it would be dangerous I think.
+nah
+Don't understand question. Different option from D.learn, yes: the up/down voting of StackOverflow makes you able to actually find the answer. (compared to navigating a 10 page thread...)
+don't care
+StackOverflow is awesome, but that's a third party, no control of data.
+it shouldn't be limited to one place, but need people, i think forum is nice, but please open GITHUB issue tracker, this is modern, this is where people are!
+No
+I don't really understand this question
+People go to Stack Overflow first to find answers, so it would be good to have the answers to questions on there so new users see them right away.
+No
+nope
+Not really. As for StackOverflow. It is a good one but the dlang forum is better because 1. it doesn't force me to maintain yet another account, and 2. it's on dlang.org.
+I generally like mailing lists.
+I don't mind Slack/Discord/IRC channels for occasional oddities where I might want to talk to higher-up devs.
+Mailing list, IRC, and stack overflow have me covered.
+no
+Making the forum more of a forum and less of a mail feed would be nice. Please don't move to SO, it's community is an absolute trash fire
+A Discord community would improve accessibility, but only if the server remains active.
+I prefer what we have now
+Force users to search for their question before they are allowed to ask. 
+I'm not sure. I like the hominess of the D forums, even if they're clunky. It makes me feel I'm interacting with D community, rather than some general place like StackOverflow. Maybe it's what D needs, I'm not sure. Maybe just answer questions in both places?
+No.
+No, D.Learns is great. It encourages extended discussion (which SO doesn't). Also, I don't mind the lack of fancy features.
+We need both real-time (as in irc) and non-real time.
+Actual forum instead of an mailing list interface. But basically, whatever medium is used by the people _answering_ the question is fine for me, as long as it's not facebook or other social crap.
+No
+ 
+No. The forum / newsgroup / mailing list combo is enough. I would like to have Vibe and Dub sections also, as at least dub is now officially part of the ecosystem.
+Please avoid slack, the immediacy is not a good trade off for effective searching and interoperation. Slackoverflow has a moderation problem and preservation of stale or wrong answers.
+IRC is truly the best platform for learning languages. It's a shame it's popularity continues to decline.
+Reddit, or gitter.im are good options as you can have conversations that are less formal. StackOverflow is Q+A only really.
+no
+D learn is a great resource for help, but I grok the benefits of stack overflow. The previous question only has the options to switch. What if we switch D learn to stack overflow, but re-name D learn as D help and make it specifically for questions that aren't quite appropriate for stack exchange?
+D.learn is fine by me.
+I would be fine with pushing more questions to stackoverflow, but certain things just don't fit on stackoverflow, but are very accepted in the learn forum. Stackoverflow is very strict, where as the forum really isn't.
+IRC works well
+I dont ask that many questions. And the guys on IRC are great.
+no
+I prefer asking Steve to his face at the D meetup in Boston
+no
+ 
+No. N/A
+No the current forum is the best experience I had for any language.
+D.Learn should be used for people who are genuinely new to learning D. StackOverflow should be for people who have a more complicated or involved question.
+There are too many ways to get help and too many places to look for it. Personally, I like StackOverflow and many projects just use it. I would feel more welcome to answer questions where they could be rated rather than bashing with people in the forums. The D forum is a violent and unwelcoming place.
+Forums could use Markdown/Edit/Reaction (+1/-1)
+Discussions on the Forum are badly structured and have a high noise.

@@ -1,0 +1,223 @@
+It would be great to get one of the major companies on board. But I realise D is an engineering language. It serves a class of problems now addressed by C/C++. I do not think it will ever become a popular general purpose language. So we should not aim for that space.
+From my perspective, one of the biggest weaknesses of D is the not-so-great IDE support.
+It's impossible to search for help on Google. More community members should use word dlang like the Go community uses golang.
+Past it's 'hype time', hard to market today.
+operator overloading is ugly, comparing to C++
+As for the language syntax I am only bothered that switch statement doesn't do break by default so you don't need to write it in 99% of the cases.
+I think it's like a swiss knife : potentially you can use it for anything, in practice there are better tools for each use
+No
+Not at the moment.
+Lack of focus where programming "excitement" is at the moment (e.g., mobile platforms,AI/ML)
+/
+It gets more complicated by the day to look at some D code and being sure what it does. Is this a pointer? Does this allocate? After all these templates what code is actually run?
+Logo and branding issues, dated looking websites.  Hard to sell to management internally on why D is better than C#.  
+DLangScience didn't really take off.
+As I already stated: Debugging (a modern language REQUIRES default (opt-out) segmentation fault stacktracing) and IDE.
+Perhaps it needs to promote simplicity first rather than powerful. A safe bet is to focus on C code and try to offer strong examples of why is better. The reasons are "simplicity" > make it widely accessible to a large audience, "C code" make it accessible to technical developers - those who will use it for fundamental technical components of serious and important projects. Also another weak point is the lack of tight cooperation with large corporations, who would give strong points to D such as promoting it internally, making it more widespread, and providing funding.
+It would be nice if instead of the GC, the language had Swift-like ARC and a temporary storage area (like JAI).
+There seemed to be a push for better C++ integration, but that effort didn't get to the finish line.  I think Andrei said some students were working on it, but it's been mostly radio silence.
+si, es un increible lenguaje, pero me gustaria mas compatibilidad con sdl, sfml y opengl, ya se que hay bindings pero no son completamente estables
+Breaking changes are discouraging the development of scientific and modern data processing library.  Looking at Python 3, the issues of breaking changes are minimised by the 2to3 and Python Foundation's focus.
+Conservatism for the sake of not breaking existing code is heartbreaking. Holding language improvements for an eventual D3 is a bad choice imo, instead a gradual improvement of D would be much better and more exciting, but there should be mechanisms to specify a language subversion for a piece of D code, so that old code remains compilable even by newer compiler implementations. But ofc there is a delicate formula between corporate interest in D, compiler contributor interest that is hard to nail.
+Templates need to be taken a look at again, particularly specialization & restraints
+Lack of libraries; for example databases, middle wares, web APIs...
+Cannot ship libraries written in D for C or C++
+The lack to just be able make any sort of app on any desktop platform, be it GUI, cli, etc. With C++ I can do this, although with ugly code, but with D you're hitting walls at every corner, unless you just make cli tools
+std.concurrency wants so badly to be MPI, but it's not compatible. This is a major stumbling block for scientific computing. If I need to use C-style MPI calls, I might as well use C.
+There is a wide perception that D is a dead language. That is unfortunate, but it does affect very much on possible future adoption.
+dlang is far to worried about breaking things, some poor descisions where made early on, its time to rip that bandaid off and have it done with.
+I'd like to have a nice de-facto reference IDE
+What is the compelling reason to use D? Go is easy, concurrent and robust. Rust is complex but has guarenteed concurrency safety.
+The mediocre debugging experience is the single biggest thing I wish D did better (I use Mago in VS). A better, more stable, and more reliable debugger would be an enormous asset, and would make my D programming life phenomenally more pleasant. I find that Mago hangs VS regularly, often struggles to see variables that clearly exist, doesn't support data breakpoints, and leaves a variety of other things to be desired.
+should take inspiration from other languages (eg nim); focus on certain language aspects (eg purity) sometimes at expense of other more pressing features for getting things done (eg shared libraries on OSX)
+No, D is a great language in itself - has already had a lot of strong points over other languages. Rust is newer and also has some great features, but D could have filled most of that same gap, yet for some reason the world decided to spawn yet another language. The most painful part of using D right now is lack of a proper language server (or rather: IDE integration) with support for code navigation, autocompletion, refactoring, and so on. This is also a blocker for many corporate environments.
+1. Lack of presence and visibility compared to other languages.
+already covered
+Correction to 14 a-f: Actually Nothing there discourages me from using D. Thus take my answers there as weak points for g.
+Other languages seem to introduce modern OOP features faster (non-null, stronger automatic subtype detection). But even though D's OOP feels dated, we have enourmousely-strong template/CTFE to easily work around most shortcomings, I'm sure I would miss that in other languages.
+Poor decisions made early in its history
+Maybe something is needed to help people get the right mindset for D? When I introduced it to coworkers, they were confused when 'Is it OOP?' 'Is it C-like/C-level?' and 'Is it functional?' were all answered with 'Yes'. It took some coaxing to get people to use templates to their fullest, or to take advantage of having both byte-level access/pointers/transparent ABI and generics astronautry available simultaneously. Examples of combining these well or showing the advantages of switching between levels would help people adapting to D from other backgrounds, I think (e.g. I showed coworkers my templated serialisation libraries and JIT structs (fields corresponding to raw pointer literals in machine code) to show them examples of breaking down conventional barriers)
+D has complexity but it seems that complexity comes with native close to the metal languages, or does it......
+Seems to be no clear future direction. Or it has changed too many times
+-
+do more of what Ada/Perl6 does (at a language level)
+code.dlang is very difficult to replicate and improve
+Defaults to 32bit builds on Windows. 
+h
+Small popularization and community
+Lack of a clear argument to make to potentially interested tech enthusiasts who are considering Go and Rust as well.
+Mutable by default, glob import by default.
+D needs to convince C++ programmers that there is little risk to being integrated into existing C++ workflows, allowing for adoption/migration. Naturally, that first point must also be true!
+Marketing
+D can be used for lots of things but current in current state it does nothing exceptionally
+I really like D and the thoughts and concepts underlying the design of the language, it appeals to me. However, as I mainly write smallish and very specific data analysis tools, I rarely find the extra time it takes me to write something in D worthwhile compared to e.g. Python
+Marketing. Maybe check out persona-building?
+pull requests/dip management (mainly walter/andrei not able to keep up) and lack of focus/direction for language improvements
+Needs better marketing like rust
+no
+Past mistakes that are still in everyone's mind, D being there since 1999 but didn't get more corporate support (which is terribly sad tbh). Lots of people see D as a "toy language" because of that.
+String mixins, make static analysis a nightmare. I work on intellij-dlanguage, and this will become a major problem for improving dlanguage support.
+D is not famous.
+Bare metal support. Today it is not possible to create some code and compile directly to the target architecture without including OS support.
+Should focus more on machine learning. Since the performance is outstanding and ease of understanding comparable to python, seems like an ideal area.
+Shouldn't using a conservative GC be a deal breaker for actual / professional use? It would appear as if accepting a conservative GC would mean having to be okay with arbitrarily maximal memory usage, no? How could someone accept that in a typical project?
+Marketing.
+People are followers.  People I talk to just want to know who your corporate sponsors are.  I sometimes say facebook which makes them happier about using D, but it's not a truthful answer.  If someone, say Amazon or Facebook or Netflix became an unabased D promoter it would help your cause, though that shouldn't matter, python dosen't have one.
+Still relies on C code
+General lack of data science libraries
+type expression
+Small community
+I don't hate the GC, but I don't like that many language features requires GC behind the scene (slices copy in write, nested functions Sometimes,...) you find that you've been unawarely tricked into using it. A very helpful tool would point to you everyone point that initiates the GC.
+Ddoc: I really dislike having to write in that macro language.
+maybe a noob problem, but, with function name collisions before it tends to pour all the functions into one big global pot, making it hard sometimes to get the compiler to chose the right one  (first-run programs tend to have LOTS of "did you want this, that, or the other variant of function X" errors)
+integer propagation should have completely been discarded especially from types like char
+Tools almost always don't work by default. Just try to install an IDE with code completion on a fresh machine
+D is great but not trustworthy for enterprise grade software, not supported on Solaris/SmartOS.
+Too many NEW issues on Bugzilla.
+It probably has, and you most likely identified a lot of them yourselves. My only issue with D right now is: I don't have time to use it (more often).
+D should be a low-level language in the first place and build on top of that. All high-level features should be optional. Compilers should support running arbitrary code at compile-time (not just CTFE) with proper error messages, etc.
+litle support for bare metal
+Its hard to get top performance out of dlang in real world examples i encountered. i desperately miss baremetal and crosscompiler options. i think that pattern matching if done right would benefit the language.
+no
+D is better C++. I like it! :)
+A lot of the available libraries don't get the continued maintenence they need for a company to want to take on utilizing them.
+d rox
+Lack of ecosystem
+Yes. It is too slow (GC and runtime) and strange as betterC and too unsafe for enterprise
+Being somewhat small, which I believe we're all trying to solve the best we can!
+The weak point is lack of resources. Rust has that, though I still prefer D. But for getting the job done you will need real libraries and real support.
+I see a few ideas from FP langs that could be used (HKTs, pattern matching, ADTs)
+people might get confused by the huge amounts of compilers for D
+Developers care too much about breaking changes. Also, I'd like to see dmd's backend in pure D. 
+I thinks that the previous questions map the D problems quite nicely. It would be great if the same terminology was used in the vision document.
+no stable points: start feature X then not completely finish feature Y. 
+Useless feedback when templates don't match
+Toolchain seems weaker than C++
+The D Foundation has to find a way to grow, in manpower, in public awarenes, in funding etc. this can not be done only by making a better compiler
+Not sure
+tooling, tooling and tooling
+Despite being a general programming language, D still need to prioritize some areas of applications to support it well before moving to others. In this sense, D lacks a good high-level strategies
+No custom string operator overloading. Not enough libraries to get stuff done. Feels like there're a lot of minor holes, edge cases.
+GC performance needs improvement, no struct inheritance, limited reflection, no proper typedef
+As a language - no.
+D roadmap and progress is lacking a bit behind other languages
+Missing the confidence (and man power?) of having a big cooporate backer behind it.
+stronger emphasis on GUI Apps
+There is so much in D but the world needs to know about it...
+The biggest problems are (a) Walter's inability to say no to Andrei (b)  fear of breaking existing code (as an argument for not fixing obviously broken things) yet a willingness to break existing code for the sake of sexy new features that don't actually work
+The language is much bigger than it can support.
+Communication! Some discisions due to strong negative voices of only a few underinformed! 
+GUI, 3d graphics
+Small community and little support from enterprise
+Not proper to current scale of comunity mangement; lack of modern development culture of some key developers (like proper git messages); evaporating of some key developers from the community
+IDE support. I believe that IntelliJ and Eclipse plugin develompent should be organized and supported by the core community team. These tools really need to be developed more quickly and comprehensively - not only by the single enthusiast.
+Ecosystem! Focus on that
+yes library support and library documentation are very few. It is also very inadequate for windows users. Almost in the case where the D language is oriented towards Linux users
+Tooling support is not on par with other popular languages
+Line numbers in Linux stack traces stopped working (PIC-related?). The secret Phobos (Druntime?) function to enable stack traces for Linux segfaults shouldn't be so secret (I've wasted SO much time because I didn't know it was there). PC-police on the newsgroup (ie Walter). And in general, meritocracy often feels like it has no place in D's development or management. Also, passing non-forward ranges by value should be statically forbidden as it's semantically non-sensical. Also, the face that DDOC is purely macro-based, has zero semantic awareness, and leads to illegible doc comments.
+Management is too afraid of making breaking changes that improve the language, yet at the same time breakage inevitably happens anyway in the form of regressions and bugs. Why not just admit breakage is inevitable, and capitalize on that to improve the language in fundamental ways instead of adopting half-hearted solutions because of religious fear of breaking anonymous hypothetical code out there.
+The community can either come off as friendly and welcoming, or nasty, insulting, and just has a general lack of care for new people. People higher up in the D 'food-chain' seem to be quite arrogant to the wants of people lower down (also issues like the recent fiasco of the new import syntax, which could've entirely been avoided *had anyone asked about it on the forums*)
+I'm still confused at what the overall plan is for memory management. There is focus on many different things, nogc, safe, scope, better-c, et cetera. I also don't like how GDC and LDC are promoted as well on the downloads page. I constantly have issues with them being slightly behind/broken, when compared to DMD. This gives a bad impression to new users that happen to choose LDC/GDC over DMD.
+Community dismisses the importance of commercial use patterms (ie, Visual Studio/debugging experience/workflow tooling)
+yes, I want ownership over GC
+For general development GUI-based programs are often necessary, but they are cumbersome in D.
+Template syntax. Using a compile time argument needs `!` but defining a compile time parameter must not use `!`, and many other syntactic foibles, especially surrounding templates
+Nothing compares to the mountain of problems caused by D's reliance on microsoft linker or optlink on windows. If only gdc was not so much behind.
+No one uses D at large scale. C++, Java, C# everywhere.
+Lack of pattern much, only that is it for me
+The GC
+Poor debugger and IDE support is the blocker
+Poor marketing skills by the D community
+If this is what the rest of the #14 questions are getting at, they're badly worded. I do think some of those things are weak points, but they don't discourage my use of D.
+With the advent of Rust, D's advantages in memory security are greatly diminished. An alternative emphasis may be required to push D to the forefront.
+Needs better support on the Win + IDE front. It is impossible to convince managament in your typical Win shop to take D seriously with the current level of tooling.
+Stop trying to make D all things to all people. It needs a laser like focus on use cases that make sense for the language and fit direction management want to take it. Personally I wish we would focus on D as an application language like Go or Python and not a systems language like Rust. I could care less about it replacing C or C++, I do care that people use it to write apps which isn't happening IMHO.
+Walter's inability to engage in deep technical discussions
+Tooling and polish on the very basics (at least on windows). Cool features are nothing if the basics don't work. D is behind C++ considerably (it's not always easy in C++ either) 1. Missing/bad debug symbols 2. No DLL support. 3. Poor scaling to big projects (parallel/incremental compilation, memory issues etc.) Sometimes using D on windows feels like C++ in the late 90s. Poor tooling is the reason I wouldn't recommend D to my coworkers.
+Nope, not really.
+For the longest time people actively mocked you if you use D, and discard it without trying. Not sure why exactly.
+with the MGMT refusal of breaking changes, D is stuck at being an 'almost' great language, i.e. there is not real incentive anymore to get rid of the 'almost'
+I hate the ugly lowercasefile.d, when u come from c# or java my eyes cant read that, at least put an_underscore.d
+PL theory.
+Its toolchain.
+Important work stalling, like newCTFE. 
+There is likely a tension between creating the best possible language and achieving widespread commercial uptake for D. Walter, Andrei etc. seem to understand this very well, e.g. their attitudes to code breakage. But it might not hurt to have a wider public discussion about this.
+no clear focus on a "use case"
+tools, good ide support, better windows support, mingw/gdb support, dll support;  better nogc / direct memory managment support (ie. gamedev);  better, offical, easier support of android, ...;  dont't really know what the core d lang team member are concrete doing
+Libraries and frameworks often matter more than languages nowadays.  A language may be great (e.g., Erlang / Elixir) but without libraries / frameworks for high-level tasks (e.g., distributed computing, machine learning, microservices, etc.), then the language won't get traction.  Likewise, if those libraries do exist, they tend to catapult a language (e.g., Ruby with Ruby on Rails).  This is happening with other languages (e.g., Clojure) as well.  People don't want to, can't spend all their time on "building foundations" -- they need to be able to accomplish their work / projects with a reasonable amount of work.  Having to reimplement things like ML methods yourself just creates a huge barrier of entry.  Unfortunately, this makes it much, much harder for new languages to take hold.
+AArch64 (At least android) support
+Sometimes feel like I'm the only one in the world using D (ok an exaggeration, but you get my point). A few weeks ago, I decided to start a blog. I had github account, and figured I'd host it on Git Pages...so a static website. I did a brief google, Hugo came up, looked like a no nonsense single execuable program, and it was pretty easy, straight forward, and very useful. We have high quality work in the lib space like Mir, for example...but something that takes it into an application would be a great to see. I'm hoping to develop some applications in the future, that will hopefully help show the whole great language -> great libraries -> great application. Tilix is a great example of this; D lang -> GtkD -> Tilix
+Limited community size; Hard to try it in a limited fashion in a corporate environment. Not many public examples of large systems to draw experiences from.
+Language feels obscure and complex, like a poorly documented C++. It's hard to find a living ecosystem of packages in my niche 
+Not yet faced with the weak points. So far so good :)
+The "do it yourself" response to issues is probably driving new users away. Not everyone is an expert who can contribute features they need. D needs a core group of developers who, when somebody says "Can you guys fix X?" they can say "YES!" and who can emphatically post progress updates and feature additions all across the web.
+GC profiling doesn't work correctly/accurately.
+DLL support (or lack of). Ben Thaut is working on this so I hope it gets merge. I think D should stop piggybacking off C/C++ marketing-wise. Maybe market to C#/Java users.
+ARM support
+Packaging
+Stuck in the past. 
+D is tired, too much changes to reach C++. Or go to C++ like Rust did or not, like C# did. D has poor identity, It's needs a revamp, D3 totally breaking ou D++
+tries to be good at everything and fails to deliver on the promise
+multiple same purpose libraries other than concentrating on improving one and making it standard
+It’s all nuts and bolts really. There is no platform to build on.
+Bottom up design is why D is good and is the reason why D is bad.
+Doesn't look at areas where it could get a lot of people (embedded/WebAssembly). I'd prefer a typed union alternative to exceptions.
+Weak GC implemenation when comparing to other GC focus languages such as java or c#
+Compiler memory use and compiler segfaults
+D doesn't project an image of stability (and I'm not talking about breaking changes). The constant mood in the forum is that D has too many flaws. It seems endless. All people talk about is how such or such feature isn't implemented, or is implemented, or isn't implemented in the right way. Reports of compiler bugs everywhere. I'm pretty sure other languages have the same issues we have, but we're so vocal about it that as a new/not-yet-old/comer it's disheartening. I have no idea how to change that but it's our weakest point IMHO.
+Getting people started and installing D tools and their dependencies can still be difficult, but it seems to be improving
+D overall is an awesome language, but poor tooling & low chances to find answers on StackOverFlow etc. make adoption in a corporate environment very challenging
+Overall, I think many involved in D are too certain about "we are better than you". Also the D community is often not able to have a serious constructive technical discussion without derailing it with off-topic or subjective comments.
+Some parts of the language / phobos modules have lower quality than others or weird quirks. (like compile time regex blowing up code size) It gives the feeling of a minefield.
+lack of focus. i realize it is a community driven project. but while that is its strength it is also its greatest liability that constantly prevents work from getting done and prevents the design of the language achieving focus.
+lack of IDE support!!! this is my main issue!
+I think D's main weak point has always been outreach and a divided focus between various issues.
+Linux centric
+Nothing not already mentioned
+Lack of widespread experimentation with huge changes like DIP1000 . Discussion alone may not demonstrate all the pros/cons of such changes, or the robustness of proposed implementation. The -dip1000 compiler switch and stdx/std.experimental are a good start for having the community test experimental features before they're finalized.
+Need more libraries.
+The biggest issue I have is a lack of tools. I would like to have a better support for writing tools and plugins. And while there is the frontend as a library it's rather tedious to use compared to clang for instance.
+I think the nogc and betterC efforts are a waste of time. Those people have already moved on to Rust. The problem with D is that it's a language of "yeah, but you can". Yeah, you can not use GC, but then some parts of the languages are available (up to you to find out which). Yeah you don't have library X in stdlib, but you can use this wrapper alpha version that I wrote over the weekend, it handles my usecase and tbh I didn't test it for anything more complex, but yeah it works.
+Nothing purely community-developed has ever gotten anywhere, D needs some strategy to get more corporate involvement.
+I think that Walter and Andrei do a great job providing vision and coding when they have time.  We need more coders with their capabilities.
+tooling could be a little better
+it's not known enough
+I do not think
+I don't think it's worth and good going after every hype that makes it's way to the community. Stick first with what you have and make it work. Shared /Concurrency/immutable was marketed in 2008(?) but it's still not complete.
+None
+no
+Not that I can think of right now
+D is becoming buried by the likes of Rust and Go because, despite their flaws, they target a specific audience, or aim themselves at a specific task, and have the marketing to pull it off. D is struggling to dust itself off from the decades of slow adoption to convince people new to D that we have a dedicated community and an exciting, fun-to-use language that can compete with Go/Rust. Marketing is a huge issue here, and improving the GC would go a long way to putting off those that instantly dismiss it for no reason, alongside the further dissemination of benchmarks and blogs/tutorials relating to GC usage.
+D struggles to really "meme" itself like, say, Rust has. We're not quite as hip, and as a result, we struggle to convince people to take the language seriously.
+Implentation issues and marketing are the weakest points.
+Incompatible object type formats on Windows.
+D is a moving target. Should we fork off a frozen release?
+Fear to change, autodecoding, virtual by default, bugs, GC, unfinished features
+It does not evolve fast enough to become mature product before any of potential competitors start providing better experience in one of its niches.
+Need more evangelists, better marketing and absolutely UFCS for local methods
+Poor overall mangement, and lack of sufficient talent to review contributions.
+Should be more transparent in the planning and in the status of the started projects (new CTFE, extern(C++), DIP1000, allocator + container, etc)
+Lack of mindshare. I have discussed its use with colleagues and they give the "Cool, that's great!" and then we use Go, C++, Rust, or an interpreted language
+There should be an option to check for null accesses and printing a message with line info, instead of just crashing, even if just crashing is @safe
+It needs to start from a memory management agnostic position and then add GC. Not start with GC and then attempt to subtract it. This would make a significant difference to the reality of using different memory management strategies.
+Not sure why ldc is not the defacto compiler.
+0) Lack of built-in tuples, 1) Figuring out how to use C libraries with D on Windows was quite a bit of a struggle for a beginner, 2) D does not have Jupyter kernel, REPL would be nice complement for run.dlang.io, 3) People complain about the GC too much reddit, 4) Template slow and bloaty, 5) C++ getting metaclasses would be a negative for D, 6) Lack of AST macros, 7) Limited options for operator overloading
+1/ It looks like it does not get the credit it deserves. 2/ I hope the focus on keeping it as a proper system language will be kept (I think it should not target as being a replacement of Python, even if it could be). We should stay focused.
+Ultimately, the fact that it's not necessarily easy to use C/C++ libraries, and there aren't enough D libraries to replace or wrap the C/C++ ones for your average D programmer to avoid doing it themselves if they want  to do serious work. While the fact that D can bind to C as easily as it can is great, the fact that you have to create the bindings in D is a serious problem, because it's time-consuming and error-prone to do it by hand, and none of the automated tools get it quite right, whereas C++ can just #include C and go on its merry way. And the fact that D can bind to C++ at all is great, but it's still a royal pain to do so, and lots of basic C++ stuff isn't accessible from D without a lot of work. So, using C++ libraries from D can be quite hard. The fact that it's _possible_ is awesome, but in some ways, the fact that it doesn't do a lot more makes it look pretty bad, sad as that may be.
+Given the niche it fills for us being in the middle of python and c++. D should go really in. An awesome linear algebra system, faster rdmd, maybe even a kernel for jupyter notebook would be game changer in my book
+manpower / money?
+Needs more exposure
+The "fast code, fast" thing is weird to me, it's more "cringy" than anything
+It would be nice to have better bare-metal support
+A consistent marketing to get more users
+What if Walter is wrong and Andrei is too busy to convince him?
+Lack of confidence. People try too hard to find excuses when the same tropes come up in discussion. gc yadda, yadda. It would be better to be more assertive: gc is good and gfy are entirely appropriate responses.
+Some features don't feel complete: shared. In general there should be more focus on quality.
+Nothing in particular...
+Phobos libraries are slow, at times slower than python! Only way left is to write C with in D. D should be able to interoperate C external libraries less painfully. I'd like to see <pthreads.h> in core.stdc 
+d infrastructure is suitable for seniors, but isn't friendly to juniors, dlang needs adoption to masses (but I wouldn't say it's the first task to do)
+There are situations where the program writer can obfuscate whether or not a function is being called. The ability to call non-@property functions without parenthesis may have been a mistake.
+Ability to use C header files without modification or external tools
+Things like ranges and its associated algorithms are nice except when they fail, and then they fail in incomprehensible ways. I love the idea of generic code but in practice it sometimes loses to plain old runtime interfaces.
+Positive Community/Good Leadership
+Tuples

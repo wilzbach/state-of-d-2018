@@ -1,0 +1,176 @@
+Keep up the great work!
+Fortran interoperability would be a killer feature. So much is already in Fortran that it is hard to justify using anything else.
+2.79.x should finish the language implementation and the majority of bugs.  2.80.x Then would welcome new features. I would also like a change to a semver version number for the compiler.
+Please ensure that it pushes C++ aside all the way.
+Nope.
+Initially Water Bright might had in mind the creation of a better C C++ therefore named it D. But the real picture is that perhaps D is the answer that improves all of the other languages as well. All of the languages tend to become either dinosaurs (becoming old) or mutated dinosaurs (godzilla). The answer to this is focusing to the most essential and fundamental design principles. For me personally if C would provide support for lists and templates would have become the most efficient language ever to the degree of discouraging everyone else from making a new language. The point in all these is that perhaps only D has the chance to end all of the other programming languages. But this would require deep strategic thinking done in the background.
+betterC needs to be forked into its own language (and somehow keep it compatible with D). or at least make it more well defined.
+D is about 20 years overdue!
+Si, podrian ampliar la comunidad en discord y podrian adaptar mas librerias para el desarrollo de videojuegos(atraeria a mas gente)
+nothing
+Documentation is the most desperate task - with examples. Particularly with the most advanced features.
+Please the tuple syntax, the pattern match and the destructuring.
+Please listen to the feedback so D can become a real first choice for all sort of projects
+You guys rock! Thanks for providing this awesome language!
+More promoting of D foundation!
+No, but I'd like to have another survey in 2019 and I hope I can use D again.
+I either want y'all to tear things up and be revolutionary sources of inspiration (even if that means breaking code) or focus on what it would mean to practically transition a codebase from C++ to D. Anything else isn't particularly useful/interesting to me.
+For a modern language safety and explicitness (in the syntax sense) are very important. Safe, pure (maybe), nogc and noexcept should all be the default. Strong concurrency in the language is also incredibly useful. 
+let's do this every year!
+No.
+Some of the questions are not applicable. I would probably donate, but at a suitable and not for any of the reasons provided.
+The hungry man must be careful not to eat too much
+My No about donating isn't absolute: I need to be aware of need and would bind to a specific project proposal.
+I'm happy every time I see a release with lots of little bugfixes, even when I haven't run into those bugs. Make usercode easy to do the Right Thing by default, and possible to do the harder Wrong Thing. Keep on pushing ahead with exciting new ideas. The Right Thing will change over 10-20 years.
+Thanks for modernising and getting the community involved, it seems much better than when I first started with D ~7 years ago
+-betterC needs to be on a very high priority level
+fight
+better contracts like Ada/Eiffel range types or generic typedef syntax (like perl6 subset or Ada type)
+Thank you, D embodies my passion for CS
+scrap D, take all the good ideas and make E from scratch
+I hope to use D for embedded programming one day (bare metal, MCU level stuff).
+No that's it
+great next question!
+Get your acts together and learn there are other people outside of C/C++ users in the world!
+Keep up the good work. Thanks for everything
+There needs to be a rating or any other system to make sure good libraries are : 1. always being worked on (it is sad to see few of them appearing and then they are abandoned) 2. make sure bad libraries are merged / improved 3. some "work out of the box" packages with few libraries (with examples). 4. promoting great libraries and make them the "New to D ? Take a look at those libraries".
+Why isn't there a plain no option to the "why arent you donating" question?
+Please become more popular!
+I think D has huge potential to make progress in the web/microservice space.
+I think that finding an alternative to string mixins is the key to getting better ide integration/enterprise adoption. At the moment it is very difficult for an ide to correctly resolve all symbol declarations, since they could be located within a string mixin, which in turn could call a wide variety of functions via ctfe.
+Key to success is the bare metal support. Here D competes directly with C++ and Rust. If D can become a more enjoyable than C++ and Rust it will win. Suggestion, split the core library so that there is no OS dependency in one part and other part with OS dependency. It should be well documented and easy in order to port to a new system and its primitives. -betterC is a great step but templates/classes would seal the deal and D would surpass C++ in usability. Basically, just like C++/C, a simple source file without any additional library dependencies to the OS should be able to compile to the target architecture straight from the box.
+please add string interpolation
+This is so long. 
+Love <3
+(int n)=>{return n;} is awful, please disallow
+I'd like to thank user 'Seb' from the forums.  If you know this person in real life please tell them their time is appreciated. Also TABS RULE!  Spaces are for indentation dictators.  Can't we all just set our own tab spacing however we like and all be happy? 
+I think it'll be a huge push for D If one can import C modules with an import statement or such. Heck, an overkill approach can even be a tenplate that parses C code nd converts it to D code
+Nothing
+Keep getting better, awesome people!
+Thank you for all your work
+cheers keep up the good work
+Don't know
+worship d
+lack of good converter from c header to d
+Nothing
+Finish one greate feature (e.g dip100) and go to all conferences possible. Create as much advertising as possible. betterC is not good enough for such things
+Something in Announce forum. I hope I someday have something for that.
+Support for Android/iOS will be essential to get D relevant. This is one of the reasons why I still stick to C++, which I also like a lot, but it is legacy in some areas.
+Nope
+keep up the good work
+Subscribe to dolan dark
+It would be great, if Andrei made it more clear what he's working on and how it relates to the big picture. With his partial withdrawal from forum's discussion and Walter's usual I-am-doing-stuff-in-the-background attitude, I do miss updates from D leaders.
+I think compiler developers must help develop tools as DCD and don't shift full responsibility to community. D infrastructure is part of D and one without other can't be exists.
+good survey
+Huge thank you for dlang
+D is a great language, using C++ is so much more painful.
+The D Foundation and the team around them  has been able to improve the D environment a lot the last 2 1/2 years so I am positive about the future. The main focus should be for usability of D.  Easy installation, easy editing, good documentation of the existing.  
+Even though it may not be number 1 priority, please make it clearER that C/C++ programmers can easily switch to D and benefits whole bunch of features while not losing C/C++ investment. D should ride on the shoulders of C/C++ old-pioneering giants and get more popular.
+Quite a long survey you have here ...
+Keep up with the good work!
+Really, really need a std.eventloop so I don't need to manually manage threads and pools between libraries in different ways.
+Thanks for taking feedback! It also has the side effect of getting you to think of what actually matters for you and maybe what you could contribute with to get there. Keep up the good work.
+I think D can take Delphi place on market . Just more work for UI is needed.
+Keep up the good work, it's a long haul 
+D is great, but its problems are self-inflicted.
+Deep gratitude of all those who invest / invested lots of time and effort to bring us D. 
+Keep up the good work, but remember to promote it as well, it matters
+I hope community and especially community leaders could rework they approach to more consistent, industrial, welcomed and organized, and with this save future of D.
+1. Please don't remove associative array syntax from the language. It is really handy and I don't see a valid reason to replace it with the library template. It will never look as good. 2. More focus is needed on the IDE plugins. Eclipse plugin is unmaintained now and IntelliJ plugin is developed slowly. As D is very demanding language to create a good IDE for, the organized focus on the IDE plugins and more love for them is absolutely vital.
+About 3 years ago I started a small project that would've taken a few weeks in Java. Sine then I've ended up working on D tooling and contributed to 5 other projects that mine depends on. My project still can't compile as I'm waiting (over 2 months) for someone to merge a PR that will fix a dependency that I require. Stop focusing on the language, get the ecosystem right
+Improve tooling support to convince my Java-IDE-loving colleagues to consider D instead
+A few drinks!
+No.
+*Please* find a way to easily track progress of DIPs, that isn't on github.  In a similar vein, there's no way for me to know the current progress of newCTFE (Which I'm very excited for, and wish I could hug Stefan for it <3)  Please review how building the dmd/druntime/phobos trio works on Windows, and provide a guide for it (the wiki one just gets me no where, and no matter how many times I've tried I just get endless issues when trying to build these projects myself).  I really like the idea of making github projects, detailing some things that could be done to improve the language. More please >:D  Similarly, make it easy to find issues that a novice can fix ;( (I'm way too scared to tackle any of the harder issues I want fixed)
+No
+Please do your best! I expect it! 
+I'm losing interest due to impatience resolving issues that matter to me (10 years and waiting), and waning confidence that I'll ever convince my company to invest in D.
+Please, get rid of GC, implement ownership. In game development it really matters.
+Again, huge thanks to everyone involved with D!
+structs are so anonymous yet some situations call for a constructor always called upon move; its absence blocks a lot of ingenious implementation designs
+Please remove the GC from Phobos or make it optional
+About donations to DLF, it’s just not high enough in my priority list
+Focus on ecosystem support, and marketing
+Please go after Python, Ruby, ... programmers and stop trying to make C++ programmers use D. They won't.
+For once, please break the language (again) and give us a sane D (D3).
+i. Other: I donate to OSS projects I use in income-generating projects. If/when I have a D project generating revenue I'll be donating to the foundation.
+I love D, it's fun to write, but getting hard to read. 
+D will always be plagued with technical debt and accidental complexity unless a version 3 is designed with the focus upon consolidating the feature set in a more principled, simplified, and integrated fashion. Valuable lessons can be learned from D 2's troubles, but many can't be applied without massive breaking changes. Embrace it.
+The D community is won.der.full! 
+I really appreciate the efforts of everyone who volunteers to make D better. I may not always agree with the decisions that are made but I am confident that those decisions are being made with the best of intents.
+D is awesome!
+I'm interested in Haskell/Ocaml/Reason. Pattern matching and GADTs would be nice.
+I'm worried that D is turning into D++, because of all this anti- fix/redesign/polish attitude from the D leadership.
+I'm only critical because I love D so much! It really is otherwise a dream come true!
+Thank you for making this study.
+im gonna be a millionnaire and give a lot to D foundation
+Nicely-done survey! Tabs or spaces question is missing the "smart tabs" option.
+Keep the good job, people. D is great.
+I love how much time entheusiasts are investing into D
+D is brilliant! It's amazing how often people in the community seem to forget this.
+Thank you for D. :)
+breaking changes are ok and needed... we just need to "manage" them better
+I really like D, its fun to code in it, I wish more would / can use it  I wish better support on the tool/ide/windows/mingw/gdb side  I wish it can be really and great used in game development  the community seems be great its nice to see and have the possibility to communicate with the d lang core members  d blog makes a good work, but more articles were be nice   dmd makes some progress, ldc also, but gdc seems non existent, dont know what the state of it is, or how you can use it (specially with windows)  windows support of dmd, (some progress, but incomplete) ldc, gdc are subpar
+Sorry for being negative.  I greatly appreciate the work by the D developers and community.  I also understand how difficult it is to satisfy the needs of a diverse community, especially against upstarts (e.g., Go) backed by large corporations.  You're doing really well given the limited resources.
+None
+The language needs momentum. It could be a big thing if cards are played well now. Especially in data science space -- python simply is hard not scalable and C++ is no fun to work in when writing backends. 
+It's all good. Not stop.
+D community members spend an inordinate amount of time fighting accusations that GC is a proposition killer in EVERY thread across the internet. Find out who believes this, find out why, and either find ways to better persuade them and put these concerns to rest for good, or re-target for a different audience.
+Keep doing the good stuff! And thanks all for your work and specifically  Sebastian for your time doing this :)
+DLL support please. And semantic highlighting in editors.
+No
+Keep up the good work
+Tabs AND Spaces, obviously, indentation and aligment ar different things.
+people need to move from "old" looking things like bugzilla and whatever the old thing the forum is based on
+Inline documentation is a good idea but DDOC is awful.
+Don’t ever give up. The night is darkest before the sunrise.
+Please get rid of D2 and give us D3 to really use D. Otherwise, we have better things to do and use other than D.
+Thanks
+Orange is good.
+metaprogramming, wooooo
+Don't be afraid of (breaking) change. Improve tooling to help corporate adoption
+Less "we know best", less comparing with other languages and show inner confidence instead.
+I thought the DLF was going to finally bring paid development to the language. I think that is what D needs to make real progress and get mindshare.
+D is awesome 
+PLEASE, focus on tooling, we NEED IDE support, pick intellij and focus on the plugin, look at rust, go, they all have intellij plugin, and people pick them, it is easier to learn / pick up language if it is supported in an IDE, code completion, syntax highlight etc, this is essential nowadays
+I have donated once to the DLF, but I do not do it regularly because as I live outside the US, I do not get tax benefits.
+Modernize
+The donate question doesn't really have my option of maybe a very small amount but I'd need to be convinced.
+Nope
+Thanks everyone for the best programming language to date.
+Please encourage everyone making libraries to unittest properly.
+Don't worry about my negativity. I still like D, I just feel like it's just wasting it's potential. @safe, @nogc, I think overall this isn't something that will sell D. There is a reason people like to use languages like Java and Go. Those aren't the '80s or the '90s. It's not about the language. IDE support, available libraries, mindshare, matters more than flashy functional features (which are mostly used in tutorials and witty one-liners).
+D doesn't need a "plan," as it keeps evolving, but it does need a better process, one that can take in more money
+Overall, it's a great language.  If tuples get a little better supported, then it'll have nearly have full up concatenative language properties that I think will be another area of richness to explore.
+just better tooling and library rfc process
+Thanks to everyone involved in creating the language
+nothing
+Nope
+D has ruined me as a C++ programmer, everything is too easy.
+Nope
+Stop complaining about the GC. You're not a snowflake, the GC is not your problem.
+Thanks for making such an awesome language!! I shill it to others so much that I'm a bit known for it. It's expanded my knowledge in programming considerably by learning to use it, and it's led to so many enjoyable problem-solving experiences.
+`shared` needs to be finalised.
+I would LOVE to see a second edition of TDPL.
+Right now, D could and should take over the entire wasm scene! Become THE language there!  That is where all our efforts should be for the next three years. The rewards will be enormous. 
+Thanks for D, it's awesome! But, still long way ahead to perfection. Please don't stop.
+Keep up the good work!
+Sorry for ranting too much. It has been a while since I did that last time :)
+you guys are awesome
+UFCS for local members, do it!
+Don't worry about breaking changes; all changes can be managed through a gradual deprecation process.  D has a lot of potential...take it there.
+Be brave, stop adding, start refining.
+more functional style features, like in haskell. optional function parameters
+Lots of progress and stuff moving in the right direction. Too much negativity on the forums. Too much repetition of topics on the forum.
+I also like the coding style of D (bracket at the start of a new-line)
+D is awsome, and a small comunity is not a bad thing. Quality over quantity and zealots ;-)
+It would be hard to donate to the DLF when everything they do is a mystery. I won't donate if the money is used to support enterprise users, for instance.
+A little more love for GUI would be nice (DWT, DlanGUI etc.).
+For god's sake, don't translate error messages. Or at least let's put an error code inside. For beginners it's really difficult to find support for an error written not in english.
+would like to prioritize the dip1000 development.
+Keep up the good work and don't get stuck in unnecessary political discussions.
+Language server. More editor support. GtkD library documentation (one that's actually meant to make sense and doesn't look like it's from 1999)
+IDE integration and debugging should be improved
+Make it easier to use C header files as-is
+Keep the good work <3
+D is great!

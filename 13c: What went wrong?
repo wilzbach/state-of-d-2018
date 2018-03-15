@@ -1,0 +1,69 @@
+Reaction time (long ago)
+Fixed a bug, couldn't test as it needed windows
+Some hiccups in beta versioning (now fixed).
+nothing
+auto-tester didn't test my codes.
+the merge request I reviewed was ignored, then abandonned. Sad, because It would have been useful.
+Sometimes the review process just gets out of focus. You only want to add X. You adopt the style of the function around X. This is rejected because now the preferred style is different. You change and then someone notes the function around X should be changed too. This can go endless, because you suddenly talk about the quality of the functions which you do not touch with your PR.
+Setup historically has been painful, especially for someone who rarely provides patches. Also had a fix I submitted cause some angst from 'someone important' after it was accepted. Not a good feeling.
+* PR's linger forever after all comments have been addressed; not enough committers create a bottleneck from andrei/walter (not enough trust/delegation); style issues are a waste of time (we should use tooling instead); negative bias towards 'small' improvements
+-
+It takes very long time to get something  merged
+Moved to a point, then stalled.
+Nothing
+there were some issues setting up the build
+Long review time
+PRs stuck in the queue with little response, sometimes discouraging comments "why would you ever do this".
+It was long ago
+Working within a module and having to provide the contribution in std.experimental resulted in a lot of work copying over internal functions needed to support the new functionality.
+slow and nitpicky
+Maintenance/Enhancement of manual
+Reviewers tend to be too busy. Perhaps the quality standard also needn't to be that strict with formatting. But attitude is good.
+It takes forever for somebody to review my PRs
+Still no response to my pull request after fixing it 2 weeks after the initial feedback (more than a few months of waiting now)
+Just takes time, nothing technical/cultural.
+Change never merged
+Process is too long.
+Nothing
+There was a significant delay in response to the Pull Request. I have a feeling that this has improved recently though.
+Andrei Alexandrescu had way too much influence in areas outside his core competency, too many bad decisions made for religious/philosphical reasons relying on the "sufficently powerful compiler" fallacy and appeal to authority
+People lost interest
+I'd say "The whole process was an uphill battle", but that's a huge understatement. Endless "perfect is the enemy of good".  Endless pushback and arguing on whether things should even be done at all (especially from MartinNowak - nothing personal, and no offense, but that one alone doubles the amount of arguing that needs done to get anywhere, will object to seemingly anything, and frequently just leads the debate in circles). And long periods with no response.
+Not enough qualified reviewers to move things along, too many PRs rotting in the queues with no end in sight.
+Nothing, my changes weren't complicated enough for anything to go wrong.
+Getting things reviewed/merged is hard
+Pull request was left alone for months with no one explaining what was wrong with it or why it wasn't merged.
+Some times feedback takes a while
+It's very hard to get significant improvements to D's weakest areas accepted, because of concerns about breaking changes and/or excessive complexity of proposed solutions. As a result, broken stuff just stays broken.
+Lots of compiler bugs too difficult for me
+Ignored PR
+Pull request took a long time to pull.
+If you use “improve this page” or the like, the PR is automatically called “patch1” or the like and I am unaware how to change that
+Code reviews in several cases asked for changes beyond the intent of the PR. e.g. Thanks for fixing the bug, could you also make the existing unit tests @safe while you're there? Except in language implying the review approval is dependent on the additional change.
+Slow responses and decisions.
+Pull requests languish. If the answer's no then close it. Don't just never respond and hope I get the message.
+Takes a lot of time, is damn formal at a times. CI is unreliable as hell as well
+Nothing, was a small change.
+Slow to respond to pull request, stalled
+difficult to run same test suite as autotester locally
+Mixed experience. Sometimes too much of a "don't touch our project" attitude. (advice: give the contributing developer some ownership of the project. Yes that means making compromises on your own opinions)
+You have to constantly fight and harass people to get your PR merged. I think that's changed a little bit within the last year but it was really bad when I started contributing.
+Too slow.
+Long wait, and sometimes bad review
+PRs have a tendency to grow stale, especially when waiting on a response from Walter or Andrei.
+Nothing.
+not many people reviewing stuff. general lack of specific long term goal for phobos.
+The autotester is a bottleneck and what it actually runs is opaque.
+Too much attention to unimportant details, or completely unresponsive
+https://blog.mist.global/articles/My_concerns_about_D_programming_language.html
+Lack of velocity.  It's much too unproductive.
+Lingering pull requests
+Got ignored.
+I'm a weak git user and a mediocre programmer...
+There is sometimes a tendency for PRs to languish - sometimes for years, particularly if there's any disagreement or if it requires input from Walter or Andrei. Obviously, that doesn't always happen, but it's not entirely uncommon either.
+Slow process, lots of rules, lot of time to build things locally
+Nothing
+All went surprisingly smooth :)
+Sometimes takes forever, and multiple pings to get a review.
+Community is very negative.  Leadership seems very unengaged.  There is not enough delegation/trust.
+Too many PRs got stalled.

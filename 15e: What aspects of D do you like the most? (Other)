@@ -1,0 +1,18 @@
+I like what std.traits offers, but it's become a bit messy, esp. that it's almost never possible to guess whether something is a built-in __traits, in std.traits, implemented via cryptic template constraint syntax, or not implemented at all.
+Slices, asserts, bound checks, string switch, vesion statement, delegates, clean syntax
+Ho my god that list is another example of D being overly C / C++ focused.
+The "version" keyword! Awesome!
+Built-in string and array handling
+opDispatch
+nice string encodings
+CTFE but NOT static foreach
+M E T A P R O G R A M M I N G
+High overall coolness factor.
+std.parallelism
+alias this, opDispatch and the sum of all the little convenince things (which is also why all the little warts should be fixed/purged, warts lead to cancer).
+Community
+newest drive to include more "key tools", like DUB !!!
+It's native and fast
+i would have added (w) but i don't like the design of std.concurrency
+compilation time
+Slices

@@ -1,0 +1,189 @@
+Containers are limited, synchronization primitives (e.g. mutex, cond var) seem hidden in the documentation
+... containers, which is why I don't use them
+Only experimental packages.
+unicode string support; 
+Documentation
+Nothing special
+std.experimental.allocator
+None.
+std.json (awful), std.xml, occasionally std.stdio
+std.typecons/std.meta
+I don't know.
+date time
+ranges
+I think I had some minor difficulties with files, but eventually worked around them. 
+Functions that work with "Ranges", functions that return "auto".
+si, no la comprendo por falta de explicación
+None at present
+nothing
+std.container, RefCounted, Unique.
+std.stdio and std.file for working with binary files - poor documentation
+all of them. Very hard to find relevant functions. It's not always obvious whether they are compatible with each other, or with your own types. (Often not.)
+Algorithms and Arrays modules, have very bad naming and mix and matching to make things work. And the way they're templated, makes finding compile issues very hard. The errors, are pretty non-sensical.
+std.concurrency when I need to pass around large arrays. I wind up casting from and to immutable way too often.
+std.cvs is too much encapsulated. I found it difficult to reuse the csv object.
+allocators 
+containers
+./.
+Some, mostly due to odd naming conventions and apis.
+std.json; std.process could have more features (eg: select)
+JSON module in particular. It gets the job done, but is unintuitive.
+None really.
+not sure. all of them, until i am able to wade through the documentation. once understood, they work pretty well.
+Strings are usually a blast to work with, but autodecoding can make things messy
+- 
+-
+none
+core.simd, std.containers with @nogc
+std.datetime
+Ranges and metaprogramming
+typecons
+-
+Containers
+curl
+overuse of ufcs
+strings/utf/ranges/algorithms are all a bit randomly distributed. Hard to know which module is responsible for which jobs.
+Most things in the std return duplicate arrays, but some methods (such as sorting) affect the array in place.
+All of them because the API is C-like
+none i've used really, still no idea about >50% of it
+There’s always the question of is it in range, array, string, or algorithm.
+Nothing
+std.concurrency, std.parallelism, 
+Dates and times
+std.json
+ranges
+std.algorithm has some behavior that I don't like (setIntersection requires sorted inputs but doesnt specify that or give any error if you fail to provide it, it just gives the wrong answer)
+The file part of std.stdio
+Regex. Not sure what is accepted or how to parse captures.
+Templates, since I come from Python/C land, however this doesn't mean there is anything wrong with them.
+std.json
+std.json, std.xml, std.socket
+template hell
+the json and xml modules are a source of constant headache
+std.datetime, std.container. std.signals is missing the point, it is supposed to help with multithreading.
+mostly it's just figuring out which variant of a function to use for a given pattern, the names aren't always clear and choosing the wrong one can end up in some odd mysterious happenings
+current json/xml implementation
+SmartOS
+None
+Date, Time, timezones and the whole to/from-string-parsing/formatting.
+Ranges: it is simple concept, but it is too many types of Ranges and its names isn't obvious.
+Collections are not reliable, strange design choices, e.g. BitArray and Array!bool are doing mostly the same thing, reversed logic of shift operators in BitArray, cumbersome functions of utf decoding and encoding, not @safe stdio functions
+compared to e.g. java i do not like the input/output api
+strings, with inderections from std.array and std.range
+none
+Dont' know
+compile error messages.
+Efficient container and algorithm combination
+Any old code without ranges, e.g. std.zip
+std.range.interface somewhat. I would like a way to use them as value types.
+Not enough experience to make full assesment :)
+N/A
+ 
+JSON
+datetime
+std.traits, std.meta
+No comment
+Containers
+ranges when mixed with const
+Containers (weird names, generally hard to use), std.xml (horrible design), Nullable (can't compare to/assign null)
+Can't think of anything.
+std.datetime and friends
+none, it is all pretty simple
+std.ascii vs std.utf vs std.uni.  All the various types under std.datetime / core.time.
+traits/reflection related APIs. JSON. 
+xml
+N/A
+core.simd; std.math and relative too depend on very specific `real` type
+none
+std.algorithm
+arrays
+Older modules that are heavy on classes and weak on range support. Or older, less-well-designed APIs, like std.net.curl.
+Older modules like std.json and std.socket I completely avoid. Heavily templated modules (std.range, std.algorithm) can be awful to work with given the current state of template error messages.
+json, containers, logging
+Lacking of Maybe(Optional), forward range needs save (save cannot be @nogc)
+Strings/ranges/algorithms often feel both conflated, and somehow coincidentally, disjointed/disassociated.
+container
+Not everything in it is well explained.
+std.xml
+Nemerics
+None
+Figuring out which trait-like things live in which module (meta / traits / range)
+Ranges and Voldemort types. So many auto ranges mean it’s difficult to know what input is needed or what output is returned.
+ranges don't work in harmony with immutable and const
+Algorithm
+Std.algorithm, anything range-related. Lots of great functionality but completely unintuitive, for me at least. 
+std.csv
+As mentioned earlier, although I love it, std.algorithm
+std.datetime
+strings: where is the function i need? std.algorithm? std.range? std.array? std.string? std.uni? std.utf? std.format? std.ascii?
+std.container
+I don't really know because I avoid using it.
+std.json
+all the new (last 5 years :O ) and shiny stuff (say ranges, algorithms, ...)
+__traits is useful, but it looks some kind ugly and verbose
+None
+Multi-threading, and generic programming (probably more me being an average programmer rather than std lib)
+Output ranges; Digests
+more complex template idiomatic template expressions
+None
+That is all right.
+Just make it clear what std.algorithm higher-order-functions are returning (ranges).
+Containers
+most things outside the core modules that are actively maintained tend to give me some problems, but it's not so bad
+Anything dealing with: @safe, nothow, @nogc, scope, shared
+Allocators, threading, strings
+datetime - it seems incomplete (no parsing), digest - it only supports old algorithms, process - it seems incomplete too
+std.algorithm, std.datetime
+std.datetime
+Traits
+tuples
+Traits
+std.json
+std.uri, std.encoding
+Most outdated modules, containers
+The source code: put unittests in different file from implementation.
+std.json
+autodecode, std.parallelism/concurrency, std.container, ranges (mainly due to the naming), string and array overlap with algorithm sometimes, where's my non-fp math?, std.uni/utf/ascii division is unclear and functionality sometimes duplicated
+Collections
+Json lib.
+i hated XML
+Files, strings (everything is a fucking range), events, threads, datetime
+sockets. Non GC collections
+std.socket
+std.conv, many string-related functions, and any functions that throw exceptions are impossible to use with nogc code.
+digest
+I've had some issues understanding by the description what certain algorithm functions do.
+Ranges occasionally.  Type errors can be hard to parse
+Heavily templated range-based code is very hard to figure out because it relies on opaque names like S and T, some are template args, some are normal args, and without example it's hard to understand how it works. Even if you get an example, you often need additional tricks to make it work as expected (.array() on ranges which only works when you include std.array, good luck figuring that out the first time)
+pretty much everything when GC isn't implemented but otherwise it's solid
+no
+The ranges/algorithms documentation is fine as long as you know what to look for. Some classes (like mmfile or socket) should really be structs.
+toStringz is a weird name.. c_str from C++ makes more sense. (i know, tiny gripe)
+there were some rough parts when the time and sorting libraries were being updated, but those are good now.
+Last time I tried to use std.parallelism I found it isn't actually as simple as slapping parallel on a foreach because often the things I'd want to run in parallel would rely on things that were thread local but really need to be shared and then the foreach just ends up throwing an out of bounds exception etc, but that is maybe less a problem with the library and more a problem with my coding style
+std.parallelism
+None.
+std.algorithm and std.range. Mainly because the names don't match .NET's LINQ library. Which is nobodys fault.
+strings
+std.json
+ 
+Sometimes there are corner cases not working related to language problems (like tail-const and const ranges, etc)
+Most of Phobos because of GC.
+Knowing what to fix when template constraints fail
+Ranges, but it's certainly due to the concept itself.
+None
+regex
+(Anonymous) tuples given as a return type from functions
+None
+std.xml
+containers
+Archaic parts like XML, Zip and Concurrency 
+N/A
+N/A
+Some aspects of std.datetime makes no sense. You can roll all units, but you can't add "days", only roll them. Why?
+XML
+core.sync (old), std.parallelism (message channels are bound to threads -> can't have multiple threads work on a single queue, globals are bad and such. Go is much prettier), std.fiber (can't pass work between threads)
+containers
+std.sockets
+The combination of OutputRanges and File ouput is incomplete/inconsistent, with a number of performance issues.
+std.traits got really messy.

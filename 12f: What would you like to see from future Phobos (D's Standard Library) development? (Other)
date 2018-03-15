@@ -1,0 +1,51 @@
+Better documentation, especially with respect to some of the OS-specific functionality.
+I don't know.
+per-module versioning to allow breaking changes (as used in boost)
+numeric and matrix
+Better chainability
+More batteries included
+A .NET-like or Java-like API
+Again, wrong choices listed ... get your focus away from the whole C/C++ mentality.
+more networking libraries
+1. getopt help text that looks formats nicely in a terminal window, 2.Some standard-ish screen widget set preferably vector based.
+Database & Base UI support
+Full compatibilty with pure functions and const data
+Good building blocks: DB, Serialization for implementations to share
+A distinction between core primitives and advanced concepts.  Allowing a better delineation towards embedded usage.
+better IO model, replace or get rid of modules than or considered obsolete such as std.xml and std.json
+See last question: More batteries, like Go has in it's library
+More standard APIs that are expected to be found there (stream, asyncio, tls, http 1/2)
+Common event loop and async/await/futures. Add reactive versions of all range functions (ie. push instead of pull).
+Improved compilation time, reduced executable size
+less magic
+D-way written getopt
+Stability
+Stop letting "perfect" be the enemy of progress.
+Pay-as-you-go. If I don't use feature X (even if feature Y, that I do use, somehow depends on it), it should not even show up as a symbol in my executable.
+Windowing, images
+More batteries included
+I am still learning and too inexperienced to have a strong opinion on this.
+Parsing and lexing library
+More feature, such as networking
+Slow
+Better signal+slots or equivalents. And std containers (list, queues, etc)
+Xml, improved json, add standard logging 
+std.regex that doesn't bloat compile time so massively
+compatible with mingw
+A more fluid JSON libary, maybe another standard library module for parsing another common config format.
+std.xml, std.json and std.stream replacements
+Support for modern programming like http, grpc, security.
+More pay-as-you-go
+Documentation!
+everything should be rangebased (I/O), remove old stuff and replace with decent code (e.g. JSON, XML, meta)
+easier to use in project, with simple example
+As much as possible, support for @safe nothrow @nogc. I'm divided on whether -betterC should be supported, and whether DIP1000 should be supported throughout the library.
+Decimal types, oop classes, i18n
+A way to be more integrated with "blessed" 3rd party libraries.  For example, if json/xml aren't first class phobos, then there should be a dlang recommended solution that is compatible with phobos, tested in the CI release testing, etc.
+standard interfaces for various systems, either through duck typing or object interfaces
+More math/scientific functions
+Replacement of XML/json libraries, http (Client and Server) Library 
+Moving all utility functionality to dub registry, focusing on core APIs and universal algorithms
+Interfaces: specify an interface for sockets, event loops, db, that library authors should implement
+clean up that core.sync mess, semaphore not being shared is a joke :D also, maybe steal some features from Go (channels, select)
+Better container classes

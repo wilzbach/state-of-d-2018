@@ -1,0 +1,75 @@
+No alternative to Vibe.d
+Perhaps there is the need for a little better overall organization of packages. Such as .NET or Golang.
+Poor support for data science applications
+Lack of functions for the immutable collection
+more pure functions
+Namespaces with overlapping purposes - is split(string) in std.string? std.algorithm? std.format? No, it's in std.array. 
+No good I/O or stream interface. The modules are deprecated without replacement. Standard functionality like XML parsing is outdated, too. No XSLT interpreter. No standard SQL interface. In general, all the stuff for a stupid business application is missing.
+Weird conventions sometimes. For example, find() returns the slice advanced to the found item. This is useful, but should be a different function with a different name (something like findAndAdvance()). find() should just return the index.
+not comprehensive enough; lack of versioning makes progress slow (because of fear of breaking changes)
+Ranges are not up to my taste
+Lack of full featured container support
+Call patterns feel non standard. Difficult to chain calls because of type mutibility choices.
+Sometimes hard to find functionality. Related functionality is often scattered through multiple modules.
+Lot of code not @safe
+No clear strategy for std.experimental. When will allocators become part of std?
+Seems to be some redundant function names in different packages (std.array, std.string, std.algorithm) and never sure where the function I want is located
+No default screen widget set (I know this is hard to do, but java came with Swing)
+Putting open curly braces on the next line of the sentence (refer to Doom's main programmer, John Carmack, to know why).
+std.range is complex, std.tuple grammar looks not good
+std.datetime is unintuitive and missing common things custom date formatting, by far my least favorite module
+Hard to find correct module, need more umbrella modules
+Incomplete supporf of const, pure, @safe etc.
+readln not taking a keepIterator argument
+That some things are not in places I would expect them, e.g. lots of String functions end up coming from the algorithm module. Which was (and sometimes still is) confusing as hell compared to other languages & libraries.
+poorly implemented and documented collections
+Solutions are in peices a lot of times and it can be hard to remember what parts to put together
+some aspects are very hard to leverage in an embedded setting
+could use a Java Scanner like library(maybe it exists and I haven't found it)
+Might not handle weel error in parameters (e.g. Fft with size not a power of 2)
+'stream' disappeared and reappeared in 'undead'. And I don't know how not to use 'undead'.
+Missing batteries (xml has been deprecated for a very long time now) - maybe look into Go for ideas
+Over-reliant on templates
+It is missing the important APIs: stream, asyncio (preferably similar to Boost Asio), tls, http (1 and 2)
+We lack a standard set of interfaces for async and network operations that would allow us to projects like hunt, tanya, and vibe.d
+Missing support for basic stuff like serialization, runtime reflektion, better static reflection or basic http server etc.
+Horrifically slow compile times
+alias get this in Nullable
+Some idioms are named different, name aliases as 'sounds as' would help
+Excessive template bloat and major compilation slowdowns in template-heavy code
+Parsing and lexing library
+Some fragmentation of where things are located
+ranges are not const/immutable by default
+Hard to find in the pool hierarchy
+Dependency on runtime
+The organization of the code sometimes seems strange.
+Lacking features, some modules are poor in quality and need improvement
+std.algorithm is the one module that to me, by far, has some of the least intuitive names. For example, what do I do if I want to filter an array by another array? I'm not even sure if there's a one-off function to do that; C# LINQ has the very intuitively named "Except", e.g a.Except(b)
+Missing range functions
+lack of features
+Adding a second module like std.json2 beside v old ones and deprecating the old one would be best for me
+not compatible with mingw
+Hard to find operations on data structures, things like the RNG are confusing because there isn't a simply declared base class or interface that everything inherits / implements.
+Container classes are under-developed
+Old style, class-based modules like mmfile and core.thread
+No standard guidelines. Each library has the author "trademark"
+Poor performance
+Lack of coherent convention, package hierarchy, consistent error handling, horrible dependency structure
+Difficult to remember if something was in std.algorithm or std.range
+std.json, std.xml
+bloated, doesn't have everything but pretends to, have to constantly refer to website to remember API for some reason, missing modules (e.g. HTTP, comprehensive compression, collections, serialization, database), everything is at the top-level, std.parallelism + std.concurrency need better support and integration/API redesign
+Template constraints verbosity. Fear of gc.
+Bad/slow adoption of type system features (@safe, nothrow, @nogc, shared)
+too many un@safe functions
+Phobos (and D) isn't sure if it wants to be a GC-free language or a fully GC language. Right now it's trying to be both, which hurts it from both sides.
+bad embedded/bare-metal support
+std.experimental.log should become stable
+A lot of the library is flagged for renovation which it hasn't received yet.
+The need for so many qualifiers like @nogc @nothrow pure etc. etc. it gets so confusing needing to figure out which ones apply and when to use them.
+Legacy range design problems that will never be fixed (and cause bugs in std.algorithm)
+Some modules are set to be deprecated, but have no equivalent counter parts. Sometimes certain symbols also gets deprecated without replacements.
+Certain obvious features missing, especially in std.datetime
+Needs more simple interface
+hasUnsharedAliasing is not acessible from outside std.parallelism
+Modules with poor APIs, and some missing functionality.
+Lack of support for pointer-style programming

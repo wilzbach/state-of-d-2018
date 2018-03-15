@@ -1,0 +1,22 @@
+See my module wishlist. I could use D more actively, but I have to process XML files and connect to different databases (without OLE). It's theoretical possible to do but requires lot of C bindings.
+nogc, noexcept and pure should all be default
+OSX shared library not working
+@nogc pure safe nothrow etc. etc. is just too much for me, so i only use nothrow, maybe @nogc if really necessary, neither pure, nor safe are really of interest to me
+Const issues are getting silly. I’d rather just remove it from all my code at this point, but evn but that’s not possible.
+Time
+cast(short)(10) - cast(short)(5) gives int result (what the hell??)
+Legacy of using C++
+I tried introducing D in work. Code that compiled on my machine wouldn't necessarily compile on other machines. D is not suitable for productivity in work.
+Requiring an explicit cast very often when using data types smaller than int.
+Sometimes when I need to parse text, the thought of auto-decoding pushes me to use some other language. I really wish it wasn't there; I'll decide when to decode, thank you!
+GC.
+better nogc support in the language, libs, ... (ie. for game development)
+Languages feels "left off". While I'm sure D is used actively, it doesn't feel as well used as, say Rust or Go.
+too many @, pure, nothrow attributes to worry about
+Missing enterprise IDE support
+concurrency is difficult; const/immutable are a strait jacket that are missing the reference capabilities (i.e. trn) from Pony to make them usable
+Garbage collector is a problem in a lot of my working environments
+Bugzilla Issue 5710.
+These don't discourage me, but I largely agree that they are concerns.
+None of these things discourage me from using D, but stuff like auto-decoding definitely makes it more annoying, and I do think that the fact that code is not @safe by default seriously undermines the @safety situation and makes Walter's talk of D being memory safe somewhat of a joke, because it's not memory safe by default. You _can_ make it memory safe with some extra work, which is great, but it's frequently just easier to not bother with @safe, and even if you want to bother, it's easy to forget and end up with code that you think is @safe but isn't. The prevelance of generic code and attribute inference also makes it harder to ensure that code is @safe - especially if it's generic code rather than using generic code.
+My work environment is discouraging, not D per se.

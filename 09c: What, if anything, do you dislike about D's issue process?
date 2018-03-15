@@ -1,0 +1,124 @@
+Too long ago since my last issue, but - slowness of response especially if the bug is not in top dev's interest
+move it to github finally.
+There's too much work for the compiler devs to do, so sometimes the test cases I produce for compiler regressions aren't acted on.
+Responses take ages, no feedback on PRs
+fixing time
+No syntax highlighting, no text formatting.
+I've had issues rot (admittedly I didn't follow-up with additional details because it would've been a PITA). I've put up patches to fix a case where backward compatibility broke and had them accepted only to have folks get pissed about it. Neither were fun experiences.
+cannot edit posts (most important for me); more friction to create bug report for 1st time bug reporters used to github; no syntax highlighting; github has better voting system; gitlab issues would be another option to strongly consider (github issues has some drawbacks, eg: a user can't reopen a closed issue unless he's a project owner)
+People throw something in and then often seem to forget about (somewhat excusable as it may take years for any observable action on issues): 1. I rarely get replies (even though emails got dispatched and even when I address someone individually). 2. Issues fixed by PRs happen to be still open in bugzilla. 3. The organizational possibilities of bugzilla (Depends on, Blocks, Keywords) aren't always used to their full extend and others deserve better instruction for a common usage (e.g. is P1 high or low? Use of bracketed keywords in the title). 4. To me it's absolutely intransparent, if at all or when or how quickly an issue will be fixed. If I where a company's decider to critically rely on D, I wouldn't dare to rely without own developer(s) who can fix dmd/druntime/phobos issues or have a reliable contract for such. 
+I like OOP and feel that the main bugfixers care about other parts of the language more, but it's likely my own selection bias. Overall, I'm happy how many bugs get fixed every release all across the board.
+Search is not always good
+Haven' t been so active so I cannot comment
+Not for lazy people. You should try with quick anonymous issue filling for anyone on dlang.org. Then people involved in D language should test and eventually translate submitted issues to bugzilla issues.
+Many issues are not fixed in time.
+Bugzilla feels like 1998
+Requires sign up with another account, makes it a lot of effort to report bugs. You need at least three accounts to be part of the D community - GitHub, Bugzilla, Email (for newsgroups).
+Feels meaningless. Just have to hope someone sees it eventually.
+Nothing
+As everyone already know, sometimes few issues take really too long to be addressed. This gives a terrible misconception about how D is developed. People tend to quickly assume "if something isn't resolved asap, it means people don't bother doing it at all". There really should be a focus to close old issues first (with those that are really important to do so too).
+switch to github issues.
+There are probably way too many obsolete bug reports that need to be updated. Also, I once used read too often that something about the language is admittedly wrong, but that it's too late to do something about that. 
+sometimes very slow to get fix
+No response at all after several days. I would like, at least, to have feedback from developers.
+Bugzilla seems really antiquated and can be confusing
+little late
+It's unclear how bugs are prioritised and worked on.
+I think someone hesitate to report issue
+Bugzilla feels heavy/slow/unfriendly. The process itself is fine.
+Old stuff is not classified
+Issues stuck in NEW state for years.
+A lot of issues that for years remain unresolved.
+It feels very, very old and is not a joy to work with.
+I don't like the UI of Bugzilla, it's obsolete and unintuitive, quite hard to search and navigate through the issues. Also seems like many issues are abandoned and don't hear anything from people having a knowledge and power to comment on them and you can't really say what to do with them, in particular, whether to try to solve them at all.
+I don't really see the plan for the next release(s), I reported bugs, one critical to my project and have no idea when it will be fixed
+Nothing to say
+the search is terrible
+Slow but understandable 
+Been too long... but I think I had bugs on the list that had no action for a decade.
+Important issues are not resolved for years.
+No
+Requires making an account, a bit hard to search at first.
+It's ugly and hard to use
+github is better
+Too many open issues
+There should be - maybe with lower priority a way to make anonymous reports. 
+That it's not in github.
+Can never locate my own bug reports Search often doesn't return relevant bugs Bugs never get addressed
+I do not like bugzilla... 
+nothing, it is an issue tracker and it works
+It's harder to get to issues and things tend to be forgotten and ignored.  It's not common for modern languages and makes me less likely to report bugs because it's a pain.
+My reported crash bugs not being fixed. ;)
+bad management and schedule
+Needs actual username login. I can never remember the bogus email address I use to sign in.
+Legacy web interface
+The fact that it takes forever for someone to respond to it, and that there's no one / no team dedicated to reviewing new issues / triaging.
+Not really a problem with D. I just am sick of Bugzilla, after having to put up with it for 20 years. It is hard to search and cumbersome to use.
+I prefer Github
+Bugzilla feels like it's from the 90's, I feel 'yucky' interacting with it. I also need yet another website account to access it. Please openauth; let me login with github cred k-thx!
+Bugs can remain unfixed for a very long time.
+Issue tracker is a bit oldish.
+If anything, bugzilla looks archaic and is un-intuitive
+It’s  been years since I reported one, so I’m not a single familiar with the process any more
+Too slow to fix
+Move to GitHub, please!
+Is the wild west, completely unmanaged. Anyone can post anything they want on there, no matter how irrelevant it is. It shouldn't be a wishlist, but a list of things that actually need to be done. "If you care enough you'll be able to find what you need" sort of mentality just illustrates that something is wrong with the system. How the issues end up being used is someone posts an issue they have and then goes and fixes, or creates a fix for it first then posts the issue and then created the pull request for the issue. That's how it seems to be mostly used. The only other issues that actually get attention are regressions.
+It is troublesome to look for similar issues. It is troublesome that the reproduction code is text based. As a developer, I'd like to make a repository with github, just write a key in README.md and submit a link.
+slow responses, + don't like bugzilla in general
+The fact that you have to have yet another account that you almost never use (I already forgot/lost my accounts password). I sometimes ask about potential bugs on forums/learn and workaround them. Usually someone else then reports it after a few days of silence. Much easier this way :D.
+Issue are not handled if not driven by kol
+Old fashioned UI, although still functional. 
+Design, hard to navigate
+no patch upload, only Git desired
+- Difficult to know if anyone has read a filed issue. - Difficult to know if anyone is working on a fix for an issue.
+I would *really* love to see a "bug suite" to complement the test suite which provides a window in to when bugs are fixed, eliminating a lot of "works for me" testing.
+Poor visibility for dlang.org and github repo 
+The interface seems outdated
+it **looks** old and abandoned
+Issues languish.
+Lots of old inconculsive stuff that’s hard to act upon
+Please move out of that esoteric Bugzilla to GitHub or GitLab.
+No one has looked at one of my reports. Maybe more things should be delegated for improved efficiency.
+Not easy to find issues based on priority
+GitHub issues would probably be better
+Bugzilla is slow and clunky, I wish gut hub was used
+I don't feel like I understand the process enough to answer. It looks like the work's being done though however slowly.
+have to make separate account, incredibly annoying to search for existing bugs, difficult to format text, looks old compared to other parts of dlang.org
+it's OK. Interface is oldfashioned (i.e. no syntax highlighting).
+Bugzilla is this huge wall of issues without any overview telling me what issues are hot / being worked on / relevant for me.
+capricious wontfix. it is a black hole (lots of old, dead, and ignored).
+i have to register in a place i don't know, please use github issue tracker, this is modern and where all the young people are, i don't want to register in mailing list this is for old people
+Bugzilla is where bug reports go to die.
+Process is ok, but the interface is obsolete
+Suboptimal interaction with GitHub
+Too slow!
+Bugzilla seems antiquated, not sure how issues get triaged
+There is a tendency for issues to disappear and be forgotten, probably due to lack of manpower.
+Searching for the issues is always a nightmare for me.
+Too slow
+it is not github
+I would prefer GitHub much more.
+Awful bugs can remain unfixed for a long while.
+Browsing old issues could be smoother.
+Issues don't get fixed
+Its difficult to find out which of all These fields Need to be filled 
+Only thing bugzilla good at is finding already reported similar issues from other devs. It is huge unmanaged issue database with few to zero feedback on reported issues.
+Lack of integration with GitHub and inability to edit comments
+You should really migrate to GitHub. BugZilla is too much decoupled with other tools to have a modern management of the development process. Like having stuff scattered in Trello also. Migrate everything to GitHub, OR BETTER to GitLab and enjoy the better efficiency in coordination.
+i just dislike the bugzilla interface. also i think it would be better if reporting bugs would be quick and easy => github issues. but i'm also fine using bugzilla...
+Nothing stands out.
+The only real problem I see with D's issue process is getting folks to fix bugs. Typically, folks fix the stuff that affects them, and certainly sometimes, folks fix stuff that other folks report, but a lot of bugs just end up sitting in bugzilla with no real attention. And ultimately, that's a manpower issue, not an issue with the software that we use. For some stuff, we may need to find a way to have some folks paid to go through bugzilla and fix bugs, but that's a hard situation with a volunteer project. Regardless, I very much hope that we stick with bugzilla rather than switching to something inferior like github issues like has been suggested previously.
+Not sure
+The gui is a bit verbose for new users.
+I would prefer using github issues, but oveall I am ok with current state
+It seems outdated. I would like to use github for issues.
+Some times it take to much for bugs to get fixed. There should be a daily/weekly routine on the core team to scrub the bug db and prioritize them, eventually fix 3-5 major bugs a week. 
+N/A
+Not enough attention given to regressions
+N/A
+No prioritization
+Bugzilla is old. GitHub issues are great, JIRA for open source is also fine
+Don't know if anyone has viewed the report.
+Bugzilla doesn't have the nicest UI.
+Hard to find things, visual design is messy and unorganized.  There is very little engagement.
+Bugzilla is just a huge graveyard.

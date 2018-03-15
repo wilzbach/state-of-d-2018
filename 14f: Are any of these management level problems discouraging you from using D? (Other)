@@ -1,0 +1,26 @@
+Too much listening to the bikeshedders.
+PR bottleneck caused by too few committers (eg walter andrei vetting each PR is not scalable)
+I miss some coordinated effort
+OS independent support
+Too much focus on language, too little on the tools
+Lack of effort to promote D via education
+Lack of transparency. I have no idea what Walter and Andrei are working on.
+Yes, we do have DIPs, but please look at Java JSRs and how they do things...
+Roadmap missing for 2018. Need a vision for Phobos and a list of "pre-approved" modules to be added or "pre-approved" refactorings on existing modules. Volunteering your resources you really want to be somewhat confident that there is a good chance your work will be accepted.
+Lack of going back and fixing features at the management level (*cough* contracts and interfaces *cough*)
+e.g. wrong defaults, or compiler suggesting pure/const/nothrow/.. where possible
+Lack of / too infrequent communications about what is currently being worked on, status updates, etc.. Even if it's a weekly/monthly update saying "we're stuck on project X because of issues Y and Z", that's better than the dead silence on what exactly is being worked on.
+On the topic of DIPs, *there's no good way for me to easily keep track of the progress for them*
+No confidence in technical/abstract reasoning ability of part of leadership
+Some of the management focus sometimes looks strange.
+some kind of ignorance of the subpar ide/tool support and windows as an important platform (and the some issues with die compiler, tool, ide support on it)
+Lack of roadmap
+no tooling, i have no idea how others use to code D. i try to use visual studio code with a plugin, but it's futile, plugin keeps stop working
+Too much work for too few people
+perfection tends to be the enemy of good; the forum has irritating, caustic voices that shoot down progress constantly; i don't care if you break stuff just fix it!
+lack of IDE support, and community don't seems to care..
+Not enough focus on growing userbase!
+I think we need to be made aware of the corporate donations that are made, that cleraly drive development of new or advanced features where management disappear for a while while working on paid-for problems and ignoring the rest of the community.
+E.g. Final by default and Autodecoding - two battles gloriously won by Andrei and lost by community
+Lack of courage to reach a vision: remove what's wrong, break to reach what's good.
+I wouldn't say that it discourages me from using D, but the focus on -betterC and @nogc worries me. Having code minimize its use of the heap is good, and not using the GC when it's not needed is good, but too often, the focus seems to be on completely removing uses of the GC, when in reality, the GC is a huge blessing, and programming without it can be hell (certainly, in many cases, it tends to complicate code considerably to try to avoid the GC, and it makes it far more error-prone). I think that management does agree the the GC is a good thing on some level, but the attempts to please the folks who freak out about the GC (be it rightly or wrongly) frequently give the impression that there is agreement that the GC should be removed from as much as possible as if it were evil. And -betterC concerns me, because some folks clearly want to use it as their goto version of D rather than as a porting tool, and it seems like management is bending over backwards to muck with druntime and Phobos to make more work with -betterC, which I think actively makes the code worse in many cases, and I sure don't want to be programming in a crippled version of the language like -betterC is. 

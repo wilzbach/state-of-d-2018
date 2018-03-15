@@ -1,0 +1,30 @@
+Lack of roadmap
+auto-decoding
+Just general apathy caused by many tiny little issues (gc, weird abstractions in std, no named arguments .. )
+Inability to get away from GC due to use of GC in libraries because of standard library dependance and language features (eg classes)
+compiler bugs
+Incomplete/incorrect Microsoft debuginfo (CV8/PDB)
+development effort wasted on DIP1000, betterC, colored error messages
+I prefer C-style manual resource management, which D seems to actively discourage
+Big executables,. I would Love but not able to run it in Arduino
+Compiler speed
+Too many bugs in compiler
+A plethora of bad language decisions in the past few years
+Compiler bugs, unimplemented but advertised features, Poor template performance
+As previously stated. The ecosystem is foobar
+Please get that damn runtime out of the way!
+Used only for my own hobby projects; would LOVE to be able to use at work
+In D, I hope the GC won't become a problem. In C#, the GC isn't something I ever need to think about. In C++, I manage my own memory. I have no problem with the GC being there, just that I have to be actively aware of it to make sure it isn't doing something stupid is cumbersome.
+missing or broken packages
+See previous question answer
+Poor GC in heavily multithreaded implementations
+Not much work on embedded and webassembly backends
+Quality of Implementation overall
+performance (don't care about the GC so much)
+lack of IDE support (intellij is crossplatform)
+Compiler/linker bugs on big code bases
+Lack of tooling and libraries
+low on good libs with proper docs and nit just examples
+Bugs
+The debugging information and integration in the toolchains should be perfect (see the recent correction of the '_' prefix in OSX)
+vibe.d needs improvement, and i do a lot of REST/websockets/microservices

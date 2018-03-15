@@ -1,0 +1,213 @@
+I don't love how thread local storage and multithreading is handled. Message passing works well for some styles of applications but very poorly for others. In a lot of cases things like simple parallel for and fork/join are sufficient and simpler to reason about so it would be good to have first class language support for stuff like that as well.
+I think ? as a null-safe . is a nice feature from Swift (that I would love to use in D).  I also dislike that there isn't anyway to initialize a struct (with values) on demand. I can understand not liking the {} out of nowhere so I propose: func(structType { variable: value });
+Lots of keyword reuse for different purposes e.g. with static, in/out/inout, alias, auto
+Coming from science, I miss the colons in slices.
+mandatory semicolon at the end of statement; const vs immutable 
+There are too many features.
+Missing Hash compile time initializer
+It's complicated to parse.
+Attributes overload, which aren't consistent.
+Why not also include an option for the symbols: • := for =; • = for ==; • # for != ? That would look better. Some kind of switch or way to make it easy to for projects and programmers would be nice.
+To write the enum type fully to make a check on an enum. For example:
+Incredibly decorator bloat occasionally: override pure @trusted @nogc @nothrow The ract that ref/out does not have to be repeated when calling a function (makes it difficult to see what is going on)
+lack of named arguments, tuple deconstruction
+Some of the standard library does not work the same way other languages library functions work.  STD.Regex for example.  It would also be nice for there to be things like endsWith,  there is a beginsWith for string searching but not a endsWith.    So there are some missing “easy button” type methods, that while you can implement your own solutions with a few other standard library calls it would be nice to make one call instead of 2-3 calls and a possible loop depending on what your trying to accomplish.   So a review of the standard library to identify some extra uses cases should probably happen.  Also c# style extension classes would be awesome,  where you can take a base class and add a new method to it be having the first parameter of the extension be a (Class this, <... other, parameters,...>).      So you could say  MyClass mine = new MyClass();   mine.myExtension();  MyClass mine2 = new MyClass().myExtension();  Where   class MyCoolClassExtension : MyClass {  public void myExtension(MyClass this) {       //... do something       this.public_property_var =  doSomthingResults; // the do something results; }
+attributes
+too many non-default attributes (pure const ...)
+Missing bits
+Subslice syntax
+I prefer Swfit/Kotlin style syntax for function and variable declarations, but this is a very minor point.
+Attribute explosion
+Attribute proliferation, no inference for non-templates. There may be ways to make compile-time features more elegant and less prone to trial and error.
+It may be me but I find the lack of -> confusing when dealing with c interop
+Sometimes it's too verbose, e.g. constraints could be inline or have quasi-concepts, getters could use => syntax, contracts could be expressions (see DIP). `this` parameter attributes conflict with return type storage. Some `is` expression forms are difficult to remember.
+Template specialisation is awkward business Template constraints is awkward business Lack of type Unions e.g. string Or double
+I need the literal of tuples, the pattern match and the destructuring. And I dislike semicolon.
+Nitpicking - little things found in languages like multi-line string literals i.e. (C#) @"a b c"
+in, out, inout..: confusing and seemingly useless
+too much const, pure, nogc, scope... with wrong defaults
+All the new UDAs fro everything are getting very Java verbose... Instead of C++ verbosity, D's inventing it's own. Not good.
+Named parameters for functions would be awesome. Also, the "enum" keyword for compile time constants... enum was meant to stand for "enumeration" in C and C++, and this new meaning is very questionable. Also, as a minor issue, binding rvalues to references to const would be nice, especially to sell the language to C++ programmers.
+The __traits syntax is clumsy. I like the introspection you can do with D but sometimes it look like black magic. 
+Complex templates and slices.
+inconsistent function attribute names, some with _ some with @ some neither
+Ability to directly import declarations from system's C headers. Having to re-declare constants and structs is a huge risk ABI-wise.
+tuple support 
+Too complicated.
+Too attached to the old C baggage that everyone agrees was a bad idea (for example, int myarray[3] is still supported in D, where I think it should be deprecated). It's nice that D is familiar to C/C±± developers, but the philosophy that identical C/D code must behave the same is unnecessary and restrictive in my opinion.
+UFCS should work with everything, eg: foo.mixin,.typeof, etc; tuple unpacking; lack of named parameters; attributes are a bit of a pain; maybe auto-inferring some of them for non-template functions would help, and UDAs for attributes would also help; lack of orthogonality (eg trusted vs @trusted)
+Attibute clutter, messy compile time reflection.
+1. When x is a class instance with method f (method, not a free function f), I have to write pipelines such as map!(x => x.f), but would love to write map!f. I know why it's hard to make that though (the lambda is a template, just f would not be a template).  2. assert(x); needs parentheses around x, even though it feels like return x; which doesn't need parentheses.  3. If arr is an array, then arr.length feels long to type. Instead, arr.len or arr.$ would be cool  4. arr.length should be signed. Nasty nasty bugs will happen every time with arr.length - 1. I wrote my own int len(T)(T[] arr) { return arr.length & 0x7FFF_FFFF; } to work around this and use it almost everywhere.  5. Would like to have both nullable and non-nullable class references directly in the language with strict static checks, but that's not syntax; it's a feature wish
+I have pretty big ideas how to improve it :)
+No pattern matching or destructuring bindings. This could be somewhat alleviated if there was a syntactic sugar for inline var declarations as a function argument, but this might cause syntactic clashes (e.g. given `void destructureInto(T,S)(ref T item, auto ref S other);` the line `destructureInto(int item, myIntLikeStruct);` would behave like `int item; destructureInto(item, myIntLikeStruct);`. This syntactic sugar, when combined with overloaded opAssign and helper templates, could get you `let (int a, string b) = myDestructurable;` without any other language changes. However, this may clash with function prototype syntax).
+attributes bloat
+auto mixin template
+The C style retrofitted for new features instead of just using modern syntax in the first place
+() @trusted { foo() } ()
+D's syntax not being expression based. E.g. you can't return values from loops or switches.  The syntax of switch statements is also just horrible; it should be deprecated and replaced by something akin to rust's match statement, or even
+Raw pointers Treat null as optional to allow chaining nullability checks, dereferencing and handling Ranges as types instead of syntactic sugar
+template blocks, these seem confusing confusing from C++
+"""enum"""
+No
+I feel the language is drifting slightly away from the idea of "the simple thing should be the correct thing".  For even basic functions, knowing which annotations to add, such as @nogc, pure, nothrow, @safe, is a bit confusing.  Also, it feels inconsistent that some of these use "@" and others do not.  Another side-issue is seemingly inconsistency between template "if" conditions for methods of templated classes.  An "if" condition can only be added to a method which itself has additional template parameters, but no "if" can be written on methods that are dependent on the template parameters of the class itself.  A "static if" can be used instead, but it seems odd that one can use "if" conditions in some places and not others.
+Pretty much everything, the only part of the C++ syntax that it fixes is array type syntax.
+Too many attributes (defaults are wrong). I'm getting bored of paren spam. Explicit casting is a chore (no implicit conversion calling functions/ctors).
+Kotlin has a few nice features such as how they handle getters and setters as well as their if/else, try/catch, and when blocks can be evaluated as values (eg. return try { foo.bar } catch (e: Exception) { 5 };)
+Attribute mess
+Not sure
+some small things feel tacked on, overall fine
+@ inconsistency, negating attributes, auto properties like in C#
+Over focus on advanced features. Carries old C++ baggage like the need to manual include for each file std.xxxxx whenever you need a feature ( how about learning from languages like PHP to have the std default included ). And only require manual if you got a naming collusion. Compile time and run time features are so mixed, its simply unclear. Performance issues when using some features that slow the compiler to a crawl. Feels like somebody took C++ and slapped a coat of paint over it but forgot that the world has moved on.
+C-like syntax: too many curlyes, needing main(), too many 'use' lines
+No code-as-datastructure support. Having a D-parser and a D-unparser would make using mixins much less error prone.
+Language support for Tuples! Also an option for default immutability. 
+Not so much syntax but 'scope' is poorly defined/implemented.
+Named optional parameters, kotlin style , would be nice. Additionally builtin set syntax would also be nice. 
+I'd be more than happy to have tuple destructuring aka structure binding. I think some syntactic sugar for constructors could be a really nice addition, something similar to TypeScript ex Using private for a parameter property declares and initializes a private member.
+ 
+I personally prefer a more rust or kotlin-like syntax with the variable type declared after
+lack of pattern matching, verbose list of attributes and modifiers.
+Too many attributes pollutes namespace. Getting to use nogc features is difficult. Better algebraic datatypes and higher kinded types will make development in D even more pleasant and easy to formally verify
+Answering this would take too long. One vague answer, though, is that the annotation system needs reform. 
+Lack of syntax for closures without GC allocation (value closures?).
+@safe etc should be default, and I should only have to add decorators when I want to mark unsafe code.
+(minor issue) It's hard to tell what a line of code does.  For example what does this line do:      unseen; It looks like an error, a no-op line but it actually calls the function unseen().  I would prefer D to have a little more explicit syntax sometimes.  Especially to attract developers from python (and to a lesser extent java). 
+not sure
+Lack of string interpolation, first-class tuple support
+immutable, const, inout, scope, etc... are not very well defined/easy to understand.
+script like
+using parens for templates, lack of true property support
+@safe const(T[const[long]) pure functionName(T, C)(auto ref int param, inout T param, scope C instance)  nothrowif (isRange(C) && isInistaiable(C))  How anyone can not get intimidated and Not feel lost
+The lack of syntax sugary tuples.
+Too many unfinished stuff
+sometimes to complex: Mixins, in/inouts 
+Constants being enums instead of aliases
+Inconsistent attribute names (with and without @).  Poor support of function purity in Phobos and in language itself (issue 9909).  The word "immutable" is too long (even longer than "constant"). It could be "immut" since there is "const" already.
+consistency, e.g. pure vs @nogc 
+I am not sure if I ever get used to the ~ operator to concat strings. :-)
+Littering of attributes and keywords, sometimes too many ways of doing the same thing (even 3 kinds of comments) and wondering which one is the true idiomatic. Ability to harm yourself, e.g. you can overload the default constructor of a struct, but it doesn't work as you would expect. Slicing operators overloading is messy. Specifying template constraints could be cleaner. Using "alias" keyword.
+no volatile
+Inconsistent use of keyword and @keyword syntax, this is lame.
+invoking "inline" @trusted code: () @trusted { .. }(); what if just @trusted { .. } executed the code instead
+too many attributes, wrong defaults.
+It's very late to fix things, but basically the initial wrong defaults (not @safe, nothrow etc) leading to extreme verbosity. 
+"version" is a pain in the butt. Just give me some damn macros.  They solve way more problems than they cause IMHO.
+Still heavy syntax when manipulating types. But better than with most alternative languages.
+Function signatures can get laden with lots of stuff, any effort to cut this down would be great
+slightly complex (more than one way to do things) in places, for example the various ways to express lambda's / delegates. 
+Sometimes I feel that the bar for syntactic sugar is set too high and the steady push for library solutions sometimes ends with not very pleasant syntax.
+not uniform attribute logic
+too many attributes (pure, @nogc, @safe, etc.)
+The way C declares functions/variable was never that great (wish D cleaned it up).  Using 'enum' instead of 'def' seems odd. Maybe parameters should be const by default and use 'var' to make them mutable.
+we have the beautiful UFCS but with ! template parameters a!(b!c))(d)  it may get hard to read. And difficult for people coming from languages without any templateing.
+The need for Rebindable is a shame. Shared is broken.
+to many special symbols. template code is ugly.
+Some parts have grown quite ugly (inout, attributes with or without @). I generally like the syntax very much, but it has some untidy edges.
+"is" is black magic. no way for implicit casting if you really really want to, unless it's assignment, which is just weird.
+Can be verbose Operator overloads use words instead of the symbol AA initializers Somewhat staid, unwilling to keep up with C#, Kotlin Property syntax - why do I have to declare type for both getter & setter? Still don't really like quirky template syntax
+Make semicolon optional (as statement separator) - do not be slaves to the C/C++ syntax!
+too many keywords. Confusion on when to use which. "@safe nothrow inout @property" 
+We have a lot of extra attributes that seem to be confused or lacking complete implementation and documentation, e.g. shared and "auto ref return".
+Homonym template magic is cool, but weird syntax.
+It's ancestor is C... but that's a big plus, so it's OK.
+As time goes on, it gets more and more ugly and cluttered. 
+not as clean as possible, attributes...
+Non-uniformity with compiler attribute syntax
+There are so many keywords for functions etc. @safe, pure, nothrow @trusted etc.
+I dream of Scala-like pattern matching. Built-in tuples are also cool.  I'm sad that built-in associative array are planned to be removed in favour of a library solution. I definitely prefer value[key] myArray; over AA!(key, value) myArray. It is just simpler and I don't think there is a reasonable reason to sacrifice this.
+currently falling in love with nim instead of D:  no brackets, no semicolons, indentation...  simply better readable and writeable
+it is very good
+- Need syntax like C#'s coroutines or C's protothreads for defining input ranges. The std.concurrency.Generator is insufficient because, unlike the C# and C solutions, it introduces the overhead of fiber-based context switching. This renders it unsuitable for many purposes, such as parsers (which would greatly benefit from being written in a coroutine-like style). This is impossible to implement in D without language support.  - Needs first-class types. The current state is terribly non-orthogonal and messy.  - Syntax/support for basic ML-family style algebraics and type-based pattern matching, while technically there, is not very good at all.
+The template parameter syntax is annoying.
+Pretty much the only thing at this point is there's no easy way to kind of 'lump' together a bunch of function attributes, so I have to type "@safe @nogc nothrow pure const/immutable" everywheree.
+Too many attributes. Having to put them everywhere is a pain. It would be better if we could just make a complete module as nogc, safe, trusted, et cetera.
+Lacking of pattern matching, tuple's native support, algebraic type's native support
+A few warts
+No mechanism to alias attributes, paren spam, template instantiation can be a bit bloaty, template constraints are often long and very difficult to read/understand at a glance.
+variable declaration, I would like let name: type = value;
+The type system and how it is used with templates is needlessly complicated.
+Namespace. I want to explicitly specify not a file name.
+remove semicolon. remove needless parens in if, for, while, switch and maybe function apply
+Inconsistent use of @ symbols in keywords
+personally I like indent-based syntax
+Smarter way to handle nulls.
+Many unnecessary keywords
+Template semantics are sometimes mystifying, providing behaviors that do not correlate with their visual expression in code.
+A lot of neat features have been added since the D2 split that are helpful but result in very hard-to-read code, like lambdas, and some of the range stuff (this is more of a library complaint). 
+inappropriate default attributes, inability to explicitly negate some attributes
+immutable is too long. In the lambda expression, () => {} returns a delegate.
+Const being transitive is fine/good, and I support the lack of 'head-const' (like C++ const). But 'tail-const' (or 'head-mutable') is required for ranges. I see 'const' and 'tail-const' as 2 concepts (especially in D), and not 1 being a specialization of the other. 
+long function defs const/immutable inconsistency contract syntax slightly bloated 
+1. Usage of '__' in __traits etc. because it's an "extension". In truth you can't code half of the cool stuff without using __traits. It's not an extension. It's necessary core feature of the language. Please remove the __ bs. There's too many ways to do keywords. 2. The design of 'TraitsKeyword' in __traits(TraitsKeyword, TraitsArguments) design seems very organic an incoherent. It's a bit diffcult to work with and remember how to use each keyword. Prime candidate for a small redesign. 3. Turning off attributes and/or define attribute groups to lessen attribute bloat. 4. Template constraint bloat. We could use compile-time/static interfaces for structs. For example, maybe ranges could have just a static interface. Clean and consistent. 5. is expression is pretty horrible, I always have to keep looking docs when using those. 6. Putting function attributes in front of function which completely looks like they're attributes to the return type. 7. Compiler allows weird combinations of keywords which don't do anything.
+I'm not a huge fan of the cast syntax, but I've seen worse (C++)
+I miss strong typedef
+I dont differences between kewords, some have @ and some doesnt, its really weird. Also, I dont like lowercase file names
+There are many quirks and unnecessary limitations.
+I don't understand why __gshared has to have 2 underlines, for instance.
+Alias this is reversed, inconsistent attributes (@), I keep wishing for struct constructors without arguments. 
+Sorry, I'm a Lisper, I'd love me some AST macros, they'd make tons of code much clearer
+I don't like having to use goto for fallthrough in switch/case statements
+too many of the different attributes on functions, ... their different style, some are "normal" and some with @ it seems some are have the wrong defaults
+I prefer the Python approach of one way to do something.  D often has multiple ways of doing things.
+Unintuitive what works or not, though it looks very readable once it compiles. Needs more code examples on the phobos docs to what works.
+Would like member functions to be final by default.
+Taking some queues from functional languages and including expression constructs such as `match` blocks that return the selected value, and having built-in sum/algebraic types with easy syntax would help with modeling power.  As well, Walter has expressed his concern for type safety, a valid concern since a competitor, Rust, is built around it. Have these options be default. D seems to prefer the programmer be explicit with unsafe code in some contexts (pointers, `asm`), but explicit with safe code in others (`safe`, `pure`). To prefer concision and safety, tags should be for marking unsafe code, and the compiler should expect safe code by default. Maybe not pure code, but definitely safe code.  The GC should still be default, but when it is disabled, it should be as easy as possible to get up and go. Smart pointers (for example, `refcounted` and `unique`) could be added to the language by default as keywords (alternatives to `new` in front of object instantiations; yes, I realize they are in the standard library) once the allocator is finished and out of experimental phase. Syntax for smart pointers, along with `scope {}` blocks, would probably make D the best manual memory-managed language around, overnight.
+Would like it to drop the “;” at the end
+It still assumes a GC and incomplete specs 
+GC-ed builtins.
+Two many attributes, no syntactic sugar
+Many things, I hate quirks because compatibility, properties, annotations and so
+Too many keywords. 
+accumulated legacy redundant syntax (e.g. all the different ways to declare a lambda)
+@safe @trusted @system nogc nothrow pure inout, very confusing
+That fully expressive macros can't be written as templated code but need string mixins. That string mixins need to be called with `mixin` and can't have the appearance of ordinary functions. That I can't write an alias for an arbitrary expression. That I often need to create dummy functions to make templates auto-infer parameters.
+Very limitted extensibile syntax (e.g. foreach is), yet many baked-in stuff like switch on strings, synchronized etc
+Way too many keywords!! Why complicate with in, out, etc? const is good enough. immutable?? why not the inverse with `mut`?
+Cannot use things like normal .map on AliasSeq (lack of UFCS syntax for type stuff).
+attribute bloat
+Lack of sugar coat for events programming like in c#
+Missing version negation statement 
+imports can be pretty tedious
+Would be good to have pattern matching, sum types.
+Cannot see whether something is a reference or not (class vs struct; don't know how to solve it. Simply forcing developer to write "ref" for each variable of a class type won't work if code is generic for structs and classes...) Cannot remember the "is" expression syntax/semantics. Built-in unittests is a misfeature and should be discouraged.
+Certain common operations could use some syntactic sugar.
+no builtin tuples + destructuring, no declarative assignment for associative arrays, no async/await
+Fibers don't quite have the same level of ease as async/await 
+Missing proper algebraic data types, pattern matching, non-nullable types
+Lack of string interpolation. Big turn-off.
+i'm not a fast of casting, i prefer the c# way
+The syntax for mixins and template mixins should be unified. Also, I do not agree with the deprecation of octal numbers, hex string literals, and complex number literals.
+Built-in keywords for ranges, coroutines,  events.  How much attributes not inferred
+I would like c99 style struct initializers I don't really like the @ in front of some keywords. 
+Some syntax decisions around enum and the structuring of modules that lead to huge d files covering an entire module instead of the java / C# / modern C++ option of preferring one file per type and those types combining to make a module makes it seem like the language was not made to scale.
+Some inconsistencies, such as template declarations vs. instantiations or delegate type declarations vs. expressions
+especially named arguments
+I can't get used to ! for templates, but that ship had sailed long time ago.
+@too many inconsistent @attributes, wrong defaults. And traits/is-expressions are hard.
+I would like to have a @c-behavior{ } block for being compatible with c type promotion rules, but for default D programs, they were @safe and used stronger and more correct (maybe even always explicit, to!X is very short and descriptive) type conversion. 
+"optional" parentheses.
+no implicit creation, ref/out are implicit, no property += syntax (opOpAssign on properties)
+Lack of AST macros or any other way to change syntax.
+It doesn't allow for great tooling support.
+Complexity, unfinished features
+Attribute explosion, various minor limitations like defining manual lexical scope outside of functions, too permissive (optional parens, UFCS abuse)
+the ! syntax for templates is confusing and out of place
+UFCS, please, UFCS for methods, there are some usages for it that doesn't have sense without context of members of the class.
+Historical baggage and inconsistencies
+Inconsistency just for sake of not braking code, for example,  property, @safe, @trusted, @system, disable, nog, @disable... just remove the '@' and break code. Or allow them ONLY on the right side and break code. Let's break and remove complexity please! 
+Debugging CTFE and templates
+It could be more elegant, taking a lot of Go's style to make a language that's both powerful and elegant. Minimalism matters enormously for initial impressions. It doesn't matter in the slightest for powerusers annotating everything to death in library level functions but you already have those people.
+All those annotations are annoying. Plus, overall, I find that the syntax reflect the complexity of D. It is a huge improvement over C++, but looking at other modern languages it just feels too complicated. (Perhaps D is another niche, but that's what I feel.)
+D feels like it's starting to suffer from similar feature bloat issues that C++ has. 
+Destructuring assignment would be nice. 
+syntax is good, but D should drop stupid C semantics like promotion/conversation rules.
+Lol. Sometime it feels there are way too many ways to do same thing. Makes it hard to read other ppls code
+Some things become very verbose, because often library solutions are more acceptable than syntactic sugar.
+- Too many attributes, and some starts with @ some don't - int[$] = [0, 1, 2, 3, 4]; // instead of int[4] - immutable/auto is nice, but var/val in Kotlin hard to beat - immutable is too long for useful  keyword  
+I actually like the (now dead) 2.079 change, with the import a : b, c, d : e, f syntax i.e. allowing selective imports in the same line as normal imports.
+No way to disable some attributes like final, pure ...
+I want a custom syntactic sugaring API so I can use "?" Syntax optionals or whatever else I can think up.
+Missing a tuple syntax. 
+AA literals, first class tuples
+the enum keywoard
+no tuple unpacking, no anonymous structs/data, deriving exceptions just for type matching sake is ugly (forwarding this), too many keywords (in and out for example, are not restricted to parameter context)

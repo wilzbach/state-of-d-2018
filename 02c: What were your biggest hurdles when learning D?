@@ -1,0 +1,409 @@
+Documentation out of date with language and compiler changes.
+It is a complex language. But in general it is not hard coming from C++ and Scala.
+poorly documentation
+Finding a decent IDE
+Lack of non-trivial examples
+finding out the shortcuts that exist in this language
+Love the language, but unsure how to use it practically.
+Lack of documentation for less popular parts of the library/lang, and for corner cases/errors
+I never managed to figure out how alias template params work under the hood. Otherwise it was great.
+difficult to find useful informations
+so many features
+1. Templates 2. The sheer number of type modifiers!
+TDPL out of date  
+Nothing special
+Finding parts of the language where the specification and implementation did not agree.
+Not everything works as documented, not understanding that TDPL wasn't actually inline with the compilers.
+Difficulty finding libraries.
+early compiler issues, breadth of features
+Fibers
+Cross platform compatibility. D on Linux is a challenge to get setup. D for embedded systems is limited in capability (my primary focus at the time I was learning to program D). 
+Documentation not matching the respective LDC / GDC compiler versions Outdated documentation with less practical examples
+Lack of functioning tools (IDEs, debuggers etc) Magic (e.g. you don't know if you have a pointer or not unless you know if you have a class or a struct so you have to hold a lot in your head at any one time)
+immutability/const
+Textual layout of the specifications, lack of narrative on what method/functions do and poor or non-real world usecase  examples 
+Templates
+I haven't learned D...
+buggy compiler
+Finding stuff like 'is/!is' (now I know that these are explained in the Expressions page) in the spec was a bit hard because they were hard to search for. 
+shared, alias this
+Documentation and error messages (pre 2014).
+Understanding the toolchain, especially dub. Everything seems to be focused on unix development, and very little is said of Windows, when there are sometimes quite large differences. Obviously the aforementioned IDE problems apply here.
+Not widespread among beginners or educators. Hard to adopt without falling down to learning C or C++ concepts.
+The "Range" concept is too weird. (too abstract; too generic). Also functions with 'auto' return values are very difficult to use because even the docs on the official site doesn't really explain what the return value is.
+Absence of dub in the early days :-)
+La insuficiente cantidad de tutoriales y documentacion
+Lack of libraries similar to Numpy, Scipy, Mathplotlib, Sympy
+struct/class, ranges, templates
+using phobos with templates. 
+Concept of Range
+pointers and c interop
+Documentation - it's still D's biggest hurdle Lack of consistency in library functions Poor documentation of the most powerful/useful features in fact, the more powerful and useful the feature, the worse the documentation/examples.
+There are few of informations about D.
+Lack of learning resources - that seems to have been addressed now.
+A missing IDE with go to declaration links. Also wrapping  my head around that a function declaration doesn't tell me the returned class -- because it's not necessarily defined.
+the switch from D1 to D2, the phobos vs tango split
+Lack of tools and libraries
+Dealing with the re-use of keywords, like alias. alias in a compile-time argument seems to be some sort of type, but it was never clear how.
+Quality of documentation was in issue but this improved in the last year(s).
+Resources and libraries
+memory management is scatter brained
+The official documentation on dlang.org will describe the grammar for some feature of the language, but I find it kind of unintuitive.
+ Complicated templates and slices
+Being lazy and not actually writing code sooner (I read TDPL 3 times first, for fun). Sub-optimal documentation (my knowledge of that situation is 2 years obsolete though).
+map reduce
+shared
+Complex language (too) many ways to do things.
+Poor IDE support.
+debugging support broken
+- Inconsistencies between different compilers compiling same application (errors in some, not in others) - Slow compilation times (with all compilers) - Confusing positioning of import statements (inline and at top of file, like Node.js, which causes confusion)
+1. Outdated references. 2. Limited references
+Language spec and documentation is incredibly dense and assumes the reader has a degree in theoretical computer science
+attribute/storage class/type modifier and their combinations: There are lots of them; the DIP1000-related ones I would like to be presented in a way that's better memorizeable or to be looked up quickly.
+Template error messages. I often rewrote long pipelines in procedural style, debug, then rewrite as pipeline.
+none
+Trying to get runtime working on Windows
+Setting up a development enviroment with good auto completion e.t.c
+Mixed docs regarding D1 & D2 (outdated tutorials), no roadmap for D2, no current state on this roadmap (i.e. shared keyword unusable/undocumented)
+phobos, functional programming
+learning editor support
+Learning D over ten years ago there wasn't much documentation available
+attributes
+Simple projects to take a look at
+It's hard to find intermediate to expert leve Dlang books(like Effective C++ or Modern Effective C++).
+General lack of web resources on stack overflow etc.
+It's always hard to find useful answers when you encounter some problems.
+The specification lacks some details, templates took me too long to understand despite them being so common in std
+Andrei Alexandrescu's book should be updated. This is the most comprehensive D book that is around, and it's  pretty outdated now.
+lack of: stack overflow/blog posts/tutorials
+Book not keeping up with latest developments
+dub's documentation at the time was pretty shit
+How to manage memory with the garbage collector disabled and how to use some of the collections library code.
+Really want to like it.  Compiler errors can be too cryptic.  Every message from the compiler should be helpful, understandable and make sense. See clang Handling passing arguments gets annoyingly complicated with immmutable choices  Want easier automation of functionality in custom types  Double arg lists took getting used to 
+Lack of support at the time in Fedora. DVM wasn't working and they didn't package even the llvm front wnd
+1. Poor debugger support 2. API documentation particularly return types when using pipeline functions being useless.  3. Compile errors showing C(B(A())) instead of the A.B.C that I wrote.  4. No tools to help debug compile time generated or executed code. 
+weird keywords
+conception templates
+When I began, standard build tools like dub were not around and the compiler gave difficult to comprehend errors without line numbers.  Things have improved greatly since then.
+Seemingly broken tooling.
+compiler bugs and weird compiler messages
+Compiler bugs, poor debugging experience
+Lack of good documentation and examples.
+Lots of compiler bugs. Later, when I learned D2, a lack of documentation. This has improved since.
+New stuff
+New syntax for generics and the like
+No good video tutorials
+Updated documentation
+None. Andrei  A's book was fantastic introduction.
+A lot of the documentation that existed at the time I started learning D (~2012) was focused at people coming from another compiled language like C, etc. I came from a mixture of Java, Perl, MATLAB, Visual Basic, and self-taught Python. 
+Not as popular as other languages on stackoverflow
+Learning what tools to use in what situation (abundance of approaches, figuring out what is the best approach).  Lack of suitable learning exercises of sufficient size/depth to learn the stdlib beyond a superficial level.
+Documentation structure and layout isn’t the clearest when starting out, compared to other languages such as C#. 
+I was pretty new to programming at the time.
+nothing, really
+Linking in Windows, implib or coffimplib, IDE and debugging support.
+Library ( see e ), windows issue with different install tools, lacking editor support windows,  outdated examples...
+Error messages in unit test failures. Error messages in general.
+linking
+Need vscode or some editor support
+Tooling is really hard to make it work properly, missing a real IDE.
+Understanding the GC's whims, especially in multithreaded environments.
+The template syntax in the documentation
+Stumbled upon a bug in bytecode generation that slowed down the progress
+Lack of documentation targeted towards newcomers. 
+- IDE support - Better community, esp Reddit, it's important - Available Libraries: GUI ...
+Some areas of phobos need more examples
+There are few contents and information.
+powerfull
+Lack of examples
+big language
+coming from python, it was memory management.
+Not too many blogs, less discussion on reddit/HN. But docs and the dlang forums are good
+Using certain language features correctly, e.g. operator overloading and interface with C
+Certain language features lacked tutorials and were hard to understand at first.
+Trying to understand why compile-time code (including templates) doesn't work. Mostly issues related to what's explained in a wiki article about the many different "compile times" that exist. At a deeper level, though, I suspect I'll eventually learn that the possibly cyclic nature of writing code that is compilable or not depending on whether excerpts of code are compilable or not isn't as much of a non-issue as the inclusion of that feature in the language would imply.
+Sometimes I was a bit confused whether certain features were deprecated or not (e.g.: scope).
+string-char-dchar-int  conversions
+interoperation with C libraries is really far from seamless, especially with DMD
+Understanding the difference between arrays and Ranges and realizing that D is not C++.
+All the 'auto' return types in the function definitions in the standard phobos library reference.  Often just stating the minimal 'range' type would have been more useful.
+Some concepts were not easy for me
+Compiler bugs & Documentation & Examples
+Understanding compiler error messages Had a hard time finding beginner-friendly examples/how-tos
+Compile time vs running time differentiation.
+GavergeCollection
+At the time, some things were not, or poorly documented.
+Documents are not enough.
+templates everywhere
+understanding templates and template syntax
+Learning the effect of reusing an array with array stomping  and such. Practice using const system especially when it is combined with arrays. Deciphering recursive tenplate errors, not because they are long but because they complain about the wrong thing.
+The documentation is lacking.
+Choosing which kitchen sink to use — there's so many!
+Environment (IDE, integration, project building)
+mixins, immutable/const, in/out
+no
+Parallelism
+const vs. immutable inout pure functions
+I don't remember
+documentation, mostly.  it’s getting better, but I still have to look at the source code of eg. phobos to fully understand what’s going on
+not enough information 
+The by far biggest hurdled I had was doing a SIMPLE(!) date parsing and formatting (with and without timezones) back and forth between string<->date and Unix timestamp<->date<->string. I have experience in JavaScript, PHP, Objective-C, Java, and a bunch of others, and I can do that task in those languages quite easily. However, in D it completely stumped me. The documentation didn't really help at first, and I had to re-read it a bunch of times and also do a lot of trial-and-error.
+Online-only documentation, editors without popup hints
+Bad tooling and bad compiler messages / diagnostics (stack traces, etc).
+Lacking and sometimes outdated documentation and language specification. Hard time understanding when to pass by value and when by reference and problems resulting from that   such as functions from standard library taking a range (sometimes they are modified by a function and sometimes they are not). Too much not obvious annotations and keywords, e.g.  auto ref, inout, nothrow etc.
+non
+dlang as a multiparadigm language is not the easiest to learn, especially if you want to write "good" dlang code.
+Need more examples of advanced stuff
+compiler changes making once working code non-functional
+The absence of a really good IDE or full language support on text editors, there is dlangIDE and some plugins but it would be better to have better choices
+Recursive templates
+It was one of my first languages, so probably that.
+I was on Windows at that time, it was supported pretty badly. OMF/COFF issues,  no 64 support, limited DLL. Now its much better .
+bad error messages from compiler and runtime exceptions
+Lots of things poorly explained and you're forced to do detective work to learn their workings. "auto ref" etc.
+getting a feel for current idiomatic usage - also understanding more complex features fo the language (meta programming)
+Some inconsistent syntaxes  + rough edges + lack of documents/samples on a feature
+Kind of irrelevant now since I learned it in like 2005.  There's tons more material to draw upon now than I had.
+Started to learn D1 one and a half year before TDPL was published, which describes D2.
+Information sources in native language.
+nothing drastic
+looking for functions. UFCS is greate but it is very difficult to find what you want if you don't think about UFCS and templates
+None personally, but lack of transaltion for less common languages could well be if i was less proficient with English.
+Maybe that compared to C++ there is less to look at, but, overall, coming from C++, seems a quite natural transition.
+big .exe files
+Not the greatest docs at times
+Tempates
+lack of video tutorials
+Lack of proper tooling
+bugs in compiler lack of online resources: tutorials, blogs, etc
+Few samples on the Web and low googlability.
+Compiler error messages don't help much 
+Templates, CTFE
+Almost functional idiomatic D coding approach and sometimes very terse and hard to grasp metaprogramming snippets that one can see in forums.
+lack of practical examples and libs
+many old code (libraries, examples) not working
+lack of resources, no longer an issue, that was years ago
+Readability of the spec. Good examples missing. 
+Stopping to write C++-style code
+bad debuggers support on windows. 
+lack of documentation
+Lack of documentation
+Understand templates and the differences to C/C++. Toolchain setup (easier now with DUB).
+To do something useful, you need probably some additional libs, and often you are informed by dub at the end during linking, that something is missing.
+Nothing really, just a matter of how much time I spend on it
+tooling, diff between tdlp and implementation
+dmd 2.078.3 on Windows doesn't show syntactic errors messages
+Lack of real-world examples. Going from theoretical parts of understanding D concepts to actually implement it in various algorithms that already implemented in other languages (C, C++, Java, etc). Always a question comes up: How do I do this in D? More real-world examples would help. 
+Range idioms
+Small amount of examples
+Andreis book is excellent, but out of date in some parts and never reflected the implementation (synchronized) in other parts.
+Const/Immutable, error messages no help, trying to just use strings as ascii strings with range algorithms.
+Obscure code examples in spec didn't align with my aims
+Setting up the environment.
+Compiler errors
+D has very few books!! One of the authoritative book is a decade old!!  The standard library documentation is poor. 
+no major hurdles
+Finding good, complete examples addressing common web patterns.
+how to make GUI
+Missing well-commented examples and projects to learn from. Not only examples per language feature.
+Inconsistency between compiler and spec. Toolchain barely usable
+is expressions, ranges, lazyness, ecosystem
+type qualifiers
+Lack of simple tutorials online. They are more my style.
+no hurdles
+I encountered a lack of resources on converting to D, given proficiency in other languages. The resources on conversion I could find on the D language website and wiki were insufficient. I had to contend with D textbooks that assumed no prior knowledge of programming, which caused me some inefficiency. 
+Not enough tutorials for advanced features.
+I actually don't remember, it was somewhere around 2010.
+imperfect doc
+Working examples for using various libraries
+different
+Getting a decent IDE up and running
+The language was still early in development and there wasn't much of a standard library. (At the time. Pre-v1).
+templates
+Missing / incomplete / outdated documentation on dlang.org (or in the generated docs from source code), that necessitated reading the code directly.
+Insufficient documentation.
+Learning to use the profiler to track down where the compiler was generating code that made lots of array temporaries.
+libraries, IDE and mssql
+Finding a good editor + plugin combo that worked well. (started with xaramin + the D plugin for that, moved to vscode and code-d)  Lack of examples.  
+Outdated documentation/examples on external websites. Some Phobos docs are still confusing (json, curl, logging, templates). Linux distros(Debian/Fedora) ship old/broken versions of compilers (gdc/ldc) 
+Development environment
+Native, linkers ext.
+To know whether a method returns a ref or object
+Compiler bugs, quality of error messages, incomplete or inconsistent std library
+nothing
+Code examples are too few when compared to other language in sources like stack overflow.
+Lack of time.
+getting subtle templates to work
+The D users are no many there.
+Linking resulting programs with third party libraries on windows. Being forced to deal with optlink or microsoft linker while having dependencies built with mingw is pure hell.
+Debugging template code.
+opapply, ddoc
+Getting used to the way modules and classes work coming from c++
+1. Lack of examples of how to use something. 2. Having to know ranges and templates before I could use much of Phobos. 3. Some fragmentation of Phobos, like is a function I am looking for in the string module or array module.
+Lack of real opportunity
+Understanding how templates and CTFE work together.
+Can’t recall, it was many years ago
+little up-to-date translated information
+Complicate template and poor error message
+Oudated examples Not enough examples Some documentation for Phobos functions were poor
+Lack of "copy-paste" cookbooks for common scenarios
+mixins, difference between struct in C++ and D, non-threadsafe ranges, lack of RAII
+1) The quality of the documentation was inconsistent; sometimes I had to read the Phobos source itself to know how to use it.  2) Compiler errors; I would spend an hour or so trying to understand why my crazy-simple test application wasn't working to find that it was an issue with the compiler (though every time, there was either an open or merged PR so I just had to wait for the next release). 
+Compiler bugs, strange behaviors from seemingly innocuous statements
+The D specification could use some more realistic samples, and the library reference can be very difficult to grok. 
+compiler bugs (I learned while D 2 was still in beta)
+dlang is not so major in Japan. There is no evangelist.
+never tried learning it.
+googling for answers
+Outdated/wrong documentation & difficulties with 3rd party libs 
+Development tools, real world code to look at. I think development tools are in a much better state then when I started.
+I still don't know it all that well. Templates were tricky (I'm used to lisp macros)
+Several compilers, the supposed reference compiler being unbearably slow and buggy
+Finding language feature details. LangSpec is pretty scattered. Some details only in 'Articles' not in the spec. Also finding the best way to do something, since D has many tools to solve a problem.
+is()
+There were far fewer resources back when I learned. From what I can tell this has been addressed significantly.
+Weird things like AA keys as strings getting clobbered
+Some key "aha" moments like how GC work, or how slice capacity work, or what the runtime does.
+- language specs being inconsistent or not enforced by compiler (issues have improved considerably  over last years) - phobos specs: massive footprint of signatures and overloaded functions make it difficult to identify the very (templated) function I'd need/want and how to use it. many more usage examples are needed.
+Out of date or unmaintained libraries
+weird keywords (pure nothrow @safe @system @trusted...)
+Due to its similarities with C, it wasn't particulary hard, but there are a few catches here and there.
+itvwas hard to understand the templates
+Ranges, functional style D, lambdas.
+Both on higher level philosophical issues and on very specific technical detail issues there's a general lack of texts available explaining things. Often the best source would be a random forum conversation from five years ago. This generally works, kinda, but it's a bit different from C++ world :)
+Lack of examples in documentation of std
+Missing IDE on the Mac
+A lot of the official documentation is either incomplete, or not worded in a way that's easy to understand for beginners
+the shift from D1 to D2 "string" and all the various converts of the different used types
+suboptimal tools on windows no support with mingw and gdb, so a lot of c++ tools do not work properly, ie. codeblocks, qtcreator, eclipse, ... visual studio and visual d are tricky to install and use, some bugs, ... to few working features, see ide's for java, c#, ... some quirks with the docs of std lib, ie. errors, unlogical things, functionality spread over some places not clear usage for gamedevelopment, ie. gc usage, .. but mainly the tools, even c++ has better ones btw. not everyone use visual studio on windows
+Things are not well documented enough.  It often takes me a while to find how to use things like the random number generator correctly.  I think the way these libraries are implemented also contributes since the organization of the implementations vs the interface isn't super clear. I've also had issues figuring out what algorithms I need to use to perform common operations on data structures such as dynamic arrays. Immutable and const also confuse me -- you can apply them in so many ways that there is a steep learning curve.
+None specific
+Understanding the documentation, ranges, and std.algorithm
+- Moving from the reference doc/spec to an understanding the underlying concept (e.g. reference types vs value types) - Understanding the different function attributes. - Getting an overview of the standard libraries (phobos/druntime) to know how to find things - Getting an understanding of the larger D ecosystem (build systems, debugging, compilers, etc)
+Error messages from the compiler are awful. Stack traces are no good in template errors. I would prefer Clang-like template errors (eg. 2 pages of errors where I can see the faulty line) than DMD style errors which dump a bunch of meaningless pointers and an error unrelated to the acutal faulty code.
+Issues with ranges, template documentation, error messages.
+Not enough time
+Mostly just learning that the functional higher-order-functions in std.algorithm return ranges rather than arrays, and the error messages don't communicate that clearly to a newcomer (though I'm sure they're perfectly accurate).
+Not enough examples/lack of articles about general concepts
+Learning the use of shared, otherwise documentation for learning is pretty good. Conditions and Mutexes are a bit painful. You have to lock the mutex then immediately wait on the condition. Was not specified in docs.
+Not a lot of tutorials
+Poor docs (much better now)
+need a debugger that really work well.
+Compiler/Tool Quality
+Lack of examples.
+inout templates mixins
+Learning to minimize GC allocations
+Just new concepts to me
+Libraries, Compiler Errors while building libraries, Lack of documentation in std and also in many libraries due to little usage. And too many keywords like out , in ,body etc...  . Also debugging is not good enough. The best IDE for my taste is still abandoned Eclipse DDT. But since in the web page it is put in the bottom-est position in the page new comers won't use it and use other ongoing incomplete project this will drive them away.
+Tango vs Phobos
+template parameters not fitting the declaration
+"alias this"; the uses of aliases as template parameters; rules regarding struct creation/assignment/destruction.
+Unlearning C++
+Changing spec (I started in 2009) Destructors may not be executed How to use 'shared'
+Coming from C++, RAII is not really the same in D. D's RAII is very limited and resource *acquisition* during initialization is not possible at all. It offers only resource deallocation during destruction, which is just a "meh!". GC was *NOT* the biggest hurdle.
+Mostly that some feaures have edge-cases, like structs cannot have a constructor without parameters and there's no UFCS for types at ct.
+Issues/features I wouldn't discover until I visited D-Idioms, as they're not discussed in Alexandrescu's book nor the DLang Tour.
+Find ways to do certain things , without explicit documentation describing it.
+Examples, library docs are difficult to read due to template return types
+Compiler segfaults
+slices
+No tools
+Error messages, especially with respect to templates.
+can't think of any
+Immature tooling / IDE
+linker, bindings
+Coming from C++, class semantics are quite different
+debug/find errors, decipher error messages, missing/too little documentation
+Finding a good editor, setting everything up, many examples I tried on github didn't work because of deprecation/dependencies. It took a long time before I could create a simple window.
+compiler bugs
+There isn't a lot of easily accessible up to date information for people between newcomer and expert. Most of the information is targeted at either one or the other with not much in between. 
+Nontrivial type errors when writing complicated code.
+Putting a build environment. Dlang targets itself as being in the same spirit as other modern languages like C#, Java, JS etc., while it is bogged down by the historical baggage of how development process worked in C and the likes.
+Bad IDE plugin
+This was back in 2012, so there were very few resources available.
+Templates, alias this, ranges,  inout, fibers
+Understanding how to use D after years of C++, it's easy to see D as a "bad" C++ if you try to use C++ tecniques
+Setting up IDE and debugging on windows and getting used to using 3rd party libraries on windows in a way that is not as UI friendly as I am used to from a .Net developer perspective (.NET has everything you need available easily and packaged with a nice bow)
+The semantics of how D behaves weren't immediately apparent when I started learning D, and it took a while to discover certain things.
+Understanding the rules of immutability, enum and alias.
+Compiler bugs
+Lack of ways to translate common C++ idioms
+Unfinished features and libraries
+language documentation could have been a bit more verbose in some areas.
+immutable
+Some arcane compiler error messages.  Scope of the language is very large
+Awkard documentation, not enough examples, many resources are outdated, dead packages stuck at version 0.1
+C++ is an extension of C.  In learning C++, I only encountered complexity when I started using new features.  In D, I encountered complexity even when I was trying to do things that were simple in C.  Also D was evolving quickly, so I felt like I was shooting at a moving target, rather than a stationary target like C++.  (C++ only "moves" when new versions come out approximately every 3 years.)  So I found C++ to be more predictable.
+At the time, the language spec was pretty much it. So much better now!
+Build systems were a bit tricky to figure out, was used to the C way of doing things with make. Getting GDC/LDC to work was also tricky, reference compiler worked well though.
+Big language with many features
+Range semantics and array semantics
+The only thing I remember is static if not creating a scope being unexpected. Otherwise, it's just been a joy.
+metaprogramming
+Lack of examples for the standard library, limited documentation of some language features
+no
+Mismatches between implementation and the books (specifically TDPL)
+lack of experience with a low level language 
+Nothing to do with the language, I'm just slow and had a hard time groking a few of the trickier pieces
+References which are later obsoleted by compiler updates
+Visual studio integration is pretty good but doesn’t use dub to build - even pretty simple dub-to-vcxproj conversions fail for me. And surprising inconsistencies with 64 but windows
+No major hurdles, just took time as it is a large language
+Getting everything set up. Linux IDE was a bit of a struggle
+getting the compiler to work in 2008
+The documentation, while often quite good, can be rather unclear at points. Sometimes the documentation makes function definitions really easy to read with clear examples, and other times it's just a whole bunch of garbed function parameters.
+The times I had to ask on the forums for explanations for things
+None.
+Lack of a single-click solution that sets-up a fully functional and rich development+debugging environment for Windows (I was coming from C# and was spoiled by Visual Studio).
+IDE support
+Lack of template programming docs.
+Complexity of ranges / static&dynamic arrays / strings / tuples. I.e. implicit convertibility between some of them, phobos functions working for some subsets of these entities, etc.
+The Language reference can be Quote Hard Rock read
+Finding the right modules in Phobos
+No full featured and reliable IDE for windows.  Not enough quality docs for external platforms such as gtk.
+reference compiler implementation > spec/docs
+Templates and when to `alias`
+Learning Phobos
+The language sometime is not consistent and orthogonal, or incomplete (see shared)
+Correct examples; grokking the specification and library documentation style
+The specification is somewhat obtuse, but I learned D a very long while ago
+There is a major gap in the documentation, it tersely assumes a moderate to high level of knowledge and often lacks examples that would make things clearer. The gap is from basic explanations to fuller ones, it feels like rules about how the compiler understands code and even things as simple as traits are somewhat arcanely inaccessible yet are broadly understood by a decent number of posters to the forums.
+I started almost 10 years ago. Back then, the worst things were the compiler bugs: there were severak gaps between what the compiler did and what the documentation said it should do. This has improved enormously.
+C and C++ libraries to which you need to write bindings I would like to compile C ++ and D and link them together.
+Templates in D are a amazing, but the way the documentation presents them was rather confusing. There's some ambiguity issues with the different types of templates. 
+Dub needs some better docs, until vscode got it's new plugin it was tough to find a pleasant editor/ide setup.
+none
+Finding clear and up to date sources
+Came from scripting language
+Ranges. Some CTFE stuff.
+Probably the fact that when I started, D2 was in its infancy, so not only were there a lack of resources to learn it, but it was constantly changing.
+Language spec docs are extremely hard to navigate. It fills like it was populated by a bot. Cppreference imho has just the right amount of substance, depth and examples
+Bad documentation and code examples. This has improved a lot since I started though.
+None. 
+Sometimes lame compiler errors.
+Understanding the Phobos documentation. Too many templates and ranges.
+Needs more examples.
+No IDE support
+the lack of examples of implementation of the functionality I need: http 2, network microservices, poor standard libraries unlike golang
+lacking (unit tests with) sample code for APIs. basic code is there, but it's difficult to use it as building blocks
+Keywords have multiple meanings, so static was misunderstood until I realized it meant compile-time in certain contexts.
+Finding a reason to use D.
+Lack of domain specific all-rounded articles. Example: how to write a complete @nogc library in idiomatic D.
+C++
+Lack of Editor support. Seriously. GNOME builder. Gedit. Geany. I need linting, completion and formatting. Please.
+poor toolset
+writing code to avoid GC, only recently that is made easy due to throw and std.experimental.allocator.
+Understanding D's ranges, versus regular arrays, and writing functions that can return ranges as values or accept them as parameters.
+The standard library
+string and array "methods" being distributed over dozens of standard modules, but once I got the hang of it that was a pretty sexy paradigm. also, not being able to include C
+Understanding the ! And extra () for templates
+Template type arguments not being inferred
+Lack of good documentation/examples
+Template function error messages
+Learning D was really easy.
+lack of libraries
+poor toolset
+foo
+Compiler errors are not great (but much better than C++!), lack of good package manager and understanding of programming environment.
+Few venues to get code reviews by experienced D programmers
+Lack of debug support.
+Finding good examples.

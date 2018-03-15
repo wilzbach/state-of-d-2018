@@ -1,0 +1,59 @@
+I didn't find a say to incorporate it at my work where we work with C# and Unity
+Lack of libraries for the kind of projects we do. Java, C#, C++ are catching up with the features I like on D. Swift, Rust and Go are becoming more relevant to my employers.
+D's ecosystem did not seem very well-suited to non-professionals of programming or computer science.
+Only using Powershell and C# at work and haven’t had time to learn more. 
+Lack of usable debugger
+Clients objected to yet-another-programming-language.
+I'm a programmer who has first learned programming using Java and other vm/interpreted language and only later transitioned to native languages. Obviously starting with C/C++. After some time, I thought there must be a better, more modern way to native, performance-first programming. Naturally, I came across D and the syntax instantly clicked for me, I used it in a toy project, but after finishing it, I evaluated my experience and satisfaction with it and found it severely lacking.  While the language is alright (I'd like better ways to manage memory, but I'm willing to look past the gc), for me and many people of my generation (that I know of) it's about what the tool can offer on top of the language. I can write the same programs in C++ and D in roughly the same amount of time. D will same me some headache by having a default gc and shorter compile times; but the two most important issues that I have with both D and C++ is: no default stacktrace on segmentation faults (just.. why? I seriously don't want to attach gdb to find trivial bugs that could have been fixed by looking at the line specified by the simplest of stacktraces) and subpar IDEs. I know language is more than the IDE used to write in it, but this is a dealbreaker for new developers. Especially the DCD daemon is a terrible code completion tool. 
+Too fragmented and unstable and confusing libraries
+the language is getting more complex 
+poor state of garbage collector
+1.) Lack of a proper standard library (not enough functionality, sometimes inconsistent/buggy) 2.) Library reference sometimes unclear (needed to ask friendly people in IRC who helped me out)
+Only used it for scripting/self-contained programs. None of the company infrastructure had D bindings, and the few things that did were incomplete/broken/bit-rotted. Switched to Hack because it had everything: ease of use and easy access to everything. 
+Better alternatives for my purposes
+Compiler and library bugs; partially implemented features (esp. related to CTFE); poorly documented limitations of some language features
+Worked on C embedded projects instead
+I don't like exceptions and garbage collection.
+Lack of time to keep up toy projects
+I left studies and worked in production for companies as a software engineer.
+External Library support very slim. No practical need Really dislike the documentation formatting style. Makes it challenging to read even though the information is simple
+It seemed to much effort/unstable to try and use with work's existing cross platform C++ codebase.
+Rust
+I was driven away by a combination of things I hate about the language itself, seemingly broken tooling, and sub-par documentation.
+Became impatient
+My code relied on D1/tango, porting to D2 was too difficult.
+Lack of library maturity
+Only used for personal projects. Unfortunately, not relevant at workplace.
+D was a bit overkill for my use-case; I mostly write short one-off data processing scripts in Python
+Used it for hobby projects, started a startup where image processing and GUI support was critical. EmguCV with C# saved countless hours and D couldn’t compete.
+Lacking window editor support (VSC, Jetbrain products, ...). Constant issues with breaking code. Lacking plugins. Heavy over focus on higher level usage, no default http, issue ... so many.
+The ecosystem of libraries for my work is small.
+i start to use other languages and platforms
+lack of libraries, lack of interest in making d mainstream, spending time on language rather than building.
+Of the 3 or 4 that I tried at first, there were  no IDEs of an acceptable quality to write a project in.   When exploring regardless of the IDE situation that disqualified it, it was progressively realized that despite the non-beta status and apparently deceptively mature sounding 2.061 version number of the time, too many of the language's so very extremely attractive promises were obscured by implementation bugs that I didn't have the time available to diagnose, learn the compiler source code's design (extremely time consuming  because of perplexing 1-2 character variable names), and fix. My needs were first something that worked as is. 
+no tools, bad dll, bad for windows
+Changed Jobs where I code much less, for one time tasks I use Python or C as I want Things Just to work Quickie and there are more resources and reference for these languages
+at the job: too busy working on projects that use different tech (mostly webdev) at home: no time, no energy for the most part
+* Bad tooling * No way to turn off exceptions (have to spam nothrow everywhere too) * No language support for bitfields (int x : 12; int y : 20;) * No language support to instantiate a class type on the stack. * others... From D I expected a low-level language that I can stack layers of high-level stuff on top of. However, these layers are not as cleanly divided as I'd like them to be.
+GC. No volatile. Can't program bare metal like in C++ and ADA
+Still small ecosystem, too much C++ on work. But may happen i be back
+Couldn't use it at my new job.
+I used to use D with GtkD. GtkD is fine, but Gtk+3 was not good compared to Qt.
+Dependencies I needed for my D project are broken. The language evolves quicker than library developers can keep up with. I spent more time doing pull requests for other people's projects than my own. The language should be stable. More focus on the ecosystem would be better
+Missing AWS SDK
+Changed company, and I have run out of time for personal dlang projects.
+I don't have using D projects.
+Not needed in my day work (though I do have a small application in D) and don’t have enough free time to do stuff in D
+It is not used at work, and I have other hobby languages.
+We sell SDK's that can be used across various platforms (Windows, Linux, Android, etc - write once and use everywhere) and implementations and other languages like JVM (through JNI), Ruby, etc via extern C linkage. D doesn't offer any advantage on that front as we are forced to bring in the poorly poorly implemented D-runtime. Even from the application point of view, D doesn't even have a descent HTTP server. Please, no, vibe-d is just crap for anything non-trivial! D2 is clearly broken. Unless things are fixed (for good!), we are not going to touch it. Also knowing the history of the D (Walter and Andrei), I really don't think this survey will change anything, but I honestly wish it could.
+Critical bugs regarding destroy function
+no time, waiting for it to become more reliable, doesn't work on Android, has no path to create a UI
+Job uses C++. Learning Rust @ home.
+Lack of good IDEs, sometimes getting things compiled was a headache. Spent too much time investigating why this or that does not compile/how to compile instead of coding.
+IntelliJ plugin don't work well
+I changed jobs.
+Not enough focus on tooling and libraries
+Despite D having some obvious advantages over C++, unpleasant surprises and nagging uncertainties steered me back to C++.
+Changed jobs; no uptake in new company
+Lack of faith in the language's future success. 
+moved to different languages, such as rust or elixir

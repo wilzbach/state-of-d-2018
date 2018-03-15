@@ -1,0 +1,217 @@
+Things can always get better.
+I think there should be more standard exception types (such as a runtime exception).
+Compilation performance, I don't use Phobos because just importing it increases compile times greatly
+As above - optional GC, @safe/pure/nothrow where possible, more pervasive std.allocator support
+1. Everything is latest (no old/deprecated code) 2. There is a great (non experimental) allocator package 3. Phobos offers nogc for most functionalities
+inconsistency because of historical issues, incosistent naming philosophy 
+A good example for each hand every function in the documentation 
+Documentation layout. Make it hierarchical, classes, then methods then free functions. With a good spatial layout.
+More pure nothrow, @nogc, etc. annotations so that they can be used in higher-level code. Const-correctness for Object. More/better containers.
+Nothing.
+Lack of customisabity for embedded systems. 
+Sanitize function names, make code nogc (ideally), no legacy code (= less ambiguity on what to use)
+.save for forward ranges is very disturbing
+More usage of WinAPI
+Shoud't slow down the compilation process that much when using modules from std.*
+Anti-OOP
+Absence of really good logging implementation with expressiveness close to boost::log (even though the implementation of it is garbage, the expressiveness is huge)
+A little better organization, high level structured, where each part is located "logically" to it's own place. A very good design is that of .NET Framework.
+Less templates and magic, more concrete and clear functions.
+dependence on curl seems to cause issues too often
+seria: adaptacion de opengl, documentacion en español y la extenderia para videojuegos
+scientific library comparable to SciPy, pdf handling library, mathematical plotting library
+statistics functions (mean,sd,quantiles,etc)
+1. Creating awesome documentation 2. Library support for numerical computation
+Please a great socket module.
+Large binary produced. Not like pay-as-you-go.
+- Rework the mix and matching of algorithms and containers - Making concurrency functions a lot safer, with more ways to check state, and terminate / force terminate if needed - Way better documentation
+There's no GUI tool. Even a rudimentary tcl/tk interface (a la Python) would be a great step in this area. 
+More functionality (like Andrei talked about at one DConf).
+GC
+to many parts of the library sitting in limbo, pending some better replacement that nevers seems to descend from the ether.
+Proper networking, http, or similar framework (don't want to use vibe or make vibe part of std.XXX)
+xml
+Reimplement to match go's standard library functionality and quality. Add some containers. nogc and noexcept as much as possible
+CSV library has a reader but not a writer!
+* lack of per-module versioning (cf boost), which slows down progress because they make breaking changes really hard * auto-decoding, creating much more complex API's (eg ForEachType vs ElementType, and all the string overloads) * attributes sometimes get in the way of getting things done (analog to const being viral)
+Fully integrated support for use as a web framework (i.e. what vibe.d does) along with automatic recompilation on source change so we can switch away from other insufficient and arcane web programming languages ;-).
+None
+std.getopt is too rigid and inflexible and does not adhere to standard unix conventions. In addition, the documentation is subtly outdated (some inaccuracies in things that have been fixed / features that have been added)
+-
+1. Autodecoding (char-to-dchar de-/encoding should be explicit) 2. everything should be @safe nothrow @nogc even in corner cases
+A way to unify common ranges with different symbols (e.g. accept both range.map!fn.map!fn and range.map!fn.map!fn.map!fn for some idempotent fn without instantiating the template anew for each version. Currently, symbol length explosion prevents certain techniques, like taking fixpoints of templated functions), something maybe in std.meta for supporting structs with interfaces to abstract the deep magic (e.g. I've made templates in the past which were like `IFace impl(Struct, IFace, Fns...)(ref Struct s, Fns fns);` which generated vtables manually, but didn't have much error checking etc.), templated serialisation library (e.g. toJSON!T being a complete static serialisation routine)
+bad xml support, no support for graphical user interfaces, missing unit test library
+-
+an easy way to get a fd from Socket
+std.stdio not being named std.io
+Modernize its flow. It feels very functional in areas that should be oo
+delete
+It is unclear what code is representative of modern good practices and what code is not.  A more complete style guide could also help to fill that void as well.
+Remove the second std in std.stdio.
+GC must be truly optional, and support modern language (DIP1000, etc).
+All methods for arrays either all return new arrays or affect the array in place, but not a mix of either. Everything should be consistent.
+Leave extra functionality to external libraries. They can change faster than std
+Mostly that vibe.d is so incompatible with it, so I have to code in a different style with different APIs half the time.
+everything that needs a separate library to be available, too many specialized modules that could be realized as separate libraries, keep it small and simple instead
+Too many questions in this form 
+More about std.allocator and tutorial on it's usage
+Included GUI library, Vibed - included and works from the box
+Better system API (at least updated) for windows, POSIX, embedded systems (ARM, Arduino). @nogc everywhere.
+Database and XML support are top of my list. These are required for use in OLTP applications. Reliance on C libraries is a hassle.
+A wider variety of datastructures. If  a datastructure exists it should have an implementation in phobos. Also some kind of minimalist graphics/ui library would be nice.
+1) I find a lot of problems with long/int types. Not sure why but I have to cast everything back and  forth a lot, and it's very buggy and hard to maintain. 2) I can't seem to get synchronization to work. I have tried making some synchronized/shared  classes, but nothing compiles and I give up, not being  able to understand the error messages. 3) Immutable/const/inout for function arguments is very  hard to use correctly and understand, so I end up avoiding these  keywords. 
+Better documentation. More examples.
+1. A very nice command line argument parser and help text formatter that understood terminal widths and could output to a variety of formats including html. 2. Some standardized screen widgets.  These can be simple but should work for mobile and desktop graphics. 3. Anything that helps python/D interoperability.
+more functionality, better regex
+Rename std.stdio to std.io
+more and better containers
+The module name "std.uni" is really bad.
+A good HTTP server, don't want to install Viber for quick tests
+1. Remove autodecoding. 2. Remove/replace/rework all modules that isn't considered idiomatic. 3. Remove reliance on the C standard library.
+std.math: double sqrt(int)  std.complex: isComplex(T)  approxEqual for aggregate types (including std.complex.Complex) similar to toString method used by std.conv and std.stdio.
+Maybe "make the easy things easy, and the hard things possible"?
+You can not grasp the infinite. But a code.dlang.org can.
+Easy way to completely opt-out of phobos being compiled in my code.
+- no deprecated stuff anymore
+missing net & gui libs
+missing in-code comments
+be able to develop GUI apps would be great
+We containers with std.experimental.allocator support Clear way to use auto reference counting with containers Integration with more performant OS eventloops
+Variant - lack of runtime discovering (too much on compile time)
+Detach from druntime / cruntime for -betterC
+There are a lot of great aspects to it but when I get to my embedded projects I feel like I have to throw most of them out.
+That it stays in the direction it's developing!
+Networking should be supported with something as similar as async/await as possible and an event loop. I do not care it is async/await and I am not even sure if it can already be done. But a mechanism for async programming is really necessary for a networked world without something like vibe.d,  whose scope is much bigger. 
+N/A
+ 
+Old modules are replaced with idiomatic ones, so the whole of phobos feels congruent
+std.stdio is a silly name, should be std.io std.json sucks, it should be replaced with vibe-d's json module Modules from std.experimental should either move to std or die.
+1000 willing PR reviewers, so that library is faster in embracing changes.
+flat structure -- don't understand where i need find functions for something (std.string, std.utf, std.ascii etc, std.stdio, std.file, std.path etc)
+more/better containers, std.xml, std.database
+Many simple string manipulations need a bunch of .std, hard to learn which. 
+repl - an interactive d shell
+Better containers, safe by default  
+More modules for common tasks (I really love the net/http packages from Go, e.g.)
+No auto decoding. Latin1String type, http/https library
+Needs restructuring Async support
+The core (minimal) library should be separated (libd.so perhaps, or libdruntime.so), and the rest should go to libphobos.so)
+std.json std.xml std.streams (over ranges)
+Replace built-in curl with native D.  Simplify text (ascii, utf, uni) libraries.
+Make it much easier to get to a std.experimental.X module. Even just as a development arena starting without docs/tests just to get stuff introduced/reviewed and API feedback early on. Then be harsher wrt. throwing things out from std.experimental.X again if it seems dead/failing or maintainer loosing interest.
+more crypto like bluefish, RSA
+Constant refactoring to keep pace with the language.
+* Remove the interdependencies, so that it's possible to use a couple of functions from a module without importing the rest of Phobos. * Move as much as possible out of Phobos and into third-party libraries. If there's any doubt about which design is the best, it shouldn't be in the standard library. (I think the way C++ has std and boost, is vastly superior)
+less template bloat, less template bloat, less template bloat
+Better and more examples combining the features
+lock-free algorithms and data structures
+GC reliance
+Modern concepts in one modules with outdated concepts in other modules
+I'd like to see everything @safe and @nogc, everything coming @safe and @nogc, and higher level modules (see part g)
+1. getopt is written in C way - I think it should be rewritten to actually look like D. 2. I really miss @safe write/writeln.
+nothing
+- Stop letting "perfect" be the enemy of progress.  Minor things:  - Rename AliasSeq. Yes. Again.  - Merge std.uni and std.utf into one module. The division makes no sense to me: "Unicode vs UTF? Isn't that the same freaking thing?", and I never know which is the one I need.  - Replace the nasty mixin stuff from std.bitmanip with actual language support if there's really no better way to do that stuff in-library.
+(1) Kill autodecoding with fire and extreme prejudice. (2) std.io. (3) `import std.format` does not add 1.5 seconds to compilation time.
+All modules are up-to-date with a good design and documentation, with the latest and greatest idioms and features.  That non-trivial changes to Phobos (such as adding in a new module) don't seem to be impossibly steep cliffs to climb.  That experimental modules that have just been sitting there in some kind of limbo are either worked on, or removed to remove clutter (preferably put onto dub) (also, std.experimental.logger feels like it's been there since the dawn of time T.T)
+Curl should be removed and replaced with a light weight library. Vibe.d is too big for this task.
+Please use Maybe or Optional for some function's return type
+**Plot library**, multimedia/image/audio, signal analysis (FFT, etc)
+c++ stl is better. this is the main problem
+More clear examples of usage would be welcome.  Many items are mentioned but are without examples.
+No mechanism to get good stuff in there because it isn't perfect and perfectly general.
+Numeric should be more nogc and generalized like mir
+The garbage collection
+1. Define what Phobos should be: should it be like the Java Standard Library where you can find everything or should it a minimal standard library so that you have to find other libraries to work with? It seems like there’s a double personality complex at times. 2. Get rid of stuff that the community has asked for too long to get rid of. Figure out a process to determine what needs to go and throw those things away. 3. Clearer documentation
+Better hierarchy; More feature; nogc
+Lack of an interprocess library like boost.interprocess
+Move lesser-used modules into a dedicated repository so that they can be explicitly included in a project, but otherwise declutter and focus the attention of most library developers on the most frequently trafficked modules. Shrink the sizes of some modules, moving rarely used functionality into aforementioned external repositories.
+1. Easy to use container classes for scripting-type stuff. Doesn't have to be super fast or efficient.  Would prefer good OO design principles. 2. Better documentation  3. Better documentation 
+1) Remove auto-decoding 2) Make sure auto-decoding is never added again 3) Make sure no one else adds auto-decoding again
+Lack of Containers, lack of 'tail-const' to allow better const abstraction of ranges
+Match JDK in terms of breath of API
+File streams that did type conversion for me would be really nice. Memory streams would be nice too. C# is a great example of this.
+It tend to grow bigger over time, larger, build slower
+- consistent naming convention WRT eager/lazy variants - autodecoding of strings - finish allocators and logger and move from experimental to std.
+Better template errors
+easy @nogc containers
+More comprehensive set of range functions. 
+Phobos entirely not dependant on GC.
+seralization modules, better db libraries that can be used with vibe :p
+More xref and “see also” in the docs. If you work with strings, e.g., some functions are in std.string, others in std.algorithm, std.range, std.conv, std.format, std.xxx.
+Update some of the old modules designed for a much older D (e.g. std.json).  Let me use more in -betterC.
+1. people complain too much (on the forum) and don't contribute 2. contributing is difficult because some ppl put the (Git[Hub]) border too high 3. There were many great things in the Tango lib's, which Phobos should just take over too
+compatible with mingw, to support the possibility to use mingw with dmd/ldc and gdb, so some tools/ides can be used  some portable but native gui lib  compatible with -betterC and nogc
+None
+More encompassing "batteries included". More posts/articles on how to use std lib effectively (like D Tour and D Blog, just more of it). 
+- More consistent output options - Application control over utf-8 error handling
+BETTER DOCUMENTATION. It should be pythonic -- human readable. scroll down a page on most std.XXX doc page and you will get hard to read descriptions of inner details of a module: useless for most users.
+std.regex should not make compile times go through the roof
+Still not faced with problems
+Addition of proper RC. Better and performant containers.
+Was memory management agnostic 
+Want to use it for standalone libraries that expose a C API.
+it needs to include those easily bindable rock solid stable libraries like php does (including libsodium, database libraries, imaging libraries). I think a target of .NET-tier-large library is accomplishable with external libraries
+Improved performance & a good containers library.
+Sadly I’d rather fix stuff in Druntime. 1st - sane exception or no exception API via Expected!T 2nd - clean exception and package hierarchies 3rd - modern async I/O core made for fibers from the get go
+Support for more domains (I use Go as well; you can find a solution to any technology you need there.)
+Make Phobos and D-runtime independent of each other.
+Be more pay as you go Better std.variant (e.g. for returning Algebraics instead of exceptions) Better error messages using static ifs.
+Can't statically import the entire library, ei `static import std;`  
+Make it thread safe, Make it fast, Make it NoGC
+Better docs, nogc
+- "import std;" for scripts. - Everything in https://docs.python.org/3/library/internet.html - Standard interfaces for things like databases and parsers. They don't have to be the only point of access as not everybody wants to do things the same way, but we need at least standard one way.
+ranges are one of the greatest parts of phobos. more effort should go into providing fantastic interfaces like that (databases, imaging, etc) rather than implementations (sql, jpeg, etc) that will rot as soon as a third-party superior implementation is made
+1. Replace outdated modules with better versions 2. Make GC opt-in: use ownership (Rust-like), allocators or RC 3. Add a decent String class/struct and overcome autodecoding
+1. Documentation: examples showing relation between phobos parts 2. Documentation: better display (http://dpldocs.info/ is already much better) 3. Documentation.
+- No multimedia (GUI, drawing, audio) - No containers - Unclear when to use what functions
+needs predictable structure (nesting) so it makes sense to find stuff, support for reactive-style event/streaming, remove old/stale/bad code, why is perfection always the enemy of good with this library?
+i don't know
+std.concurrency needs some love as it is getting outdated, and probably std.parallel as well.
+Range obsession. 
+Better support for nogc (But not at the cost of gc stuff as that is awesome and usually what I want)
+I can't attempt to bring it up as an option for work because of no XML library
+It would be nice to have well defined database APIs to use in D code, probably with Fiber support. It would be nice to have a reference implementation for sqlite like Python does.  It would be nice to have higher-level APIs for JSON HTTP requests.
+Move all allocating parts of the library to stdx.allocator
+Phobos functions that allocate memory should work cleanly with allocators; refcounted strings; 
+Not enough of it. Needs expanding.
+Phobos (and D) isn't sure if it wants to be a GC-free language or a fully GC language. Right now it's trying to be both, which hurts it from both sides.
+Better documentation!
+Phobos should have a cross platform GUI solution, even if that is just well maintained wrappers to Qt, Wx.
+Units of measurement and linear algebra. Probably not important to many, but they're what I love working with.
+I'd like to call uniform as method on an RNG
+nothing
+1. Do not allocate memory everywhere 2. Better containers 3. reference counting and deterministic destruction where it makes sense.
+None, I'm still too much of  noob
+non-updated libraries
+Personally, I'd like something like an std.scriptlike: https://github.com/Abscissa/scriptlike
+I think the parallelism stuff could be reworked. I've found that things that are expected to work easily usually don't without a lot more work than would be expected looking at some of the example code.
+1. @safe everywhere. 2.  pure nearly everywhere.
+Wish #1: AWESOME containers. Lots of them. Wish #2: AWESOME numerics. std.numeric is pretty good as is, but it can be so much more! Wish #3: I'll hold on to this one for ten years from now. 
+No control over allocations
+Make as much as possible work without GC. It should be up to the programmer whtether to use it or not.
+Template bloat, GC, fear of changes
+Pretty much everything but std.range and std.algorithm to be honest. And even few things in those.
+Revamped IO/Event loop range based Graph range based std.cpp (is it dead?)
+better betterC support better nogc support std.traits version of missing __traits functionality
+Common functions causing name space clashes is silly. Std.file.write should be renamed to writeFile so it doesn't clash with std.stdio.write.
+nogc
+It is a pity that a lot of platform dependant stuff is using GC when it might as well don't use it. List directories e.t.c
+More parallelism patterns (think java.util.concurrent).  More manual vectorization support (trig and math functions). A fast, simple HTTP server and client lib.
+1) add an improved version of Attila's concepts library to help with template errors, 2) make as @safe and nogc as possible while still being easily usable
+- Eventloop support (unix fd like support). - Proper ref-count primitives (shared-pointers etc). - 
+1. Get rid of auto-decoding. 2. Get rid of or replace any modules that we consider sub-par - particularly those which date back to D1 and have never been upgraded to fit into D2. 3. Remove all C bindings from Phobos along with anything that relies on external libraries that aren't part of the OS (in particular, std.net.curl). druntime should have the C bindings for the OS, and all other bindings should be in external projects.
+Need tensor manipulation code a la numpy 
+Nothing
+It would be less generic
+Static library
+std.database pls
+make it not dependand on GC
+Modernize (up 2 latter D standard) all modules, less dependencies between modules, usable without a GC and still @safe.
+Make it gc-free
+@nogc stadlib.
+gui
+stdx.allocator based containers
+N/A
+No GC dependency. Be less of a dependency for the compiler
+Its reliance on libc. It's a huge licensing issue, I'd like to be able to statically link with Phobos without the GNU baggage.
+API inconsistencies
